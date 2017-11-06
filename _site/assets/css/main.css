@@ -1,16 +1,12 @@
 /*
   Base
 */
-body,html {
-  height: 100%;
-  width:100%;
-}
+
 body {
-  font-family:"Microsoft YaHei","微软雅黑", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
   color: #515151;
-  margin:0;
-  /*line-height: 1.75rem;*/
+  line-height: 1.75rem;
 }
 
 @media (max-width: 30em) {
