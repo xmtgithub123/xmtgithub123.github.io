@@ -1,5 +1,5 @@
-title:  Lagrange
-tagline:  a minimalist Jekyll theme
+title:  XuMengTing's Web
+tagline:  宁静以致远
 
 # Authors documented under _data
 
@@ -16,8 +16,8 @@ menu:
 - {name: 'Contact', path: 'menu', url: 'contact.html'}
 
 social:
-- {icon: 'github', link: 'https://www.github.com/lenpaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'github', link: 'https://github.com/xmtgithub123'}
+- {icon: 'wechat', link: 'https://twitter.com/paululele'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/lenpaul/'}
 - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
 - {icon: 'rss-square', link: 'feed.xml'}

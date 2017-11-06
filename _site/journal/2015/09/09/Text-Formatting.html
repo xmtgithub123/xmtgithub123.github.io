@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Text Formatting | XuMengTing's Web
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- RSS-v2.0
+  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="XuMengTing's Web | 宁静以致远"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- Use Atom --> 
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" /> 
+  
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">XuMengTing's Web</a>
+    <small class="masthead-subtitle">宁静以致远</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">About</a>
+    
+      <a href="/menu/writing.html">Writing</a>
+    
+      <a href="/menu/contact.html">Contact</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+      <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    
+      <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+    
+      <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+      <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+      <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+    
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Text Formatting
+</h1>
+
+
+  <img src="/assets/img/spools.jpg">
+
+
+<p>As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the <a href="https://guides.github.com/features/mastering-markdown/">Markdown syntax</a>. Examples of these text formatting features can be seen below. You can find this post in the <code class="highlighter-rouge">_posts</code> directory.</p>
+
+<h3 class="no_toc" id="table-of-contents">Table of Contents</h3>
+
+<ol id="markdown-toc">
+  <li><a href="#inline-html-elements" id="markdown-toc-inline-html-elements">Inline HTML elements</a></li>
+  <li><a href="#heading" id="markdown-toc-heading">Heading</a></li>
+  <li><a href="#code" id="markdown-toc-code">Code</a></li>
+  <li><a href="#lists" id="markdown-toc-lists">Lists</a></li>
+  <li><a href="#tables" id="markdown-toc-tables">Tables</a></li>
+  <li><a href="#blockquotes" id="markdown-toc-blockquotes">Blockquotes</a></li>
+  <li><a href="#tables-1" id="markdown-toc-tables-1">Tables</a></li>
+  <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition Lists</a></li>
+  <li><a href="#unordered-lists-nested" id="markdown-toc-unordered-lists-nested">Unordered Lists (Nested)</a></li>
+  <li><a href="#ordered-list-nested" id="markdown-toc-ordered-list-nested">Ordered List (Nested)</a></li>
+  <li><a href="#html-tags" id="markdown-toc-html-tags">HTML Tags</a></li>
+  <li><a href="#address-tag" id="markdown-toc-address-tag">Address Tag</a></li>
+  <li><a href="#anchor-tag-aka-link" id="markdown-toc-anchor-tag-aka-link">Anchor Tag (aka. Link)</a></li>
+  <li><a href="#abbreviation-tag" id="markdown-toc-abbreviation-tag">Abbreviation Tag</a></li>
+  <li><a href="#cite-tag" id="markdown-toc-cite-tag">Cite Tag</a></li>
+  <li><a href="#code-tag" id="markdown-toc-code-tag">Code Tag</a></li>
+  <li><a href="#strike-tag" id="markdown-toc-strike-tag">Strike Tag</a></li>
+  <li><a href="#emphasize-tag" id="markdown-toc-emphasize-tag">Emphasize Tag</a></li>
+  <li><a href="#insert-tag" id="markdown-toc-insert-tag">Insert Tag</a></li>
+  <li><a href="#keyboard-tag" id="markdown-toc-keyboard-tag">Keyboard Tag</a></li>
+  <li><a href="#preformatted-tag" id="markdown-toc-preformatted-tag">Preformatted Tag</a></li>
+  <li><a href="#quote-tag" id="markdown-toc-quote-tag">Quote Tag</a></li>
+  <li><a href="#strong-tag" id="markdown-toc-strong-tag">Strong Tag</a></li>
+  <li><a href="#subscript-tag" id="markdown-toc-subscript-tag">Subscript Tag</a></li>
+  <li><a href="#superscript-tag" id="markdown-toc-superscript-tag">Superscript Tag</a></li>
+  <li><a href="#variable-tag" id="markdown-toc-variable-tag">Variable Tag</a></li>
+  <li><a href="#mathjax-example" id="markdown-toc-mathjax-example">MathJax Example</a></li>
+  <li><a href="#code-highlighting" id="markdown-toc-code-highlighting">Code Highlighting</a></li>
+  <li><a href="#embedding" id="markdown-toc-embedding">Embedding</a></li>
+</ol>
+
+<h3 class="no_toc" id="example-content">Example Content</h3>
+
+<p>Howdy! This is an example blog post that shows several types of HTML content supported in this theme.</p>
+
+<h1 class="no_toc" id="heading-one">Heading One</h1>
+
+<h2 class="no_toc" id="heading-two">Heading Two</h2>
+
+<h3 class="no_toc" id="heading-three">Heading Three</h3>
+
+<h4 class="no_toc" id="heading-four">Heading Four</h4>
+
+<h5 class="no_toc" id="heading-five">Heading Five</h5>
+
+<h6 class="no_toc" id="heading-six">Heading Six</h6>
+
+<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+
+<blockquote>
+  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
+
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+<h3 id="inline-html-elements">Inline HTML elements</h3>
+
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+
+<ul>
+  <li><strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
+  <li><em>To italicize text</em>, use <code class="highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="highlighter-rouge">title</code> attribute for the full phrase.</li>
+  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li><del>Deleted</del> text should use <code class="highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="highlighter-rouge">&lt;ins&gt;</code>.</li>
+  <li>Superscript <sup>text</sup> uses <code class="highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="highlighter-rouge">&lt;sub&gt;</code>.</li>
+</ul>
+
+<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+
+<h3 id="heading">Heading</h3>
+
+<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis <code class="highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"return a + b"</span><span class="p">);</span>
+
+<span class="c1">// Call the function</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span>
+</code></pre></div></div>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+<h3 id="lists">Lists</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+<ul>
+  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+  <li>Donec id elit non mi porta gravida at eget metus.</li>
+  <li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+
+<ol>
+  <li>Vestibulum id ligula porta felis euismod semper.</li>
+  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+<ul>
+  <li>HyperText Markup Language (HTML)</li>
+  <li>The language used to describe and define the content of a Web page</li>
+</ul>
+
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<h3 id="tables">Tables</h3>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Totals</td>
+      <td>21</td>
+      <td>23</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<p>A variety of common markup showing how the theme styles them.</p>
+
+<h3 id="blockquotes">Blockquotes</h3>
+
+<p>Single line blockquote:</p>
+
+<blockquote>
+  <p>Stay hungry. Stay foolish.</p>
+</blockquote>
+
+<p>Multi line blockquote with a cite reference:</p>
+
+<blockquote>
+  <p>People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.</p>
+</blockquote>
+
+<p class="small"><cite>Steve Jobs</cite> — Apple Worldwide Developers’ Conference, 1997</p>
+
+<h3 id="tables-1">Tables</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Header1</th>
+      <th style="text-align: center">Header2</th>
+      <th style="text-align: right">Header3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">cell1</td>
+      <td style="text-align: center">cell2</td>
+      <td style="text-align: right">cell3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">cell4</td>
+      <td style="text-align: center">cell5</td>
+      <td style="text-align: right">cell6</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">cell1</td>
+      <td style="text-align: center">cell2</td>
+      <td style="text-align: right">cell3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">cell4</td>
+      <td style="text-align: center">cell5</td>
+      <td style="text-align: right">cell6</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td style="text-align: left">Foot1</td>
+      <td style="text-align: center">Foot2</td>
+      <td style="text-align: right">Foot3</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h3 id="definition-lists">Definition Lists</h3>
+
+<dl>
+  <dt>Definition List Title</dt>
+  <dd>Definition list division.</dd>
+  <dt>Startup</dt>
+  <dd>A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+  <dt>#dowork</dt>
+  <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd>
+  <dt>Do It Live</dt>
+  <dd>I’ll let Bill O’Reilly <a href="https://www.youtube.com/watch?v=O_HyZ5aW76c" title="We'll Do It Live">explain</a> this one.</dd>
+</dl>
+
+<h3 id="unordered-lists-nested">Unordered Lists (Nested)</h3>
+
+<ul>
+  <li>List item one
+    <ul>
+      <li>List item one
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+          <li>List item four</li>
+        </ul>
+      </li>
+      <li>List item two</li>
+      <li>List item three</li>
+      <li>List item four</li>
+    </ul>
+  </li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four</li>
+</ul>
+
+<h3 id="ordered-list-nested">Ordered List (Nested)</h3>
+
+<ol>
+  <li>List item one
+    <ol>
+      <li>List item one
+        <ol>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+          <li>List item four</li>
+        </ol>
+      </li>
+      <li>List item two</li>
+      <li>List item three</li>
+      <li>List item four</li>
+    </ol>
+  </li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item four</li>
+</ol>
+
+<h3 id="html-tags">HTML Tags</h3>
+
+<h3 id="address-tag">Address Tag</h3>
+
+<address>
+  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+</address>
+
+<h3 id="anchor-tag-aka-link">Anchor Tag (aka. Link)</h3>
+
+<p>This is an example of a <a href="http://apple.com" title="Apple">link</a>.</p>
+
+<h3 id="abbreviation-tag">Abbreviation Tag</h3>
+
+<p>The abbreviation <abbr title="Cascading Style Sheets">CSS</abbr> stands for “Cascading Style Sheets”.</p>
+
+<h3 id="cite-tag">Cite Tag</h3>
+
+<p>“Code is poetry.” —<cite>Automattic</cite></p>
+
+<h3 id="code-tag">Code Tag</h3>
+
+<p>You will learn later on in these tests that <code class="highlighter-rouge">word-wrap: break-word;</code> will be your best friend.</p>
+
+<h3 id="strike-tag">Strike Tag</h3>
+
+<p>This tag will let you <strike>strikeout text</strike>.</p>
+
+<h3 id="emphasize-tag">Emphasize Tag</h3>
+
+<p>The emphasize tag should <em>italicize</em> text.</p>
+
+<h3 id="insert-tag">Insert Tag</h3>
+
+<p>This tag should denote <ins>inserted</ins> text.</p>
+
+<h3 id="keyboard-tag">Keyboard Tag</h3>
+
+<p>This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code class="highlighter-rouge">&lt;code&gt;</code> tag.</p>
+
+<h3 id="preformatted-tag">Preformatted Tag</h3>
+
+<p>This tag styles large blocks of code.</p>
+
+<pre>
+.post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
+	and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
+}
+</pre>
+
+<h3 id="quote-tag">Quote Tag</h3>
+
+<p><q>Developers, developers, developers…</q> –Steve Ballmer</p>
+
+<h3 id="strong-tag">Strong Tag</h3>
+
+<p>This tag shows <strong>bold text</strong>.</p>
+
+<h3 id="subscript-tag">Subscript Tag</h3>
+
+<p>Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.</p>
+
+<h3 id="superscript-tag">Superscript Tag</h3>
+
+<p>Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.</p>
+
+<h3 id="variable-tag">Variable Tag</h3>
+
+<p>This allows you to denote <var>variables</var>.</p>
+
+<h3 id="mathjax-example">MathJax Example</h3>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation">Schrödinger equation</a> is a partial differential equation that describes how the quantum state of a quantum system changes with time:</p>
+
+<script type="math/tex; mode=display">i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)</script>
+
+<p><a href="https://en.wikipedia.org/wiki/Joseph-Louis_Millennial">Joseph-Louis Millennial</a> was an Italian mathematician and astronomer who was responsible for the formulation of Lagrangian mechanics, which is a reformulation of Newtonian mechanics.</p>
+
+<script type="math/tex; mode=display">\frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j}</script>
+
+<h3 id="code-highlighting">Code Highlighting</h3>
+
+<p>You can find the full list of supported programming languages <a href="https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers">here</a>.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#container</span> <span class="p">{</span>
+  <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+</code></pre></div></div>
+
+<p>Another option is to embed your code through <a href="https://en.support.wordpress.com/gist/">Gist</a>.</p>
+
+<h3 id="embedding">Embedding</h3>
+
+<p>Plenty of social media sites offer the option of embedding certain parts of their site on your own site:</p>
+
+<script src="https://gist.github.com/LeNPaul/e4a87bba80cc97045848bae3b6d89aa2.js"></script>
+
+<p><br /><br />
+<a href="https://www.goodreads.com/review/list/54220411-paul-le">View all my reviews</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mthtn1X4eUY" frameborder="0" allowfullscreen=""></iframe>
+
+<p><a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/paululele/timelines/755079130027352064">New Collection</a> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Baton Rouge gunman was a Marine who served in Iraq <a href="https://t.co/RHVAKTN2OV">https://t.co/RHVAKTN2OV</a> <a href="https://t.co/sjfJb43GYs">pic.twitter.com/sjfJb43GYs</a></p>&mdash; The New York Times (@nytimes) <a href="https://twitter.com/nytimes/status/754938789240397824">July 18, 2016</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BH-6MrXB035/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Vertical and horizontal ain&#39;t absolute</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Salvatore Vivona (@viewsfromthedot) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-07-18T00:37:28+00:00">Jul 17, 2016 at 5:37pm PDT</time></p></div></blockquote>
+<script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
+
+<p><span class="quora-content-embed" data-name="What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J/answer/Ava-Monroe-2">Read <a class="quora-content-link" data-width="559" load-full-answer="False" data-key="63bc93075b0bccc714ced691f94f15b5" data-id="25095986" data-embed="itmptlf" href="https://www.quora.com/What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J/answer/Ava-Monroe-2" data-type="answer" data-height="250"><a href="https://www.quora.com/Ava-Monroe-2">Ava Monroe</a>'s <a href="/What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J#ans25095986">answer</a> to <a href="/What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J" ref="canonical"><span class="rendered_qtext">What are the best Game of Thrones fan theories out there aside from R+L=J?</span></a></a> on <a href="https://www.__nousername__.main.quora.com">Quora</a><script type="text/javascript" src="https://www.quora.com/widgets/content"></script></span></p>
+
+<p><a class="twitter-grid" href="https://twitter.com/TwitterDev/timelines/539487832448843776">National Park Tweets</a> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+
+<span class="post-date">
+  Written on
+  
+  September
+  9th,
+  2015
+  by
+  
+    Paul Le
+  
+</span>
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Text Formatting&amp;url=/journal/2015/09/09/Text-Formatting.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/journal/2015/09/09/Text-Formatting.html&amp;title=Text Formatting" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=/journal/2015/09/09/Text-Formatting.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >You may also enjoy:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+          <li>
+            <h3>
+              <a href="/journal/2017/11/06/my-first-jekyll-blog.html">
+                使用github和jekyll设置自己的个人网站
+                <!--<img src="http://localhost:4000/images/cutting-teaser.jpg">-->
+                <!--<small>November 6, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/journal/2016/01/01/Welcome-to-Lagrange.html">
+                Welcome to Lagrange!
+                <!--<img src="http://localhost:4000/images/mountains-teaser.jpg">-->
+                <!--<small>January 1, 2016</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/journal/2015/10/10/getting-started.html">
+                Getting Started
+                <!--<img src="http://localhost:4000/images/forest-teaser.jpg">-->
+                <!--<small>October 10, 2015</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+  
+    <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+    <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+  
+    <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+    <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+    <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+  <div class="post-date"><a href="/menu/about.html">XuMengTing's Web | 宁静以致远 by MengTing Xu</a></div>
+</footer>
+
+
+  </div>
+
+</body>
+</html>
