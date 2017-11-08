@@ -1,9 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-08T15:36:39+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-08T17:38:00+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
-&lt;h3 id=&quot;开始&quot;&gt;开始&lt;/h3&gt;
+&lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;/journal/2015/10/10/getting-started.html&quot;&gt;Getting Started&lt;/a&gt;: getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.&lt;/p&gt;
+&lt;h3 id=&quot;目录&quot;&gt;目录&lt;/h3&gt;
 
+&lt;ol&gt;
+  &lt;li&gt;介绍
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#什么是jekyll&quot;&gt;什么是Jekyll&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;安装
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#github搭建&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#local-installation&quot;&gt;本地安装&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#directory-structure&quot;&gt;目录结构&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#starting-from-scratch&quot;&gt;从头开始&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;什么是jekyll&quot;&gt;什么是jekyll&lt;/h3&gt;
+
+&lt;p&gt;Jekyll是一个简单的博客形态和静态站点生产机器.它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站,你可以发布在任何你喜爱的服务器上.Jekyll 也可以运行在 GitHub Page 上,也就是说,你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站,而且是完全免费的.你可以去&lt;a href=&quot;http://jekyllcn.com&quot;&gt;中文官网 To Lean Jekyll&lt;/a&gt;上学习它!&lt;/p&gt;
+
+&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
+
+&lt;h3 id=&quot;github搭建&quot;&gt;github搭建&lt;/h3&gt;
+
+&lt;p&gt;要用github pages, 首先注册&lt;a href=&quot;https://github.com/&quot;&gt;github帐号&lt;/a&gt;,
+Head over to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.&lt;/p&gt;
+
+&lt;h3 id=&quot;local-installation&quot;&gt;Local Installation&lt;/h3&gt;
+
+&lt;p&gt;For a full local installation of Lagrange, &lt;a href=&quot;https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip&quot;&gt;download your own copy of Lagrange&lt;/a&gt; and unzip it into it’s own directory. From there, open up your favorite command line tool, and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;. Your site should be up and running locally at &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;directory-structure&quot;&gt;Directory Structure&lt;/h3&gt;
+
+&lt;p&gt;If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the &lt;a href=&quot;https://jekyllrb.com/docs/structure/&quot;&gt;Jekyll documentation site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lagrange
+
+├── _data                      &lt;span class=&quot;c&quot;&gt;# Data files&lt;/span&gt;
+|  └── authors.yml             &lt;span class=&quot;c&quot;&gt;# For managing multiple authors&lt;/span&gt;
+|  └── settings.yml            &lt;span class=&quot;c&quot;&gt;# Theme settings and custom text&lt;/span&gt;
+├── _includes                  &lt;span class=&quot;c&quot;&gt;# Theme includes&lt;/span&gt;
+├── _layouts                   &lt;span class=&quot;c&quot;&gt;# Theme layouts (see below for details)&lt;/span&gt;
+├── _posts                     &lt;span class=&quot;c&quot;&gt;# Where all your posts will go&lt;/span&gt;
+├── assets                     &lt;span class=&quot;c&quot;&gt;# Style sheets and images are found here&lt;/span&gt;
+|  ├── css
+|  |  └── main.css
+|  |  └── syntax.css
+|  └── img
+├── menu                       &lt;span class=&quot;c&quot;&gt;# Menu pages&lt;/span&gt;
+├── _config.yml                &lt;span class=&quot;c&quot;&gt;# Site build settings&lt;/span&gt;
+└── index.md                   &lt;span class=&quot;c&quot;&gt;# Home page&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;starting-from-scratch&quot;&gt;Starting From Scratch&lt;/h3&gt;
+
+&lt;p&gt;To completely start from scratch, simply delete all the files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;menu&lt;/code&gt; folder, and add your own content. You may also replace the &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt; file with your own README. Everything in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder can be edited to suit your needs.&lt;/p&gt;
 &lt;h3 id=&quot;example-content&quot;&gt;Example Content&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;/journal/2015/09/09/Text-Formatting.html&quot;&gt;Text and Formatting&lt;/a&gt;&lt;/p&gt;
