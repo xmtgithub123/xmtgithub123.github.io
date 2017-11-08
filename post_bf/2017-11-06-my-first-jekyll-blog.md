@@ -2,7 +2,7 @@
 layout: post
 title: "使用github和jekyll设置自己的个人网站"
 author: "Paul Le"
-categories: git
+categories: journal
 tags: [documentation,sample]
 image:
   feature: cutting.jpg

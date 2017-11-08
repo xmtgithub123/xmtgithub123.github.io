@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      使用github和jekyll设置自己的个人网站 | XuMengTing's Web
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- RSS-v2.0
+  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="XuMengTing's Web | 宁静致远"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- Use Atom --> 
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" /> 
+  
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">XuMengTing's Web</a>
+    <small class="masthead-subtitle">宁静致远</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">关于</a>
+    
+      <a href="/menu/writing.html">笔记</a>
+    
+      <a href="/menu/contact.html">方式</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+      <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    
+      <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+    
+      <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+      <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+      <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+    
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  使用github和jekyll设置自己的个人网站
+</h1>
+
+
+  <img src="/assets/img/cutting.jpg">
+
+
+<p>一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</p>
+
+<h2 id="开始">开始</h2>
+
+<h3 id="目录">目录</h3>
+
+<ol>
+  <li>介绍
+    <ol>
+      <li><a href="#什么是jekyll">什么是Jekyll</a></li>
+    </ol>
+  </li>
+  <li>安装
+    <ol>
+      <li><a href="#github搭建">GitHub</a></li>
+      <li><a href="#local-installation">本地安装</a></li>
+      <li><a href="#directory-structure">目录结构</a></li>
+      <li><a href="#starting-from-scratch">从头开始</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="什么是jekyll">什么是jekyll</h3>
+
+<p>Jekyll是一个简单的博客形态和静态站点生产机器.它有一个模版目录，其中包含原始文本格式的文档，通过一个转换器（如 Markdown）和我们的 Liquid 渲染器转化成一个完整的可发布的静态网站,你可以发布在任何你喜爱的服务器上.Jekyll 也可以运行在 GitHub Page 上,也就是说,你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站,而且是完全免费的.你可以去<a href="http://jekyllcn.com">中文官网 To Lean Jekyll</a>上学习它!</p>
+
+<h2 id="安装">安装</h2>
+
+<h3 id="github搭建">github搭建</h3>
+
+<p>要用github pages, 首先注册<a href="https://github.com/">github帐号</a>,
+Head over to the <code class="highlighter-rouge">_posts</code> directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.</p>
+
+<h3 id="local-installation">Local Installation</h3>
+
+<p>For a full local installation of Lagrange, <a href="https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip">download your own copy of Lagrange</a> and unzip it into it’s own directory. From there, open up your favorite command line tool, and enter <code class="highlighter-rouge">jekyll serve</code>. Your site should be up and running locally at <a href="http://localhost:4000">http://localhost:4000</a>.</p>
+
+<h3 id="directory-structure">Directory Structure</h3>
+
+<p>If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the <a href="https://jekyllrb.com/docs/structure/">Jekyll documentation site</a>.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lagrange
+
+├── _data                      <span class="c"># Data files</span>
+|  └── authors.yml             <span class="c"># For managing multiple authors</span>
+|  └── settings.yml            <span class="c"># Theme settings and custom text</span>
+├── _includes                  <span class="c"># Theme includes</span>
+├── _layouts                   <span class="c"># Theme layouts (see below for details)</span>
+├── _posts                     <span class="c"># Where all your posts will go</span>
+├── assets                     <span class="c"># Style sheets and images are found here</span>
+|  ├── css
+|  |  └── main.css
+|  |  └── syntax.css
+|  └── img
+├── menu                       <span class="c"># Menu pages</span>
+├── _config.yml                <span class="c"># Site build settings</span>
+└── index.md                   <span class="c"># Home page</span>
+</code></pre></div></div>
+
+<h3 id="starting-from-scratch">Starting From Scratch</h3>
+
+<p>To completely start from scratch, simply delete all the files in the <code class="highlighter-rouge">_posts</code>, and <code class="highlighter-rouge">menu</code> folder, and add your own content. You may also replace the <code class="highlighter-rouge">README.md</code> file with your own README. Everything in the <code class="highlighter-rouge">_data</code> folder can be edited to suit your needs.</p>
+<h3 id="example-content">Example Content</h3>
+
+<p><a href="/journal/2015/09/09/Text-Formatting.html">Text and Formatting</a></p>
+
+<h3 id="questions">Questions?</h3>
+
+<p>This theme is completely free and open source software. You may use it however you want, as it is distributed under the <a href="http://choosealicense.com/licenses/mit/">MIT License</a>. If you are having any problems, any questions or suggestions, feel free to <a href="https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele">tweet at me</a>, or <a href="https://github.com/lenpaul/lagrange/issues/new">file a GitHub issue</a>.</p>
+
+
+<span class="post-date">
+  Written on
+  
+  
+  th,
+  
+  by
+  
+    Paul Le
+  
+</span>
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=使用github和jekyll设置自己的个人网站&amp;url=/post_bf/2017-11-06-my-first-jekyll-blog.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/post_bf/2017-11-06-my-first-jekyll-blog.html&amp;title=使用github和jekyll设置自己的个人网站" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=/post_bf/2017-11-06-my-first-jekyll-blog.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >你也可能喜欢:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+          <li>
+            <h3>
+              <a href="/git/2017/11/06/my-first-jekyll-blog.html">
+                使用github和jekyll设置自己的个人网站
+                <!--<img src="http://localhost:4000/images/cutting-teaser.jpg">-->
+                <!--<small>November 6, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/css/2016/01/01/let-div-align-center.html">
+                让元素垂直居中的几种方法!
+                <!--<img src="http://localhost:4000/images/mountains-teaser.jpg">-->
+                <!--<small>January 1, 2016</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/git/2015/10/10/getting-started.html">
+                Git
+                <!--<img src="http://localhost:4000/images/forest-teaser.jpg">-->
+                <!--<small>October 10, 2015</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+  
+    <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+    <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+  
+    <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+    <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+    <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+  <div class="post-date"><a href="/menu/about.html">XuMengTing's Web | 宁静致远 by MengTing Xu</a></div>
+</footer>
+
+
+  </div>
+
+</body>
+</html>

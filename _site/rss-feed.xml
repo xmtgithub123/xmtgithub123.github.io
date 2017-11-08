@@ -15,34 +15,34 @@
 </description>
 				
 				<pubDate>Mon, 06 Nov 2017 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html</guid>
+				<link>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html</link>
+				<guid isPermaLink="true">http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html</guid>
 			</item>
 		
 			<item>
-				<title>Welcome to Lagrange!</title>
+				<title>让元素垂直居中的几种方法!</title>
 				
 				
-					<description>&lt;p&gt;Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
+					<description>&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
 
 </description>
 				
 				<pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/journal/2016/01/01/Welcome-to-Lagrange.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/2016/01/01/Welcome-to-Lagrange.html</guid>
+				<link>http://localhost:4000/css/2016/01/01/let-div-align-center.html</link>
+				<guid isPermaLink="true">http://localhost:4000/css/2016/01/01/let-div-align-center.html</guid>
 			</item>
 		
 			<item>
-				<title>Getting Started</title>
+				<title>Git</title>
 				
 				
-					<description>&lt;h1 id=&quot;lagrange&quot;&gt;Lagrange&lt;/h1&gt;
+					<description>&lt;h1 id=&quot;简介&quot;&gt;简介&lt;/h1&gt;
 
 </description>
 				
 				<pubDate>Sat, 10 Oct 2015 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/journal/2015/10/10/getting-started.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/2015/10/10/getting-started.html</guid>
+				<link>http://localhost:4000/git/2015/10/10/getting-started.html</link>
+				<guid isPermaLink="true">http://localhost:4000/git/2015/10/10/getting-started.html</guid>
 			</item>
 		
 			<item>

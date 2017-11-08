@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Git | XuMengTing's Web
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- RSS-v2.0
+  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="XuMengTing's Web | 宁静致远"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- Use Atom --> 
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" /> 
+  
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">XuMengTing's Web</a>
+    <small class="masthead-subtitle">宁静致远</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">关于</a>
+    
+      <a href="/menu/writing.html">笔记</a>
+    
+      <a href="/menu/contact.html">方式</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+      <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    
+      <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+    
+      <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+      <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+      <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+    
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Git
+</h1>
+
+
+  <img src="/assets/img/forest.jpg">
+
+
+<h1 id="简介">简介</h1>
+
+<p>Git是一个分布式版本控制／软件配置管理软件，原是Linux内核开发者Linus Torvalds为更好地管理Linux内核开发而设计。其主要的目的是用来记录软件源代码的历史状态，类似于SVN或CVS。</p>
+
+<p>你可以利用git来追踪项目中的文件，并设置保存点。你可以和合作伙伴共享这些保存点，将他们的工作和你的工作合并，或者可以将整个工程或某些文件和之前的任何保存点进行对比，甚至恢复到早期的某个保存点。</p>
+
+<p>由于Git有Linux这个干爹，理论上它是不能在Windows平台上运行的。不过强大的程序员总是不会轻易放过任何展现自己的机会。比如Git Bash这个程序就提供了在Windows平台上使用Linux环境的一套工具。在Git Bash上的所有命令行操作，都与Linux环境完全相同。</p>
+
+<p>当然Git绝非仅能使用命令行来使用，eclipse里有插件EGit（搜索Market Place即可安装），其他比较常用的Git GUI工具有：</p>
+
+<ol>
+  <li>TortoiseGit (Windows 平台)</li>
+  <li>GitX (Mac 平台)</li>
+</ol>
+
+<h1 id="工作流程">工作流程</h1>
+
+<p>Git的分布式体现在代码仓库有两种：本地仓库和远端仓库。所有的commit（设置保存点）都只会对本地仓库产生影响，而只有在开发者使用push将修改推送到远端仓库后，其他人才可以通过pull或fetch获取到该开发者的修改内容。所以，git的推荐工作方式是：
+<strong>经常commit，定期push</strong>
+，也就是尽量将commit细致化，以便于后期回退或者对比，而按时（每天或每周）定期向服务器推送所有改动。</p>
+
+<p>Git中，文件状态变化方式如下：</p>
+
+<p>其中的动作及对应的命令：</p>
+
+<ul>
+  <li>add the file：将文件添加到git追踪系统，命令为 git add .</li>
+  <li>remove the file：将文件从git追踪系统中删除，后续修改将不再记录，命令为 git rm /path/to/file</li>
+  <li>stage the file：将文件的修改暂存（如果既不想合并，又不希望丢失自己的修改），命令为 git stage</li>
+  <li>commit：设置保存点，命令为 git commit -a -m ‘本次提交的改动描述’</li>
+</ul>
+
+<p><strong>请协助我们在工作中做好流程标准化</strong></p>
+
+<h1 id="应用场景">应用场景</h1>
+
+<h2 id="克隆远端工程">克隆远端工程</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@***.com:/path/to/repo
+</code></pre></div></div>
+
+<h2 id="查看项目状态">查看项目状态</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># 查看历史记录</span>
+git log
+
+<span class="c"># 查看工程状态</span>
+git status
+
+<span class="c"># 对比master分支和代号为eb3c2d的保存点</span>
+git diff master eb3c2d</code></pre></figure>
+
+<h2 id="替换本地改动">替换本地改动</h2>
+
+<p>如果你想放弃本地的改动，让某一个文件恢复到之前的某个版本，你可以这么做</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout -- 文件名
+</code></pre></div></div>
+
+<p>如果你想丢弃掉所有的本地改动和提交，用服务器上的最新版替换</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch origin
+git reset --hard origin/master
+</code></pre></div></div>
+
+<p>或者只是想恢复到本地的最新修改</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset --hard HEAD
+</code></pre></div></div>
+
+<h2 id="新建工程">新建工程</h2>
+
+<ol>
+  <li>新建远端仓库（需要预先配置ssh key）</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ssh git@<span class="k">***</span><span class="nt">-it</span>.com
+
+<span class="c"># 初始化远端仓库，注意，需要替换/path/to/repo为有意义的路径</span>
+git init <span class="nt">--bare</span> /path/to/repo</code></pre></figure>
+
+<ol>
+  <li>配置新项目并推送至远端</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git init
+
+<span class="c"># 增加远端服务器地址，注意，需要将/path/to/repo替换为实际地址</span>
+git remote add origin git@<span class="k">***</span><span class="nt">-it</span>.com:/path/to/repo
+git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s1">'1st import'</span>
+
+<span class="c"># 推送至远端</span>
+git push origin master</code></pre></figure>
+
+<h2 id="fetchrebase">Fetch/Rebase</h2>
+
+<p>Fetch/Rebase是使用git的最佳实践，它可以确保时间轴一致，并在多人开发时提高合并效率。一个典型的Fetch/Rebase流程为：</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># 添加所有文件至git追踪系统</span>
+git add <span class="nb">.</span>
+
+<span class="c"># -a表示删除文件自动提交，-m表示此次提交的解释</span>
+git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'本次提交的改动描述'</span>
+
+<span class="c"># 从origin这个远端仓库把所有其他人的改动下载到本地</span>
+git fetch origin master
+
+<span class="c"># 将远端仓库中的所有修改在本地“重放”进行合并</span>
+git rebase origin/master master
+
+<span class="c"># 如果提示冲突，直接修改冲突文件后，继续，否则结束流程</span>
+<span class="c"># 重新添加已改动的文件</span>
+git add <span class="nb">.</span>
+<span class="c"># 继续“重放”合并</span>
+git rebase <span class="nt">--continue</span></code></pre></figure>
+
+<h2 id="分支修正">分支修正</h2>
+
+<p>默认状态下，git始终使用master分支，但是有些特殊情况会导致git分支异常，这样的情况下，需要重新手动恢复。该功能请慎用</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># 查看历史记录</span>
+git log
+
+<span class="c"># 移动现有指针到某一次提交（这次提交的commit id是以eb3c开头）</span>
+git checkout master
+
+<span class="c"># 合并至commit id为a862的保存点</span>
+git merge a862</code></pre></figure>
+
+
+
+<span class="post-date">
+  Written on
+  
+  October
+  10th,
+  2015
+  by
+  
+    Paul Le
+  
+</span>
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Git&amp;url=/git/2015/10/10/getting-started.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/git/2015/10/10/getting-started.html&amp;title=Git" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=/git/2015/10/10/getting-started.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >你也可能喜欢:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+          <li>
+            <h3>
+              <a href="/git/2017/11/06/my-first-jekyll-blog.html">
+                使用github和jekyll设置自己的个人网站
+                <!--<img src="http://localhost:4000/images/cutting-teaser.jpg">-->
+                <!--<small>November 6, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/css/2016/01/01/let-div-align-center.html">
+                让元素垂直居中的几种方法!
+                <!--<img src="http://localhost:4000/images/mountains-teaser.jpg">-->
+                <!--<small>January 1, 2016</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+  
+    <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+    <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+  
+    <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+    <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+    <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+  <div class="post-date"><a href="/menu/about.html">XuMengTing's Web | 宁静致远 by MengTing Xu</a></div>
+</footer>
+
+
+  </div>
+
+</body>
+</html>

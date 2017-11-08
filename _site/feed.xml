@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-08T17:38:00+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/journal/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-08T21:31:32+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -66,201 +66,251 @@ Head over to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code
 
 &lt;h3 id=&quot;questions&quot;&gt;Questions?&lt;/h3&gt;
 
-&lt;p&gt;This theme is completely free and open source software. You may use it however you want, as it is distributed under the &lt;a href=&quot;http://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;. If you are having any problems, any questions or suggestions, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;amp;via=paululele&quot;&gt;tweet at me&lt;/a&gt;, or &lt;a href=&quot;https://github.com/lenpaul/lagrange/issues/new&quot;&gt;file a GitHub issue&lt;/a&gt;.&lt;/p&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">Welcome to Lagrange!</title><link href="http://localhost:4000/journal/2016/01/01/Welcome-to-Lagrange.html" rel="alternate" type="text/html" title="Welcome to Lagrange!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/journal/2016/01/01/Welcome-to-Lagrange</id><content type="html" xml:base="http://localhost:4000/journal/2016/01/01/Welcome-to-Lagrange.html">&lt;p&gt;Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.&lt;/p&gt;
+&lt;p&gt;This theme is completely free and open source software. You may use it however you want, as it is distributed under the &lt;a href=&quot;http://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;. If you are having any problems, any questions or suggestions, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;amp;via=paululele&quot;&gt;tweet at me&lt;/a&gt;, or &lt;a href=&quot;https://github.com/lenpaul/lagrange/issues/new&quot;&gt;file a GitHub issue&lt;/a&gt;.&lt;/p&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
 
-&lt;h3 id=&quot;getting-started&quot;&gt;Getting Started&lt;/h3&gt;
+&lt;h1 id=&quot;html&quot;&gt;HTML&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;/journal/2015/10/10/getting-started.html&quot;&gt;Getting Started&lt;/a&gt;: getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.&lt;/p&gt;
+&lt;p&gt;定义一组代码，父类元素parent,子类元素child&lt;/p&gt;
 
-&lt;h3 id=&quot;example-content&quot;&gt;Example Content&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;”parent”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;”child”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;a href=&quot;/journal/2015/09/09/Text-Formatting.html&quot;&gt;Text and Formatting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;图片居中&lt;/p&gt;
 
-&lt;h3 id=&quot;questions&quot;&gt;Questions?&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;”parent”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;This theme is completely free and open source software. You may use it however you want, as it is distributed under the &lt;a href=&quot;http://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;. If you are having any problems, any questions or suggestions, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;amp;via=paululele&quot;&gt;tweet at me&lt;/a&gt;, or &lt;a href=&quot;https://github.com/lenpaul/lagrange/issues/new&quot;&gt;file a GitHub issue&lt;/a&gt;.&lt;/p&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22mountains.jpg%22,%20%22teaser%22=%3E%22mountains-teaser.jpg%22,%20%22credit%22=%3E%22Death%20to%20Stock%20Photo%22,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">Getting Started</title><link href="http://localhost:4000/journal/2015/10/10/getting-started.html" rel="alternate" type="text/html" title="Getting Started" /><published>2015-10-10T00:00:00+08:00</published><updated>2015-10-10T00:00:00+08:00</updated><id>http://localhost:4000/journal/2015/10/10/getting-started</id><content type="html" xml:base="http://localhost:4000/journal/2015/10/10/getting-started.html">&lt;h1 id=&quot;lagrange&quot;&gt;Lagrange&lt;/h1&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;”parent”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;floater&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;child&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        测试代码
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;, or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in &lt;a href=&quot;https://lenpaul.github.io/Lagrange/&quot;&gt;the demo site&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;css&quot;&gt;CSS&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/8409329/21747617/7ef0e18e-d53a-11e6-8f90-8bb14b62ba20.jpg&quot; alt=&quot;alt text&quot; title=&quot;Lagrange Demo Image&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;method-1&quot;&gt;Method 1:&lt;/h3&gt;
 
-&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+&lt;p&gt;最常用的方法：定义父类元素的高度后，将子类元素line-height设置成200px,代码如下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;若要想将图片垂直居中,方法是将父类元素设置为200px,line-height设置为200px;再将img设置为vertical-align:middle;即可。代码如下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;method-2&quot;&gt;Method 2:&lt;/h3&gt;
+
+&lt;p&gt;最常用的方法:将父类元素设置为table属性,再将子类元素设置为table-cell，vertical-algin:middle;即可，代码如下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;table-cell&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;method-3&quot;&gt;Method 3:&lt;/h3&gt;
+
+&lt;p&gt;原始用法：将父类元素设置为相对定位，子类元素设置为绝对定位后，分别设置top与left,代码如下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;method-4&quot;&gt;Method 4:&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;method-5&quot;&gt;Method 5:&lt;/h3&gt;
+
+&lt;p&gt;将父类设置内边距padding:x 0，则子类设置内边距为 padding:2x 0;代码如下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2%&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4%&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;method-6&quot;&gt;Method 6:&lt;/h3&gt;
+
+&lt;p&gt;定义父类高度，将floater设置height为50%；margin-bottom设置为-y/2 px,child设置height属性为y px即可，代码如下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;350px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.floater&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22mountains.jpg%22,%20%22teaser%22=%3E%22mountains-teaser.jpg%22,%20%22credit%22=%3E%22Death%20to%20Stock%20Photo%22,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">Git</title><link href="http://localhost:4000/git/2015/10/10/getting-started.html" rel="alternate" type="text/html" title="Git" /><published>2015-10-10T00:00:00+08:00</published><updated>2015-10-10T00:00:00+08:00</updated><id>http://localhost:4000/git/2015/10/10/getting-started</id><content type="html" xml:base="http://localhost:4000/git/2015/10/10/getting-started.html">&lt;h1 id=&quot;简介&quot;&gt;简介&lt;/h1&gt;
+
+&lt;p&gt;Git是一个分布式版本控制／软件配置管理软件，原是Linux内核开发者Linus Torvalds为更好地管理Linux内核开发而设计。其主要的目的是用来记录软件源代码的历史状态，类似于SVN或CVS。&lt;/p&gt;
+
+&lt;p&gt;你可以利用git来追踪项目中的文件，并设置保存点。你可以和合作伙伴共享这些保存点，将他们的工作和你的工作合并，或者可以将整个工程或某些文件和之前的任何保存点进行对比，甚至恢复到早期的某个保存点。&lt;/p&gt;
+
+&lt;p&gt;由于Git有Linux这个干爹，理论上它是不能在Windows平台上运行的。不过强大的程序员总是不会轻易放过任何展现自己的机会。比如Git Bash这个程序就提供了在Windows平台上使用Linux环境的一套工具。在Git Bash上的所有命令行操作，都与Linux环境完全相同。&lt;/p&gt;
+
+&lt;p&gt;当然Git绝非仅能使用命令行来使用，eclipse里有插件EGit（搜索Market Place即可安装），其他比较常用的Git GUI工具有：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-is-jekyll&quot;&gt;What is Jekyll&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#never-used-jekyll-before&quot;&gt;Never Used Jeykll Before?&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#installation&quot;&gt;Installation&lt;/a&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#github-pages-installation&quot;&gt;GitHub Pages Installation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#local-installation&quot;&gt;Local Installation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#directory-structure&quot;&gt;Directory Structure&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#starting-from-scratch&quot;&gt;Starting From Scratch&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#configuration&quot;&gt;Configuration&lt;/a&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#site-variables&quot;&gt;Site Variables&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#adding-menu-pages&quot;&gt;Adding Menu Pages&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#posts&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#layouts&quot;&gt;Layouts&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#yaml-front-block-matter&quot;&gt;YAML Front Block Matter&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#design-considerations&quot;&gt;Design Considerations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#disqus&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#google-analytics&quot;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#rss-feeds&quot;&gt;RSS Feeds&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#social-media-icons&quot;&gt;Social Media Icons&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#everything-else&quot;&gt;Everything Else&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#credits&quot;&gt;Credits&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#license&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;TortoiseGit (Windows 平台)&lt;/li&gt;
+  &lt;li&gt;GitX (Mac 平台)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;h1 id=&quot;工作流程&quot;&gt;工作流程&lt;/h1&gt;
 
-&lt;p&gt;Lagrange is a Jekyll theme that was built to be 100% compatible with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. If you are unfamiliar with GitHub Pages, you can check out &lt;a href=&quot;https://help.github.com/categories/github-pages-basics/&quot;&gt;their documentation&lt;/a&gt; for more information. &lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot;&gt;Jonathan McGlone’s guide&lt;/a&gt; on creating and hosting a personal site on GitHub is also a good resource.&lt;/p&gt;
+&lt;p&gt;Git的分布式体现在代码仓库有两种：本地仓库和远端仓库。所有的commit（设置保存点）都只会对本地仓库产生影响，而只有在开发者使用push将修改推送到远端仓库后，其他人才可以通过pull或fetch获取到该开发者的修改内容。所以，git的推荐工作方式是：
+&lt;strong&gt;经常commit，定期push&lt;/strong&gt;
+，也就是尽量将commit细致化，以便于后期回退或者对比，而按时（每天或每周）定期向服务器推送所有改动。&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h3&gt;
+&lt;p&gt;Git中，文件状态变化方式如下：&lt;/p&gt;
 
-&lt;p&gt;Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the &lt;a href=&quot;https://jekyllrb.com/docs/home/&quot;&gt;official Jekyll site&lt;/a&gt; for their documentation.&lt;/p&gt;
+&lt;p&gt;其中的动作及对应的命令：&lt;/p&gt;
 
-&lt;h3 id=&quot;never-used-jekyll-before&quot;&gt;Never Used Jekyll Before?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;add the file：将文件添加到git追踪系统，命令为 git add .&lt;/li&gt;
+  &lt;li&gt;remove the file：将文件从git追踪系统中删除，后续修改将不再记录，命令为 git rm /path/to/file&lt;/li&gt;
+  &lt;li&gt;stage the file：将文件的修改暂存（如果既不想合并，又不希望丢失自己的修改），命令为 git stage&lt;/li&gt;
+  &lt;li&gt;commit：设置保存点，命令为 git commit -a -m ‘本次提交的改动描述’&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;The beauty of hosting your website on GitHub is that you don’t have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory and edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请协助我们在工作中做好流程标准化&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;This can all be done through the GitHub code editor, which acts like a content management system (CMS).&lt;/p&gt;
+&lt;h1 id=&quot;应用场景&quot;&gt;应用场景&lt;/h1&gt;
 
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;h2 id=&quot;克隆远端工程&quot;&gt;克隆远端工程&lt;/h2&gt;
 
-&lt;h3 id=&quot;github-pages-installation&quot;&gt;GitHub Pages Installation&lt;/h3&gt;
-
-&lt;p&gt;To start using Jekyll right away using GitHub Pages, &lt;a href=&quot;https://github.com/LeNPaul/Lagrange/fork&quot;&gt;fork the Lagrange repository on GitHub&lt;/a&gt;. From there, you can rename your repository to ‘USERNAME.github.io’, where ‘USERNAME’ is your GitHub username, and edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.yml&lt;/code&gt; file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder to your liking. Ensure that you have a branch named &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;. Your website should be ready immediately at ‘http://USERNAME.github.io’.&lt;/p&gt;
-
-&lt;p&gt;Head over to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.&lt;/p&gt;
-
-&lt;h3 id=&quot;local-installation&quot;&gt;Local Installation&lt;/h3&gt;
-
-&lt;p&gt;For a full local installation of Lagrange, &lt;a href=&quot;https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip&quot;&gt;download your own copy of Lagrange&lt;/a&gt; and unzip it into it’s own directory. From there, open up your favorite command line tool, and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;. Your site should be up and running locally at &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;directory-structure&quot;&gt;Directory Structure&lt;/h3&gt;
-
-&lt;p&gt;If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the &lt;a href=&quot;https://jekyllrb.com/docs/structure/&quot;&gt;Jekyll documentation site&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lagrange
-
-├── _data                      &lt;span class=&quot;c&quot;&gt;# Data files&lt;/span&gt;
-|  └── authors.yml             &lt;span class=&quot;c&quot;&gt;# For managing multiple authors&lt;/span&gt;
-|  └── settings.yml            &lt;span class=&quot;c&quot;&gt;# Theme settings and custom text&lt;/span&gt;
-├── _includes                  &lt;span class=&quot;c&quot;&gt;# Theme includes&lt;/span&gt;
-├── _layouts                   &lt;span class=&quot;c&quot;&gt;# Theme layouts (see below for details)&lt;/span&gt;
-├── _posts                     &lt;span class=&quot;c&quot;&gt;# Where all your posts will go&lt;/span&gt;
-├── assets                     &lt;span class=&quot;c&quot;&gt;# Style sheets and images are found here&lt;/span&gt;
-|  ├── css
-|  |  └── main.css
-|  |  └── syntax.css
-|  └── img
-├── menu                       &lt;span class=&quot;c&quot;&gt;# Menu pages&lt;/span&gt;
-├── _config.yml                &lt;span class=&quot;c&quot;&gt;# Site build settings&lt;/span&gt;
-└── index.md                   &lt;span class=&quot;c&quot;&gt;# Home page&lt;/span&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@***.com:/path/to/repo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;starting-from-scratch&quot;&gt;Starting From Scratch&lt;/h3&gt;
+&lt;h2 id=&quot;查看项目状态&quot;&gt;查看项目状态&lt;/h2&gt;
 
-&lt;p&gt;To completely start from scratch, simply delete all the files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;menu&lt;/code&gt; folder, and add your own content. You may also replace the &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt; file with your own README. Everything in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder can be edited to suit your needs.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 查看历史记录&lt;/span&gt;
+git log
 
-&lt;h2 id=&quot;configuration&quot;&gt;Configuration&lt;/h2&gt;
+&lt;span class=&quot;c&quot;&gt;# 查看工程状态&lt;/span&gt;
+git status
 
-&lt;h3 id=&quot;site-variables&quot;&gt;Site Variables&lt;/h3&gt;
+&lt;span class=&quot;c&quot;&gt;# 对比master分支和代号为eb3c2d的保存点&lt;/span&gt;
+git diff master eb3c2d&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;To change site build settings, edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file found in the root of your repository, which you can tweak however you like. More information on configuration settings can be found on &lt;a href=&quot;https://jekyllrb.com/docs/configuration/&quot;&gt;the Jekyll documentation site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;替换本地改动&quot;&gt;替换本地改动&lt;/h2&gt;
 
-&lt;p&gt;If you are hosting your site on GitHub Pages, then committing a change to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; again for the changes to take place.&lt;/p&gt;
+&lt;p&gt;如果你想放弃本地的改动，让某一个文件恢复到之前的某个版本，你可以这么做&lt;/p&gt;
 
-&lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.yml&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;authors.yml&lt;/code&gt; files found in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder, you will be able to customize your site settings, such as the title of your site, what shows up in your menu, and social media information. To make author organization easier, especially if you have multiple authors, all author information is stored in the &lt;code class=&quot;highlighter-rouge&quot;&gt;authors.yml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h3 id=&quot;adding-menu-pages&quot;&gt;Adding Menu Pages&lt;/h3&gt;
-
-&lt;p&gt;The menu pages are found in the &lt;code class=&quot;highlighter-rouge&quot;&gt;menu&lt;/code&gt; folder in the root directory, and can be added to your menu in the &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.yml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h3 id=&quot;posts&quot;&gt;Posts&lt;/h3&gt;
-
-&lt;p&gt;You will find example posts in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention of &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.md&lt;/code&gt; and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Lagrange. Note: Images were designed to be 1024x600 pixels, with teaser images being 1024x380 pixels.&lt;/p&gt;
-
-&lt;h3 id=&quot;layouts&quot;&gt;Layouts&lt;/h3&gt;
-
-&lt;p&gt;There are two main layout options that are included with Lagrange: post and page. Layouts are specified through the &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML front block matter&lt;/a&gt;. Any file that contains a YAML front block matter will be processed by Jekyll. For example:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title: &quot;Example Post&quot;
----
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout -- 文件名
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Examples of what posts looks like can be found in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.&lt;/p&gt;
+&lt;p&gt;如果你想丢弃掉所有的本地改动和提交，用服务器上的最新版替换&lt;/p&gt;
 
-&lt;p&gt;Pages are essentially the post layout without and of the extra features of the posts layout. An example of what pages look like can be found at the &lt;a href=&quot;/about.html&quot;&gt;About&lt;/a&gt; and &lt;a href=&quot;/contacts.html&quot;&gt;Contacts&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In addition to the two main layout options above, there are also custom layouts that have been created for the &lt;a href=&quot;&quot;&gt;home page&lt;/a&gt; and the &lt;a href=&quot;/writing.html&quot;&gt;archives page&lt;/a&gt;. These are simply just page layouts with some &lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;Liquid template code&lt;/a&gt;. Check out the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;writing.md&lt;/code&gt; files in the root directory for what the code looks like.&lt;/p&gt;
-
-&lt;h3 id=&quot;yaml-front-block-matter&quot;&gt;YAML Front Block Matter&lt;/h3&gt;
-
-&lt;p&gt;The recommended YAML front block is:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout:
-title:
-categories:
-tags: []
-image:
-  feature:
-  teaser:
-  credit:
-  creditlink:
-
----
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch origin
+git reset --hard origin/master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt; specifies which layout to use, &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; is the page or post title, &lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt; can be used to better organize your posts, &lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; are used to show related posts, as well as indicate what topics are related in a given post, and &lt;code class=&quot;highlighter-rouge&quot;&gt;image&lt;/code&gt; specifies which images to use. There are two main types of images that can be used in a given post, the &lt;code class=&quot;highlighter-rouge&quot;&gt;feature&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;teaser&lt;/code&gt;, which are typically the same image, except the teaser image is cropped for the home page. You can give credit to images under &lt;code class=&quot;highlighter-rouge&quot;&gt;credit&lt;/code&gt;, and provide a link if possible under &lt;code class=&quot;highlighter-rouge&quot;&gt;creditlink&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;或者只是想恢复到本地的最新修改&lt;/p&gt;
 
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git reset --hard HEAD
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;design-considerations&quot;&gt;Design Considerations&lt;/h3&gt;
+&lt;h2 id=&quot;新建工程&quot;&gt;新建工程&lt;/h2&gt;
 
-&lt;p&gt;Lagrange was designed to be a minimalist theme in order for the focus to remain on your content. For example, links are signified mainly through an underline text-decoration, in order to maximize the perceived affordance of clickability (I originally just wanted to make the links a darker shade of grey).&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;新建远端仓库（需要预先配置ssh key）&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3 id=&quot;disqus&quot;&gt;Disqus&lt;/h3&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ssh git@&lt;span class=&quot;k&quot;&gt;***&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-it&lt;/span&gt;.com
 
-&lt;p&gt;Lagrange supports comments at the end of posts through &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;. In order to activate Disqus commenting, set &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus.comments&lt;/code&gt; to true in the &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.yml&lt;/code&gt; file under &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt;. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus_shortname&lt;/code&gt; that will be used to generate the appropriate comments sections for your site. More information on &lt;a href=&quot;http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/&quot;&gt;how to set up Disqus&lt;/a&gt;.&lt;/p&gt;
+&lt;span class=&quot;c&quot;&gt;# 初始化远端仓库，注意，需要替换/path/to/repo为有意义的路径&lt;/span&gt;
+git init &lt;span class=&quot;nt&quot;&gt;--bare&lt;/span&gt; /path/to/repo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;google-analytics&quot;&gt;Google Analytics&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;配置新项目并推送至远端&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;It is possible to track your site statistics through &lt;a href=&quot;https://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt;. Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under &lt;code class=&quot;highlighter-rouge&quot;&gt;google-ID&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.yml&lt;/code&gt; file. More information on &lt;a href=&quot;https://michaelsoolee.com/google-analytics-jekyll/&quot;&gt;how to set up Google Analytics&lt;/a&gt;.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git init
 
-&lt;h3 id=&quot;rss-feeds&quot;&gt;RSS Feeds&lt;/h3&gt;
+&lt;span class=&quot;c&quot;&gt;# 增加远端服务器地址，注意，需要将/path/to/repo替换为实际地址&lt;/span&gt;
+git remote add origin git@&lt;span class=&quot;k&quot;&gt;***&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-it&lt;/span&gt;.com:/path/to/repo
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'1st import'&lt;/span&gt;
 
-&lt;p&gt;Atom is supported through &lt;a href=&quot;https://github.com/jekyll/jekyll-feed&quot;&gt;Jekyll-Feed&lt;/a&gt; and RSS 2.0 is supported through &lt;a href=&quot;http://www.rssboard.org/rss-autodiscovery&quot;&gt;RSS autodiscovery&lt;/a&gt;.&lt;/p&gt;
+&lt;span class=&quot;c&quot;&gt;# 推送至远端&lt;/span&gt;
+git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;social-media-icons&quot;&gt;Social Media icons&lt;/h3&gt;
+&lt;h2 id=&quot;fetchrebase&quot;&gt;Fetch/Rebase&lt;/h2&gt;
 
-&lt;p&gt;All social media icons are courtesy of &lt;a href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt;. You can change which icons appear, as well as the account that they link to, in the &lt;code class=&quot;highlighter-rouge&quot;&gt;settings.yml&lt;/code&gt; file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;Fetch/Rebase是使用git的最佳实践，它可以确保时间轴一致，并在多人开发时提高合并效率。一个典型的Fetch/Rebase流程为：&lt;/p&gt;
 
-&lt;h2 id=&quot;everything-else&quot;&gt;Everything Else&lt;/h2&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 添加所有文件至git追踪系统&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;span class=&quot;c&quot;&gt;# -a表示删除文件自动提交，-m表示此次提交的解释&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'本次提交的改动描述'&lt;/span&gt;
 
-&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+&lt;span class=&quot;c&quot;&gt;# 从origin这个远端仓库把所有其他人的改动下载到本地&lt;/span&gt;
+git fetch origin master
 
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">Lagrange</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22forest.jpg%22,%20%22teaser%22=%3E%22forest-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Text Formatting</title><link href="http://localhost:4000/journal/2015/09/09/Text-Formatting.html" rel="alternate" type="text/html" title="Text Formatting" /><published>2015-09-09T00:00:00+08:00</published><updated>2015-09-09T00:00:00+08:00</updated><id>http://localhost:4000/journal/2015/09/09/Text-Formatting</id><content type="html" xml:base="http://localhost:4000/journal/2015/09/09/Text-Formatting.html">&lt;p&gt;As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown syntax&lt;/a&gt;. Examples of these text formatting features can be seen below. You can find this post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;span class=&quot;c&quot;&gt;# 将远端仓库中的所有修改在本地“重放”进行合并&lt;/span&gt;
+git rebase origin/master master
+
+&lt;span class=&quot;c&quot;&gt;# 如果提示冲突，直接修改冲突文件后，继续，否则结束流程&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 重新添加已改动的文件&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 继续“重放”合并&lt;/span&gt;
+git rebase &lt;span class=&quot;nt&quot;&gt;--continue&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;分支修正&quot;&gt;分支修正&lt;/h2&gt;
+
+&lt;p&gt;默认状态下，git始终使用master分支，但是有些特殊情况会导致git分支异常，这样的情况下，需要重新手动恢复。该功能请慎用&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 查看历史记录&lt;/span&gt;
+git log
+
+&lt;span class=&quot;c&quot;&gt;# 移动现有指针到某一次提交（这次提交的commit id是以eb3c开头）&lt;/span&gt;
+git checkout master
+
+&lt;span class=&quot;c&quot;&gt;# 合并至commit id为a862的保存点&lt;/span&gt;
+git merge a862&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">简介</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22forest.jpg%22,%20%22teaser%22=%3E%22forest-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Text Formatting</title><link href="http://localhost:4000/journal/2015/09/09/Text-Formatting.html" rel="alternate" type="text/html" title="Text Formatting" /><published>2015-09-09T00:00:00+08:00</published><updated>2015-09-09T00:00:00+08:00</updated><id>http://localhost:4000/journal/2015/09/09/Text-Formatting</id><content type="html" xml:base="http://localhost:4000/journal/2015/09/09/Text-Formatting.html">&lt;p&gt;As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown syntax&lt;/a&gt;. Examples of these text formatting features can be seen below. You can find this post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
 
 &lt;h3 class=&quot;no_toc&quot; id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
 

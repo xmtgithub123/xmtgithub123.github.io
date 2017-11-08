@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Getting Started"
+title: "Git"
 author: "Paul Le"
-categories: journal
+categories: git
 tags: [documentation,sample]
 image:
   feature: forest.jpg
@@ -11,180 +11,128 @@ image:
   creditlink:
 ---
 
-# Lagrange
+# 简介
 
-Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/).
+Git是一个分布式版本控制／软件配置管理软件，原是Linux内核开发者Linus Torvalds为更好地管理Linux内核开发而设计。其主要的目的是用来记录软件源代码的历史状态，类似于SVN或CVS。
 
-![alt text](https://cloud.githubusercontent.com/assets/8409329/21747617/7ef0e18e-d53a-11e6-8f90-8bb14b62ba20.jpg "Lagrange Demo Image")
+你可以利用git来追踪项目中的文件，并设置保存点。你可以和合作伙伴共享这些保存点，将他们的工作和你的工作合并，或者可以将整个工程或某些文件和之前的任何保存点进行对比，甚至恢复到早期的某个保存点。
 
-## Table of Contents
+由于Git有Linux这个干爹，理论上它是不能在Windows平台上运行的。不过强大的程序员总是不会轻易放过任何展现自己的机会。比如Git Bash这个程序就提供了在Windows平台上使用Linux环境的一套工具。在Git Bash上的所有命令行操作，都与Linux环境完全相同。
 
-1. [Introduction](#introduction)
-   1. [What is Jekyll](#what-is-jekyll)
-   2. [Never Used Jeykll Before?](#never-used-jekyll-before)
-2. [Installation](#installation)
-   1. [GitHub Pages Installation](#github-pages-installation)
-   2. [Local Installation](#local-installation)
-   3. [Directory Structure](#directory-structure)
-   4. [Starting From Scratch](#starting-from-scratch)
-3. [Configuration](#configuration)
-   1. [Site Variables](#site-variables)
-   2. [Adding Menu Pages](#adding-menu-pages)
-   3. [Posts](#posts)
-   4. [Layouts](#layouts)
-   5. [YAML Front Block Matter](#yaml-front-block-matter)
-4. [Features](#features)
-   1. [Design Considerations](#design-considerations)
-   2. [Disqus](#disqus)
-   3. [Google Analytics](#google-analytics)
-   4. [RSS Feeds](#rss-feeds)
-   5. [Social Media Icons](#social-media-icons)
-5. [Everything Else](#everything-else)
-6. [Credits](#credits)
-7. [License](#license)
+当然Git绝非仅能使用命令行来使用，eclipse里有插件EGit（搜索Market Place即可安装），其他比较常用的Git GUI工具有：
 
-## Introduction
+1. TortoiseGit (Windows 平台)
+2. GitX (Mac 平台)
 
-Lagrange is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+# 工作流程
 
-### What is Jekyll?
+Git的分布式体现在代码仓库有两种：本地仓库和远端仓库。所有的commit（设置保存点）都只会对本地仓库产生影响，而只有在开发者使用push将修改推送到远端仓库后，其他人才可以通过pull或fetch获取到该开发者的修改内容。所以，git的推荐工作方式是：
+__经常commit，定期push__
+，也就是尽量将commit细致化，以便于后期回退或者对比，而按时（每天或每周）定期向服务器推送所有改动。
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation.
+Git中，文件状态变化方式如下：
 
-### Never Used Jekyll Before?
+其中的动作及对应的命令：
 
-The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking.
+* add the file：将文件添加到git追踪系统，命令为 git add .
+* remove the file：将文件从git追踪系统中删除，后续修改将不再记录，命令为 git rm /path/to/file
+* stage the file：将文件的修改暂存（如果既不想合并，又不希望丢失自己的修改），命令为 git stage
+* commit：设置保存点，命令为 git commit -a -m '本次提交的改动描述'
 
-This can all be done through the GitHub code editor, which acts like a content management system (CMS).
+**请协助我们在工作中做好流程标准化**
 
-## Installation
+# 应用场景
 
-### GitHub Pages Installation
+## 克隆远端工程
 
-To start using Jekyll right away using GitHub Pages, [fork the Lagrange repository on GitHub](https://github.com/LeNPaul/Lagrange/fork). From there, you can rename your repository to 'USERNAME.github.io', where 'USERNAME' is your GitHub username, and edit the `settings.yml` file in the `_data` folder to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at 'http://USERNAME.github.io'.
+    git clone git@***.com:/path/to/repo
 
-Head over to the `_posts` directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.
+## 查看项目状态
 
-### Local Installation
+{% highlight bash %}
+# 查看历史记录
+git log
 
-For a full local installation of Lagrange, [download your own copy of Lagrange](https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, and enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
+# 查看工程状态
+git status
 
-### Directory Structure
+# 对比master分支和代号为eb3c2d的保存点
+git diff master eb3c2d
+{% endhighlight %}
 
-If you are familiar with Jekyll, then the Lagrange directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
+## 替换本地改动
 
-```bash
-Lagrange
+如果你想放弃本地的改动，让某一个文件恢复到之前的某个版本，你可以这么做
 
-├── _data                      # Data files
-|  └── authors.yml             # For managing multiple authors
-|  └── settings.yml            # Theme settings and custom text
-├── _includes                  # Theme includes
-├── _layouts                   # Theme layouts (see below for details)
-├── _posts                     # Where all your posts will go
-├── assets                     # Style sheets and images are found here
-|  ├── css
-|  |  └── main.css
-|  |  └── syntax.css
-|  └── img
-├── menu                       # Menu pages
-├── _config.yml                # Site build settings
-└── index.md                   # Home page
-```
+    git checkout -- 文件名
 
-### Starting From Scratch
+如果你想丢弃掉所有的本地改动和提交，用服务器上的最新版替换
 
-To completely start from scratch, simply delete all the files in the `_posts`, and `menu` folder, and add your own content. You may also replace the `README.md` file with your own README. Everything in the `_data` folder can be edited to suit your needs.
+    git fetch origin
+    git reset --hard origin/master
 
-## Configuration
+或者只是想恢复到本地的最新修改
 
-### Site Variables
+    git reset --hard HEAD
 
-To change site build settings, edit the `_config.yml` file found in the root of your repository, which you can tweak however you like. More information on configuration settings can be found on [the Jekyll documentation site](https://jekyllrb.com/docs/configuration/).
+## 新建工程
 
-If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
+1. 新建远端仓库（需要预先配置ssh key）
+{% highlight bash %}
+ssh git@***-it.com
 
-In the `settings.yml` and `authors.yml` files found in the `_data` folder, you will be able to customize your site settings, such as the title of your site, what shows up in your menu, and social media information. To make author organization easier, especially if you have multiple authors, all author information is stored in the `authors.yml` file.
+# 初始化远端仓库，注意，需要替换/path/to/repo为有意义的路径
+git init --bare /path/to/repo
+{% endhighlight %}
 
-### Adding Menu Pages
+2. 配置新项目并推送至远端
+{% highlight bash %}
+git init
 
-The menu pages are found in the `menu` folder in the root directory, and can be added to your menu in the `settings.yml` file.
+# 增加远端服务器地址，注意，需要将/path/to/repo替换为实际地址
+git remote add origin git@***-it.com:/path/to/repo
+git add .
+git commit -m '1st import'
 
-### Posts
+# 推送至远端
+git push origin master
+{% endhighlight %}
 
-You will find example posts in your `_posts` directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Fetch/Rebase
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Lagrange. Note: Images were designed to be 1024x600 pixels, with teaser images being 1024x380 pixels.
+Fetch/Rebase是使用git的最佳实践，它可以确保时间轴一致，并在多人开发时提高合并效率。一个典型的Fetch/Rebase流程为：
 
-### Layouts
+{% highlight bash %}
+# 添加所有文件至git追踪系统
+git add .
 
-There are two main layout options that are included with Lagrange: post and page. Layouts are specified through the [YAML front block matter](https://jekyllrb.com/docs/frontmatter/). Any file that contains a YAML front block matter will be processed by Jekyll. For example:
+# -a表示删除文件自动提交，-m表示此次提交的解释
+git commit -a -m '本次提交的改动描述'
 
-```
----
-layout: post
-title: "Example Post"
----
-```
+# 从origin这个远端仓库把所有其他人的改动下载到本地
+git fetch origin master
 
-Examples of what posts looks like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
+# 将远端仓库中的所有修改在本地“重放”进行合并
+git rebase origin/master master
 
-Pages are essentially the post layout without and of the extra features of the posts layout. An example of what pages look like can be found at the [About]({{ site.github.url }}/about.html) and [Contacts]({{ site.github.url }}/contacts.html).
+# 如果提示冲突，直接修改冲突文件后，继续，否则结束流程
+# 重新添加已改动的文件
+git add .
+# 继续“重放”合并
+git rebase --continue
+{% endhighlight %}
 
-In addition to the two main layout options above, there are also custom layouts that have been created for the [home page]({{ site.github.url }}) and the [archives page]({{ site.github.url }}/writing.html). These are simply just page layouts with some [Liquid template code](https://shopify.github.io/liquid/). Check out the `index.html` and `writing.md` files in the root directory for what the code looks like.
+## 分支修正
 
-### YAML Front Block Matter
+默认状态下，git始终使用master分支，但是有些特殊情况会导致git分支异常，这样的情况下，需要重新手动恢复。该功能请慎用
 
-The recommended YAML front block is:
+{% highlight bash %}
+# 查看历史记录
+git log
 
-```
----
-layout:
-title:
-categories:
-tags: []
-image:
-  feature:
-  teaser:
-  credit:
-  creditlink:
+# 移动现有指针到某一次提交（这次提交的commit id是以eb3c开头）
+git checkout master
 
----
-```
-
-`layout` specifies which layout to use, `title` is the page or post title, `categories` can be used to better organize your posts, `tags` are used to show related posts, as well as indicate what topics are related in a given post, and `image` specifies which images to use. There are two main types of images that can be used in a given post, the `feature` and the `teaser`, which are typically the same image, except the teaser image is cropped for the home page. You can give credit to images under `credit`, and provide a link if possible under `creditlink`.
-
-## Features
-
-### Design Considerations
-
-Lagrange was designed to be a minimalist theme in order for the focus to remain on your content. For example, links are signified mainly through an underline text-decoration, in order to maximize the perceived affordance of clickability (I originally just wanted to make the links a darker shade of grey).
-
-### Disqus
-
-Lagrange supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `settings.yml` file under `_data`. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
-
-### Google Analytics
-
-It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `settings.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/).
-
-### RSS Feeds
-
-Atom is supported through [Jekyll-Feed](https://github.com/jekyll/jekyll-feed) and RSS 2.0 is supported through [RSS autodiscovery](http://www.rssboard.org/rss-autodiscovery).
-
-
-### Social Media icons
-
-All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `settings.yml` file in the `_data` folder.
-
-## Everything Else
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-## Credits
-
-## License
+# 合并至commit id为a862的保存点
+git merge a862
+{% endhighlight %}
