@@ -6,7 +6,7 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
   color: #515151;
-  line-height: 1.75rem;
+  /*line-height: 1rem;*/
 }
 
 @media (max-width: 30em) {
@@ -74,7 +74,7 @@ blockquote p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 615px;
+  width: 680px;
 }
 
 @media (max-width: 1366px) {
@@ -454,4 +454,33 @@ pre {
 
 .fa-rss-square:hover {
 	color: #ff6600;
+}
+
+
+.myselfInfo {
+  box-shadow: 0 0 4px #cacaca;
+  padding: 10px;
+}
+
+.img-avatar {
+  width:160px;
+  height:160px;
+  border-radius: 100%;
+}
+.media-left {
+  width:160px;
+  padding-right: 10px;
+}
+.media-body,.media-left {
+  display: table-cell;
+  vertical-align: middle;
+}
+.media-body p {
+  margin: 0 0 10px 0;
+}
+p.mysay {
+  font-size: 12px;
+  color: #a7a7a7;
+  line-height: 1.2rem;
+  letter-spacing:0.05rem;
 }
