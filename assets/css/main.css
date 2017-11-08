@@ -455,3 +455,30 @@ pre {
 .fa-rss-square:hover {
 	color: #ff6600;
 }
+.myselfInfo {
+  box-shadow: 0 0 4px #cacaca;
+  padding: 10px;
+}
+
+.img-avatar {
+  width:160px;
+  height:160px;
+  border-radius: 100%;
+}
+.media-left {
+  width:160px;
+  padding-right: 10px;
+}
+.media-body,.media-left {
+  display: table-cell;
+  vertical-align: middle;
+}
+.media-body p {
+  margin: 0 0 10px 0;
+}
+p.mysay {
+  font-size: 12px;
+  color: #a7a7a7;
+  line-height: 1.2rem;
+  letter-spacing:0.05rem;
+}

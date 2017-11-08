@@ -6,7 +6,7 @@ body {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
   color: #515151;
-  /*line-height: 1rem;*/
+  line-height: 1.75rem;
 }
 
 @media (max-width: 30em) {
@@ -74,7 +74,7 @@ blockquote p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 680px;
+  width: 615px;
 }
 
 @media (max-width: 1366px) {
@@ -455,8 +455,6 @@ pre {
 .fa-rss-square:hover {
 	color: #ff6600;
 }
-
-
 .myselfInfo {
   box-shadow: 0 0 4px #cacaca;
   padding: 10px;
