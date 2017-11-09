@@ -4,9 +4,9 @@
 
 body {
   /*font-family: "PT Serif", Georgia, "Times New Roman", serif;*/
-  font-size: 16px;
+  font-size: 14px;
   color: #515151;
-  line-height: 1.75rem;
+  line-height: 1.5rem;
 }
 
 @media (max-width: 30em) {
@@ -41,7 +41,9 @@ a:hover {
   color: black;
   border-bottom: none;
 }
-
+h2>a {
+  text-decoration: none;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -125,11 +127,13 @@ blockquote p {
 }
 
 .posts {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   padding: 0px;
   list-style: none;
 }
-
+.posts p {
+  margin-top: 0.1rem;
+}
 .post-date {
   display: block;
   margin-top:3px;

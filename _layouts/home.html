@@ -12,7 +12,7 @@ title: Home
     <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image.teaser }}"></a>
   {% endif %}
   <p>
-    {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+    {{ post.content | strip_html | truncate: 50 }} <a href="{{ site.github.url }}{{ post.url }}">更多>></a>
     <span class="post-date" style="margin-top:3px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
   </p>
 </div>
@@ -21,15 +21,15 @@ title: Home
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-button pagination-active" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">Older</a>
+    <a class="pagination-button pagination-active" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">过去</a>
   {% else %}
-    <span class="pagination-button">Older</span>
+    <span class="pagination-button">过去</span>
   {% endif %}
 
   {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Newer</a>
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">未来</a>
     {% else %}
-      <span class="pagination-button">Newer</span>
+      <span class="pagination-button">未来</span>
   {% endif %}
 
 </div>
