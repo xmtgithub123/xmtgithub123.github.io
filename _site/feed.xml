@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-08T21:31:32+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-09T15:29:06+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -12,10 +12,10 @@
   &lt;/li&gt;
   &lt;li&gt;安装
     &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;#github搭建&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#local-installation&quot;&gt;本地安装&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#directory-structure&quot;&gt;目录结构&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#starting-from-scratch&quot;&gt;从头开始&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#github搭建&quot;&gt;GitHub搭建&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#jekyll本地环境搭建&quot;&gt;Jekyll本地环境搭建&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#目录结构&quot;&gt;目录结构&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#下载jekyll模板&quot;&gt;下载jekyll模板&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -28,45 +28,108 @@
 
 &lt;h3 id=&quot;github搭建&quot;&gt;github搭建&lt;/h3&gt;
 
-&lt;p&gt;要用github pages, 首先注册&lt;a href=&quot;https://github.com/&quot;&gt;github帐号&lt;/a&gt;,
-Head over to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.&lt;/p&gt;
+&lt;p&gt;要用github pages, 首先注册&lt;a href=&quot;https://github.com/&quot;&gt;github帐号&lt;/a&gt;,github是个非常优秀的代码仓库,里面有很多优秀的开源项目,你可以找到你想要知道的以及对你非常有益的代码,你可以分享也可以学习,这个我的Github:&lt;a href=&quot;https://github.com/xmtgithub123&quot;&gt;https://github.com/xmtgithub123&lt;/a&gt;,欢迎大家fork &amp;amp;&amp;amp; star,哈哈哈！&lt;/p&gt;
 
-&lt;h3 id=&quot;local-installation&quot;&gt;Local Installation&lt;/h3&gt;
+&lt;h3 id=&quot;1下面是github的操作流程图&quot;&gt;(1).下面是github的操作流程图:&lt;/h3&gt;
 
-&lt;p&gt;For a full local installation of Lagrange, &lt;a href=&quot;https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip&quot;&gt;download your own copy of Lagrange&lt;/a&gt; and unzip it into it’s own directory. From there, open up your favorite command line tool, and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;. Your site should be up and running locally at &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/githubReg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;directory-structure&quot;&gt;Directory Structure&lt;/h3&gt;
+&lt;h3 id=&quot;jekyll本地环境搭建&quot;&gt;jekyll本地环境搭建&lt;/h3&gt;
+
+&lt;h4 id=&quot;1安装ruby环境&quot;&gt;(1).安装Ruby环境&lt;/h4&gt;
+
+&lt;p&gt;网上教程蛮多的,大家可以参考网上的教程按步骤来实现,在这里放一个ruby的官网链接 &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;RubyInstaller&lt;/a&gt;,下载-&amp;gt;安装-&amp;gt;检测,打开命令工具:&lt;/p&gt;
+
+&lt;pre&gt;检测ruby是否已经安装完毕,输入:ruby -v  //若有版本号出现则说明已经安装成功,反之安装失败&lt;/pre&gt;
+
+&lt;h4 id=&quot;2安装rubydevkit环境&quot;&gt;(2).安装RubyDevKit环境&lt;/h4&gt;
+
+&lt;p&gt;还是在个链接下,下载rubyDevkit安装包，安装在C:\RubyDevKit下,初始化:&lt;/p&gt;
+
+&lt;pre&gt;ruby dk.rb init&lt;/pre&gt;
+
+&lt;pre&gt;ruby dk.rb install&lt;/pre&gt;
+
+&lt;h4 id=&quot;3安装jekyll环境&quot;&gt;(3).安装Jekyll环境&lt;/h4&gt;
+
+&lt;p&gt;打开命令行输入命令如下：&lt;/p&gt;
+
+&lt;pre&gt;gem install jekyll&lt;/pre&gt;
+
+&lt;p&gt;而这个时候命令工具中会报错:&lt;/p&gt;
+
+&lt;pre&gt;ERROR:  Could not find a valid gem 'jekyll' (&amp;gt;= 0), here is why:
+        Unable to download data from http://ruby.taobao.org/ - bad response Not Found 404 (http://ruby.taobao.org/latest_specs.4.8.gz)
+&lt;/pre&gt;
+
+&lt;p&gt;这个错误说明你之前安装包的时候用了淘宝镜像,所以会报错;此时,你应该进行镜像更换:&lt;/p&gt;
+
+&lt;pre&gt;gem source -r https://ruby.taobao.org/ (移除淘宝镜像)&lt;/pre&gt;
+
+&lt;pre&gt;gem source -a https://rubygems.org/ (添加新镜像)&lt;/pre&gt;
+
+&lt;p&gt;安装成功,可以通过&lt;code class=&quot;highlighter-rouge&quot;&gt;gem source&lt;/code&gt;来查看当前镜像:&lt;/p&gt;
+
+&lt;pre&gt; *** CURRENT SOURCES ***
+ https://rubygems.org/   //出现如下信息则说明安装成功&lt;/pre&gt;
+
+&lt;p&gt;另一种情况是,安装rubygem 的镜像也有问题,也会提示如下信息:&lt;/p&gt;
+
+&lt;pre&gt;
+    ERROR:  Could not find a valid gem 'jekyll' (&amp;gt;= 0), here is why:
+        Unable to download data from http://ruby.taobao.org/ - SSL_connetc retuned=1 errn=0 state=SSLv3 server certificate B:certificate verify failed(https://api.rubygems.org/specs.4.8.gz)
+&lt;/pre&gt;
+
+&lt;p&gt;解决方法如下:&lt;/p&gt;
+
+&lt;pre&gt;删除原gem源: gem sources --remove https://rubygems.org/&lt;/pre&gt;
+
+&lt;pre&gt;添加国内源: gem sources -a http://gems.ruby-china.org/&lt;/pre&gt;
+
+&lt;p&gt;安装成功,可以通过&lt;code class=&quot;highlighter-rouge&quot;&gt;gem source&lt;/code&gt;来查看当前镜像:&lt;/p&gt;
+
+&lt;pre&gt; *** CURRENT SOURCES ***
+ http://gems.ruby-china.org/g/   //出现如下信息则说明安装成功&lt;/pre&gt;
+
+&lt;p&gt;以上,安装完毕之后, 执行:&lt;/p&gt;
+
+&lt;pre&gt;
+&amp;gt; gem install jekyll bundler
+&amp;gt; jekyll new my-awesome-site
+&amp;gt; cd my-awesome-site
+&amp;gt; bundle install
+&amp;gt; bundle exec jekyll serve
+&lt;/pre&gt;
+
+&lt;p&gt;最后你可以通过打开浏览器 &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; 来访问一个新的jekyll项目啦.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/jekyll-pic.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;目录结构&quot;&gt;目录结构&lt;/h3&gt;
 
 &lt;p&gt;If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the &lt;a href=&quot;https://jekyllrb.com/docs/structure/&quot;&gt;Jekyll documentation site&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lagrange
-
-├── _data                      &lt;span class=&quot;c&quot;&gt;# Data files&lt;/span&gt;
-|  └── authors.yml             &lt;span class=&quot;c&quot;&gt;# For managing multiple authors&lt;/span&gt;
-|  └── settings.yml            &lt;span class=&quot;c&quot;&gt;# Theme settings and custom text&lt;/span&gt;
-├── _includes                  &lt;span class=&quot;c&quot;&gt;# Theme includes&lt;/span&gt;
-├── _layouts                   &lt;span class=&quot;c&quot;&gt;# Theme layouts (see below for details)&lt;/span&gt;
-├── _posts                     &lt;span class=&quot;c&quot;&gt;# Where all your posts will go&lt;/span&gt;
-├── assets                     &lt;span class=&quot;c&quot;&gt;# Style sheets and images are found here&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+├── _data                      &lt;span class=&quot;c&quot;&gt;# 格式化好的网站数据&lt;/span&gt;
+|  └── authors.yml             &lt;span class=&quot;c&quot;&gt;# authors的一些基础信息变量&lt;/span&gt;
+|  └── settings.yml            
+├── _includes                  &lt;span class=&quot;c&quot;&gt;# 加载这些包含部分到你的布局或文章中方便重用&lt;/span&gt;
+├── _layouts                   &lt;span class=&quot;c&quot;&gt;# 布局-包裹外部的模板&lt;/span&gt;
+├── _posts                     &lt;span class=&quot;c&quot;&gt;# 放置你的文章&lt;/span&gt;
+├── assets                     &lt;span class=&quot;c&quot;&gt;# 样式或图片文件&lt;/span&gt;
 |  ├── css
 |  |  └── main.css
 |  |  └── syntax.css
 |  └── img
 ├── menu                       &lt;span class=&quot;c&quot;&gt;# Menu pages&lt;/span&gt;
-├── _config.yml                &lt;span class=&quot;c&quot;&gt;# Site build settings&lt;/span&gt;
-└── index.md                   &lt;span class=&quot;c&quot;&gt;# Home page&lt;/span&gt;
+├── _config.yml                &lt;span class=&quot;c&quot;&gt;# 网站配置数据&lt;/span&gt;
+└── index.md                   
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;下载jekyll模板&quot;&gt;下载jekyll模板&lt;/h3&gt;
 
-&lt;h3 id=&quot;starting-from-scratch&quot;&gt;Starting From Scratch&lt;/h3&gt;
+&lt;p&gt;jekyll 模板地址：&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;To completely start from scratch, simply delete all the files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;menu&lt;/code&gt; folder, and add your own content. You may also replace the &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt; file with your own README. Everything in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder can be edited to suit your needs.&lt;/p&gt;
-&lt;h3 id=&quot;example-content&quot;&gt;Example Content&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;/journal/2015/09/09/Text-Formatting.html&quot;&gt;Text and Formatting&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;questions&quot;&gt;Questions?&lt;/h3&gt;
-
-&lt;p&gt;This theme is completely free and open source software. You may use it however you want, as it is distributed under the &lt;a href=&quot;http://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;. If you are having any problems, any questions or suggestions, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;amp;via=paululele&quot;&gt;tweet at me&lt;/a&gt;, or &lt;a href=&quot;https://github.com/lenpaul/lagrange/issues/new&quot;&gt;file a GitHub issue&lt;/a&gt;.&lt;/p&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
+&lt;p&gt;下载自己喜欢的风格,拷贝到你的项目里,然后&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit &lt;/code&gt;到你的github上,&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;后,就可以在自己的github pages上看到效果啦.&lt;/p&gt;</content><author><name>Paul Le</name></author><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
 
 &lt;h1 id=&quot;html&quot;&gt;HTML&lt;/h1&gt;
 
