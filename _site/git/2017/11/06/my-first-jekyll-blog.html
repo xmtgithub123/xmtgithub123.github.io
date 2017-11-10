@@ -59,7 +59,7 @@
       <a href="/menu/contact.html">方式</a>
     
   </nav>
-  <nav class="social-icons">
+ <!--  <nav class="social-icons">
     
       <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
     
@@ -71,7 +71,7 @@
     
       <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
     
-  </nav>
+  </nav> -->
 </div>
 
   </h3>
@@ -196,7 +196,7 @@
 
 <h3 id="目录结构">目录结构</h3>
 
-<p>If you are familiar with Jekyll, then the Lagrange directory structure shouldn’t be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the <a href="https://jekyllrb.com/docs/structure/">Jekyll documentation site</a>.</p>
+<p>你可以去看jekyll的完整文档, 小的为您奉上链接=&gt;右边爆击<a href="https://jekyllrb.com/docs/structure/">Jekyll 文档英文版</a> &amp;&amp; <a href="http://jekyllcn.com/">jekyll 文档中文版</a></p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 ├── _data                      <span class="c"># 格式化好的网站数据</span>
@@ -221,6 +221,7 @@
 <p>下载自己喜欢的风格,拷贝到你的项目里,然后<code class="highlighter-rouge">git commit </code>到你的github上,<code class="highlighter-rouge">git push origin master</code>后,就可以在自己的github pages上看到效果啦.</p>
 
 
+
 <span class="post-date">
   Written on
   
@@ -237,7 +238,7 @@
   <div class="sharing-icons">
     <a href="https://twitter.com/intent/tweet?text=使用github和jekyll设置自己的个人网站&amp;url=/git/2017/11/06/my-first-jekyll-blog.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a href="https://www.facebook.com/sharer/sharer.php?u=/git/2017/11/06/my-first-jekyll-blog.html&amp;title=使用github和jekyll设置自己的个人网站" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=/git/2017/11/06/my-first-jekyll-blog.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://github.com/share?url=/git/2017/11/06/my-first-jekyll-blog.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -295,19 +296,33 @@
 
 
 
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'xmtgithub123',
+    repo: 'git@github.com:xmtgithub123/xmtgithub123.github.io.git',
+    oauth: {
+        client_id: '601a53e15b525e436ee7',
+        client_secret: '5e9023d38d68955cb67d341f8d8a6a82cac0e750',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
     </div>
 
     <footer class="footer">
   
-    <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+   <!--  <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> -->
   
-    <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+   <!--  <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a> -->
   
-    <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+   <!--  <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
   
-    <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+   <!--  <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> -->
   
-    <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+   <!--  <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a> -->
   
   <div class="post-date"><a href="/menu/about.html">XuMengTing's Web | 宁静致远 by MengTing Xu</a></div>
 </footer>

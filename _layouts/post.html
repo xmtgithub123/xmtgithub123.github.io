@@ -37,3 +37,18 @@ layout: default
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
 {% endif %}
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'xmtgithub123',
+    repo: 'git@github.com:xmtgithub123/xmtgithub123.github.io.git',
+    oauth: {
+        client_id: '601a53e15b525e436ee7',
+        client_secret: '5e9023d38d68955cb67d341f8d8a6a82cac0e750',
+    },
+});
+gitment.render('gitmentContainer');
+</script>

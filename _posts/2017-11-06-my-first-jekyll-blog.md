@@ -113,7 +113,7 @@ Jekyll是一个简单的博客形态和静态站点生产机器.它有一个模�
 
 ### 目录结构
 
-If you are familiar with Jekyll, then the Lagrange directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
+你可以去看jekyll的完整文档, 小的为您奉上链接=>右边爆击[Jekyll 文档英文版](https://jekyllrb.com/docs/structure/) && [jekyll 文档中文版](http://jekyllcn.com/)
 
 ```bash
 
@@ -137,3 +137,4 @@ If you are familiar with Jekyll, then the Lagrange directory structure shouldn't
 jekyll 模板地址：[http://jekyllthemes.org/](http://jekyllthemes.org/)
 
 下载自己喜欢的风格,拷贝到你的项目里,然后`git commit `到你的github上,`git push origin master`后,就可以在自己的github pages上看到效果啦.
+
