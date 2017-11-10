@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "让元素垂直居中的几种方法!"
-author: "Paul Le"
+author: "MengTing Xu"
 categories: css
 tags: [documentation,sample]
 image:

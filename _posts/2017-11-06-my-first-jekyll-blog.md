@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用github和jekyll设置自己的个人网站"
-author: "Paul Le"
+author: "MengTing Xu"
 categories: git
 tags: [documentation,sample]
 image:

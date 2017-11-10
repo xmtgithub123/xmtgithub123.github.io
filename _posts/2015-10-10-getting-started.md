@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git"
-author: "Paul Le"
+author: "MengTing Xu"
 categories: git
 tags: [documentation,sample]
 image:
