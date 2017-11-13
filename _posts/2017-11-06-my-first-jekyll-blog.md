@@ -2,7 +2,7 @@
 layout: post
 title: "使用github和jekyll设置自己的个人网站"
 author: "MengTing Xu"
-categories: git
+category: git
 tags: [documentation,sample]
 image:
   feature: cutting.jpg
@@ -38,7 +38,7 @@ Jekyll是一个简单的博客形态和静态站点生产机器.它有一个模�
 
 ### (1).下面是github的操作流程图:
 
-<img src="/assets/img/githubReg.png" alt="">
+<img src="http://ozc5dgoun.bkt.clouddn.com/githubReg.png" alt="">
 
 ### jekyll本地环境搭建
 
@@ -109,7 +109,7 @@ Jekyll是一个简单的博客形态和静态站点生产机器.它有一个模�
 
 最后你可以通过打开浏览器 `http://localhost:4000` 来访问一个新的jekyll项目啦.
 
-<img src="/assets/img/jekyll-pic.jpg" alt="">
+<img src="http://ozc5dgoun.bkt.clouddn.com/jekyll-pic.jpg" alt="">
 
 ### 目录结构
 

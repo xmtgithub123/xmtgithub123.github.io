@@ -2,7 +2,7 @@
 layout: post
 title: "Text Formatting"
 author: "MengTing Xu"
-categories: journal
+category: journal
 tags: [documentation,sample]
 image:
   feature: spools.jpg

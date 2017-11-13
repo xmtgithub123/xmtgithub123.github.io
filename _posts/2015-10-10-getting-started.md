@@ -2,7 +2,7 @@
 layout: post
 title: "Git"
 author: "MengTing Xu"
-categories: git
+category: git
 tags: [documentation,sample]
 image:
   feature: forest.jpg

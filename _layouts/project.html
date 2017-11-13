@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+
+{% if page.image.feature %}
+  <img src="{{ site.github.url }}/assets/img/{{ page.image.feature }}">
+{% endif %}
+
+{{ content }}
+
+<span class="post-date">
+  Written on
+  {% assign d = page.date | date: "%-d"  %}
+  {{ page.date | date: "%B" }}
+  {% case d %}
+    {% when '1' or '21' or '31' %}{{ d }}st
+    {% when '2' or '22' %}{{ d }}nd
+    {% when '3' or '23' %}{{ d }}rd
+    {% else %}{{ d }}th{% endcase %},
+  {{ page.date | date: "%Y" }}
+  by
+  {% if page.author %}
+    {{ page.author }}
+  {% else %}
+    {{ site.data.authors.primary.name }}
+  {% endif %}
+</span>
+
+{% include social-sharing.html %}
+
+{% include related-posts.html %}
+
+{% if site.data.settings.disqus.comments %}
+  {% include disqus.html %}
+{% endif %}
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="/assets/css/default.css">
+<script src="/assets/js/gitment.browser.js"></script>
+<script>
+
+var gitment = new Gitment({
+    owner: 'xmtgithub123',
+    repo: 'xmtgithub123.github.io',
+    oauth: {
+        client_id: '818d56f50c64e70ddad4',
+        client_secret: '2c737cda04379fabae7a77a4208cf9210f20ede4',
+    },
+});
+gitment.render('gitmentContainer');
+</script>

@@ -11,8 +11,9 @@ disqus:
 google-ID: 'UA-80213386-1'
 
 menu:
-- {name: '关于', path: 'menu', url: 'about.html'}
 - {name: '笔记', path: 'menu', url: 'writing.html'}
+- {name: '项目', path: 'menu', url: 'project.html'}
+- {name: '关于', path: 'menu', url: 'about.html'}
 - {name: '方式', path: 'menu', url: 'contact.html'}
 
 social:

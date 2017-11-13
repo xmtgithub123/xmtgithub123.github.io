@@ -2,7 +2,7 @@
 layout: post
 title: "About the Author"
 author: "MengTing Xu"
-categories: journal
+category: journal
 tags: [documentation,sample]
 image:
   feature: cutting.jpg

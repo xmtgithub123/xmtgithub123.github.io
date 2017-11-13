@@ -9,6 +9,10 @@
 <lastmod>2015-04-04T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/project/2015/05/03/create-Tripbene.html</loc>
+<lastmod>2015-05-03T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/journal/2015/09/09/Text-Formatting.html</loc>
 <lastmod>2015-09-09T00:00:00+08:00</lastmod>
 </url>
@@ -50,6 +54,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/menu/project.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/menu/writing.html</loc>
