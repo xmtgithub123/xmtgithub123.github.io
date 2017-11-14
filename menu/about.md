@@ -1,5 +1,5 @@
 ---
 layout: myselfCard
-title: About
+title: About | 关于我
 ---
 

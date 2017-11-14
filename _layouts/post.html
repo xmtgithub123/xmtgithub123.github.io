@@ -12,7 +12,7 @@ layout: default
 
 {{ content }}
 
-<span class="post-date">
+<span class="post-date pull-right">
   Written on
   {% assign d = page.date | date: "%-d"  %}
   {{ page.date | date: "%B" }}
@@ -22,12 +22,12 @@ layout: default
     {% when '3' or '23' %}{{ d }}rd
     {% else %}{{ d }}th{% endcase %},
   {{ page.date | date: "%Y" }}
-  by
+  <!-- by
   {% if page.author %}
     {{ page.author }}
   {% else %}
     {{ site.data.authors.primary.name }}
-  {% endif %}
+  {% endif %} -->
 </span>
 
 {% include social-sharing.html %}
