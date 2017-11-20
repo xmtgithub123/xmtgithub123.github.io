@@ -20,6 +20,58 @@
 			</item>
 		
 			<item>
+				<title>TechBank 科库</title>
+				
+				
+					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Thu, 08 Dec 2016 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/project/2016/12/08/TechBank.html</link>
+				<guid isPermaLink="true">http://localhost:4000/project/2016/12/08/TechBank.html</guid>
+			</item>
+		
+			<item>
+				<title>项目管理标准版</title>
+				
+				
+					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Mon, 21 Nov 2016 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/project/2016/11/21/project-management-software.html</link>
+				<guid isPermaLink="true">http://localhost:4000/project/2016/11/21/project-management-software.html</guid>
+			</item>
+		
+			<item>
+				<title>设计师平台</title>
+				
+				
+					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Thu, 18 Aug 2016 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/project/2016/08/18/designer-platform.html</link>
+				<guid isPermaLink="true">http://localhost:4000/project/2016/08/18/designer-platform.html</guid>
+			</item>
+		
+			<item>
+				<title>上海金曲软件公司企业网站</title>
+				
+				
+					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Mon, 11 Jul 2016 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/project/2016/07/11/project-for-jq-company-website.html</link>
+				<guid isPermaLink="true">http://localhost:4000/project/2016/07/11/project-for-jq-company-website.html</guid>
+			</item>
+		
+			<item>
 				<title>中设软件公司企业网站</title>
 				
 				
@@ -30,6 +82,19 @@
 				<pubDate>Mon, 20 Jun 2016 00:00:00 +0800</pubDate>
 				<link>http://localhost:4000/project/2016/06/20/project-for-company's-page.html</link>
 				<guid isPermaLink="true">http://localhost:4000/project/2016/06/20/project-for-company's-page.html</guid>
+			</item>
+		
+			<item>
+				<title>明朗眼镜店</title>
+				
+				
+					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Fri, 15 Apr 2016 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/project/2016/04/15/minglang-glasses.html</link>
+				<guid isPermaLink="true">http://localhost:4000/project/2016/04/15/minglang-glasses.html</guid>
 			</item>
 		
 			<item>
@@ -69,71 +134,6 @@
 				<pubDate>Sat, 10 Oct 2015 00:00:00 +0800</pubDate>
 				<link>http://localhost:4000/git/2015/10/10/getting-started.html</link>
 				<guid isPermaLink="true">http://localhost:4000/git/2015/10/10/getting-started.html</guid>
-			</item>
-		
-			<item>
-				<title>Text Formatting</title>
-				
-				
-					<description>&lt;p&gt;As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown syntax&lt;/a&gt;. Examples of these text formatting features can be seen below. You can find this post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 09 Sep 2015 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/journal/2015/09/09/Text-Formatting.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/2015/09/09/Text-Formatting.html</guid>
-			</item>
-		
-			<item>
-				<title>Tripbene 陪你旅行</title>
-				
-				
-					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-</description>
-				
-				<pubDate>Wed, 03 Jun 2015 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/project/2015/06/03/create-Tripbene.html</link>
-				<guid isPermaLink="true">http://localhost:4000/project/2015/06/03/create-Tripbene.html</guid>
-			</item>
-		
-			<item>
-				<title>About the Author</title>
-				
-				
-					<description>&lt;p&gt;Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my &lt;a href=&quot;http://github.com/lenpaul&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; and &lt;a href=&quot;https://codepen.io/lenpaul&quot; target=&quot;_blank&quot;&gt;Code Pen&lt;/a&gt; profiles.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 04 Apr 2015 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/journal/2015/04/04/About-the-author.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/2015/04/04/About-the-author.html</guid>
-			</item>
-		
-			<item>
-				<title>ChemBeanGo 化学科研信息发布交易平台</title>
-				
-				
-					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-</description>
-				
-				<pubDate>Sat, 28 Mar 2015 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/project/2015/03/28/project-for-ChemBeanGo.html</link>
-				<guid isPermaLink="true">http://localhost:4000/project/2015/03/28/project-for-ChemBeanGo.html</guid>
-			</item>
-		
-			<item>
-				<title>Post Content Styles</title>
-				
-				
-					<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Tue, 01 Jan 2013 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/2013/01/01/post-content-styles.html</link>
-				<guid isPermaLink="true">http://localhost:4000/2013/01/01/post-content-styles.html</guid>
 			</item>
 		
 	</channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-14T17:26:31+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-20T21:48:57+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -129,15 +129,68 @@
 
 &lt;p&gt;jekyll 模板地址：&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;下载自己喜欢的风格,拷贝到你的项目里,然后&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit &lt;/code&gt;到你的github上,&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;后,就可以在自己的github pages上看到效果啦.&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">中设软件公司企业网站</title><link href="http://localhost:4000/project/2016/06/20/project-for-company's-page.html" rel="alternate" type="text/html" title="中设软件公司企业网站" /><published>2016-06-20T00:00:00+08:00</published><updated>2016-06-20T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/06/20/project-for-company's-page</id><content type="html" xml:base="http://localhost:4000/project/2016/06/20/project-for-company's-page.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;下载自己喜欢的风格,拷贝到你的项目里,然后&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit &lt;/code&gt;到你的github上,&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;后,就可以在自己的github pages上看到效果啦.&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">TechBank 科库</title><link href="http://localhost:4000/project/2016/12/08/TechBank.html" rel="alternate" type="text/html" title="TechBank 科库" /><published>2016-12-08T00:00:00+08:00</published><updated>2016-12-08T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/08/TechBank</id><content type="html" xml:base="http://localhost:4000/project/2016/12/08/TechBank.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;TechBank 科库是一个专注医疗健康行业，集跨境技术、孵化、投资于一体的平台。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
+
+&lt;p&gt;TechBank 科库： &lt;a href=&quot;http://www.techbankcapital.com&quot;&gt;http://www.techbankcapital.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">项目管理标准版</title><link href="http://localhost:4000/project/2016/11/21/project-management-software.html" rel="alternate" type="text/html" title="项目管理标准版" /><published>2016-11-21T00:00:00+08:00</published><updated>2016-11-21T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/11/21/project-management-software</id><content type="html" xml:base="http://localhost:4000/project/2016/11/21/project-management-software.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;项目管理软件 - 工程项目管理软件,主要有经营管理、协同设计、绩效管理、综合办公、人事管理、系统管理等等模块,功能丰富,操作方便(内部管理软件)。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/08/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-08-18T00:00:00+08:00</published><updated>2016-08-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/08/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/08/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">上海金曲软件公司企业网站</title><link href="http://localhost:4000/project/2016/07/11/project-for-jq-company-website.html" rel="alternate" type="text/html" title="上海金曲软件公司企业网站" /><published>2016-07-11T00:00:00+08:00</published><updated>2016-07-11T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/07/11/project-for-jq-company-website</id><content type="html" xml:base="http://localhost:4000/project/2016/07/11/project-for-jq-company-website.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;上海金曲信息技术有限公司企业网站 整体响应式布局，适应各种设备尺寸，简洁大方。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
+
+&lt;p&gt;上海金曲信息技术有限公司 : &lt;a href=&quot;http://www.jinqu.cn:2016/&quot;&gt;http://www.jinqu.cn:2016/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">中设软件公司企业网站</title><link href="http://localhost:4000/project/2016/06/20/project-for-company's-page.html" rel="alternate" type="text/html" title="中设软件公司企业网站" /><published>2016-06-20T00:00:00+08:00</published><updated>2016-06-20T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/06/20/project-for-company's-page</id><content type="html" xml:base="http://localhost:4000/project/2016/06/20/project-for-company's-page.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;中设软件公司企业网站 整体响应式布局，适应各种设备尺寸，简洁大方。&lt;/p&gt;
 
 &lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
 
-&lt;p&gt;中设软件公司企业网站 : &lt;a href=&quot;http://www.zssoftware.cn&quot;&gt;http://www.zssoftware.cn&lt;/a&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
+&lt;p&gt;中设软件公司企业网站 : &lt;a href=&quot;http://www.zssoftware.cn&quot;&gt;http://www.zssoftware.cn&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">明朗眼镜店</title><link href="http://localhost:4000/project/2016/04/15/minglang-glasses.html" rel="alternate" type="text/html" title="明朗眼镜店" /><published>2016-04-15T00:00:00+08:00</published><updated>2016-04-15T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/04/15/minglang-glasses</id><content type="html" xml:base="http://localhost:4000/project/2016/04/15/minglang-glasses.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;一款轻量级手机端、微信端眼镜购物功能,主要有主页,商品列表,商品详情,购物车,个人中心等系列流程。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
+
+&lt;p&gt;‘暂无’&lt;/p&gt;
+
+&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
+
+&lt;p&gt;‘暂无’&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
 
 &lt;h1 id=&quot;html&quot;&gt;HTML&lt;/h1&gt;
 
@@ -259,8 +312,11 @@
 
 &lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
 
-&lt;p&gt;1stgongshe 一号艺术公社 : &lt;a href=&quot;http://1stgongshe.com/&quot;&gt;http://1stgongshe.com&lt;/a&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;1stgongshe 一号艺术公社 : &lt;a href=&quot;http://1stgongshe.com/&quot;&gt;http://1stgongshe.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">Git</title><link href="http://localhost:4000/git/2015/10/10/getting-started.html" rel="alternate" type="text/html" title="Git" /><published>2015-10-10T00:00:00+08:00</published><updated>2015-10-10T00:00:00+08:00</updated><id>http://localhost:4000/git/2015/10/10/getting-started</id><content type="html" xml:base="http://localhost:4000/git/2015/10/10/getting-started.html">&lt;h1 id=&quot;简介&quot;&gt;简介&lt;/h1&gt;
@@ -391,595 +447,4 @@ git log
 git checkout master
 
 &lt;span class=&quot;c&quot;&gt;# 合并至commit id为a862的保存点&lt;/span&gt;
-git merge a862&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">简介</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22forest.jpg%22,%20%22teaser%22=%3E%22forest-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Text Formatting</title><link href="http://localhost:4000/journal/2015/09/09/Text-Formatting.html" rel="alternate" type="text/html" title="Text Formatting" /><published>2015-09-09T00:00:00+08:00</published><updated>2015-09-09T00:00:00+08:00</updated><id>http://localhost:4000/journal/2015/09/09/Text-Formatting</id><content type="html" xml:base="http://localhost:4000/journal/2015/09/09/Text-Formatting.html">&lt;p&gt;As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown syntax&lt;/a&gt;. Examples of these text formatting features can be seen below. You can find this post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;h3 class=&quot;no_toc&quot; id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
-
-&lt;ol id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#inline-html-elements&quot; id=&quot;markdown-toc-inline-html-elements&quot;&gt;Inline HTML elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#heading&quot; id=&quot;markdown-toc-heading&quot;&gt;Heading&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#code&quot; id=&quot;markdown-toc-code&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lists&quot; id=&quot;markdown-toc-lists&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tables&quot; id=&quot;markdown-toc-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#blockquotes&quot; id=&quot;markdown-toc-blockquotes&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tables-1&quot; id=&quot;markdown-toc-tables-1&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#definition-lists&quot; id=&quot;markdown-toc-definition-lists&quot;&gt;Definition Lists&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#unordered-lists-nested&quot; id=&quot;markdown-toc-unordered-lists-nested&quot;&gt;Unordered Lists (Nested)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ordered-list-nested&quot; id=&quot;markdown-toc-ordered-list-nested&quot;&gt;Ordered List (Nested)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#html-tags&quot; id=&quot;markdown-toc-html-tags&quot;&gt;HTML Tags&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#address-tag&quot; id=&quot;markdown-toc-address-tag&quot;&gt;Address Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#anchor-tag-aka-link&quot; id=&quot;markdown-toc-anchor-tag-aka-link&quot;&gt;Anchor Tag (aka. Link)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#abbreviation-tag&quot; id=&quot;markdown-toc-abbreviation-tag&quot;&gt;Abbreviation Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#cite-tag&quot; id=&quot;markdown-toc-cite-tag&quot;&gt;Cite Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#code-tag&quot; id=&quot;markdown-toc-code-tag&quot;&gt;Code Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#strike-tag&quot; id=&quot;markdown-toc-strike-tag&quot;&gt;Strike Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#emphasize-tag&quot; id=&quot;markdown-toc-emphasize-tag&quot;&gt;Emphasize Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#insert-tag&quot; id=&quot;markdown-toc-insert-tag&quot;&gt;Insert Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#keyboard-tag&quot; id=&quot;markdown-toc-keyboard-tag&quot;&gt;Keyboard Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#preformatted-tag&quot; id=&quot;markdown-toc-preformatted-tag&quot;&gt;Preformatted Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#quote-tag&quot; id=&quot;markdown-toc-quote-tag&quot;&gt;Quote Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#strong-tag&quot; id=&quot;markdown-toc-strong-tag&quot;&gt;Strong Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#subscript-tag&quot; id=&quot;markdown-toc-subscript-tag&quot;&gt;Subscript Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#superscript-tag&quot; id=&quot;markdown-toc-superscript-tag&quot;&gt;Superscript Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#variable-tag&quot; id=&quot;markdown-toc-variable-tag&quot;&gt;Variable Tag&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#mathjax-example&quot; id=&quot;markdown-toc-mathjax-example&quot;&gt;MathJax Example&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#code-highlighting&quot; id=&quot;markdown-toc-code-highlighting&quot;&gt;Code Highlighting&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#embedding&quot; id=&quot;markdown-toc-embedding&quot;&gt;Embedding&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 class=&quot;no_toc&quot; id=&quot;example-content&quot;&gt;Example Content&lt;/h3&gt;
-
-&lt;p&gt;Howdy! This is an example blog post that shows several types of HTML content supported in this theme.&lt;/p&gt;
-
-&lt;h1 class=&quot;no_toc&quot; id=&quot;heading-one&quot;&gt;Heading One&lt;/h1&gt;
-
-&lt;h2 class=&quot;no_toc&quot; id=&quot;heading-two&quot;&gt;Heading Two&lt;/h2&gt;
-
-&lt;h3 class=&quot;no_toc&quot; id=&quot;heading-three&quot;&gt;Heading Three&lt;/h3&gt;
-
-&lt;h4 class=&quot;no_toc&quot; id=&quot;heading-four&quot;&gt;Heading Four&lt;/h4&gt;
-
-&lt;h5 class=&quot;no_toc&quot; id=&quot;heading-five&quot;&gt;Heading Five&lt;/h5&gt;
-
-&lt;h6 class=&quot;no_toc&quot; id=&quot;heading-six&quot;&gt;Heading Six&lt;/h6&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
-
-&lt;h3 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h3&gt;
-
-&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
-
-&lt;h3 id=&quot;heading&quot;&gt;Heading&lt;/h3&gt;
-
-&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code class=&quot;highlighter-rouge&quot;&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
-
-&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
-  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
-  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
-  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
-  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HyperText Markup Language (HTML)&lt;/li&gt;
-  &lt;li&gt;The language used to describe and define the content of a Web page&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Upvotes&lt;/th&gt;
-      &lt;th&gt;Downvotes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Totals&lt;/td&gt;
-      &lt;td&gt;21&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alice&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bob&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charlie&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;9&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;p&gt;Single line blockquote:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Stay hungry. Stay foolish.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Multi line blockquote with a cite reference:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p class=&quot;small&quot;&gt;&lt;cite&gt;Steve Jobs&lt;/cite&gt; — Apple Worldwide Developers’ Conference, 1997&lt;/p&gt;
-
-&lt;h3 id=&quot;tables-1&quot;&gt;Tables&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;definition-lists&quot;&gt;Definition Lists&lt;/h3&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;Definition List Title&lt;/dt&gt;
-  &lt;dd&gt;Definition list division.&lt;/dd&gt;
-  &lt;dt&gt;Startup&lt;/dt&gt;
-  &lt;dd&gt;A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.&lt;/dd&gt;
-  &lt;dt&gt;#dowork&lt;/dt&gt;
-  &lt;dd&gt;Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.&lt;/dd&gt;
-  &lt;dt&gt;Do It Live&lt;/dt&gt;
-  &lt;dd&gt;I’ll let Bill O’Reilly &lt;a href=&quot;https://www.youtube.com/watch?v=O_HyZ5aW76c&quot; title=&quot;We'll Do It Live&quot;&gt;explain&lt;/a&gt; this one.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h3 id=&quot;unordered-lists-nested&quot;&gt;Unordered Lists (Nested)&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;List item one
-    &lt;ul&gt;
-      &lt;li&gt;List item one
-        &lt;ul&gt;
-          &lt;li&gt;List item one&lt;/li&gt;
-          &lt;li&gt;List item two&lt;/li&gt;
-          &lt;li&gt;List item three&lt;/li&gt;
-          &lt;li&gt;List item four&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;List item two&lt;/li&gt;
-      &lt;li&gt;List item three&lt;/li&gt;
-      &lt;li&gt;List item four&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;List item two&lt;/li&gt;
-  &lt;li&gt;List item three&lt;/li&gt;
-  &lt;li&gt;List item four&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ordered-list-nested&quot;&gt;Ordered List (Nested)&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;List item one
-    &lt;ol&gt;
-      &lt;li&gt;List item one
-        &lt;ol&gt;
-          &lt;li&gt;List item one&lt;/li&gt;
-          &lt;li&gt;List item two&lt;/li&gt;
-          &lt;li&gt;List item three&lt;/li&gt;
-          &lt;li&gt;List item four&lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;List item two&lt;/li&gt;
-      &lt;li&gt;List item three&lt;/li&gt;
-      &lt;li&gt;List item four&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;List item two&lt;/li&gt;
-  &lt;li&gt;List item three&lt;/li&gt;
-  &lt;li&gt;List item four&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;html-tags&quot;&gt;HTML Tags&lt;/h3&gt;
-
-&lt;h3 id=&quot;address-tag&quot;&gt;Address Tag&lt;/h3&gt;
-
-&lt;address&gt;
-  1 Infinite Loop&lt;br /&gt; Cupertino, CA 95014&lt;br /&gt; United States
-&lt;/address&gt;
-
-&lt;h3 id=&quot;anchor-tag-aka-link&quot;&gt;Anchor Tag (aka. Link)&lt;/h3&gt;
-
-&lt;p&gt;This is an example of a &lt;a href=&quot;http://apple.com&quot; title=&quot;Apple&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;abbreviation-tag&quot;&gt;Abbreviation Tag&lt;/h3&gt;
-
-&lt;p&gt;The abbreviation &lt;abbr title=&quot;Cascading Style Sheets&quot;&gt;CSS&lt;/abbr&gt; stands for “Cascading Style Sheets”.&lt;/p&gt;
-
-&lt;h3 id=&quot;cite-tag&quot;&gt;Cite Tag&lt;/h3&gt;
-
-&lt;p&gt;“Code is poetry.” —&lt;cite&gt;Automattic&lt;/cite&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;code-tag&quot;&gt;Code Tag&lt;/h3&gt;
-
-&lt;p&gt;You will learn later on in these tests that &lt;code class=&quot;highlighter-rouge&quot;&gt;word-wrap: break-word;&lt;/code&gt; will be your best friend.&lt;/p&gt;
-
-&lt;h3 id=&quot;strike-tag&quot;&gt;Strike Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag will let you &lt;strike&gt;strikeout text&lt;/strike&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;emphasize-tag&quot;&gt;Emphasize Tag&lt;/h3&gt;
-
-&lt;p&gt;The emphasize tag should &lt;em&gt;italicize&lt;/em&gt; text.&lt;/p&gt;
-
-&lt;h3 id=&quot;insert-tag&quot;&gt;Insert Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag should denote &lt;ins&gt;inserted&lt;/ins&gt; text.&lt;/p&gt;
-
-&lt;h3 id=&quot;keyboard-tag&quot;&gt;Keyboard Tag&lt;/h3&gt;
-
-&lt;p&gt;This scarcely known tag emulates &lt;kbd&gt;keyboard text&lt;/kbd&gt;, which is usually styled like the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
-
-&lt;h3 id=&quot;preformatted-tag&quot;&gt;Preformatted Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag styles large blocks of code.&lt;/p&gt;
-
-&lt;pre&gt;
-.post-title {
-	margin: 0 0 5px;
-	font-weight: bold;
-	font-size: 38px;
-	line-height: 1.2;
-	and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-&lt;/pre&gt;
-
-&lt;h3 id=&quot;quote-tag&quot;&gt;Quote Tag&lt;/h3&gt;
-
-&lt;p&gt;&lt;q&gt;Developers, developers, developers…&lt;/q&gt; –Steve Ballmer&lt;/p&gt;
-
-&lt;h3 id=&quot;strong-tag&quot;&gt;Strong Tag&lt;/h3&gt;
-
-&lt;p&gt;This tag shows &lt;strong&gt;bold text&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;subscript-tag&quot;&gt;Subscript Tag&lt;/h3&gt;
-
-&lt;p&gt;Getting our science styling on with H&lt;sub&gt;2&lt;/sub&gt;O, which should push the “2” down.&lt;/p&gt;
-
-&lt;h3 id=&quot;superscript-tag&quot;&gt;Superscript Tag&lt;/h3&gt;
-
-&lt;p&gt;Still sticking with science and Isaac Newton’s E = MC&lt;sup&gt;2&lt;/sup&gt;, which should lift the 2 up.&lt;/p&gt;
-
-&lt;h3 id=&quot;variable-tag&quot;&gt;Variable Tag&lt;/h3&gt;
-
-&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;mathjax-example&quot;&gt;MathJax Example&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation&quot;&gt;Schrödinger equation&lt;/a&gt; is a partial differential equation that describes how the quantum state of a quantum system changes with time:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)&lt;/script&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Joseph-Louis_Millennial&quot;&gt;Joseph-Louis Millennial&lt;/a&gt; was an Italian mathematician and astronomer who was responsible for the formulation of Lagrangian mechanics, which is a reformulation of Newtonian mechanics.&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j}&lt;/script&gt;
-
-&lt;h3 id=&quot;code-highlighting&quot;&gt;Code Highlighting&lt;/h3&gt;
-
-&lt;p&gt;You can find the full list of supported programming languages &lt;a href=&quot;https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Another option is to embed your code through &lt;a href=&quot;https://en.support.wordpress.com/gist/&quot;&gt;Gist&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;embedding&quot;&gt;Embedding&lt;/h3&gt;
-
-&lt;p&gt;Plenty of social media sites offer the option of embedding certain parts of their site on your own site:&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/LeNPaul/e4a87bba80cc97045848bae3b6d89aa2.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.goodreads.com/review/list/54220411-paul-le&quot;&gt;View all my reviews&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mthtn1X4eUY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a class=&quot;twitter-grid&quot; data-partner=&quot;tweetdeck&quot; href=&quot;https://twitter.com/paululele/timelines/755079130027352064&quot;&gt;New Collection&lt;/a&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Baton Rouge gunman was a Marine who served in Iraq &lt;a href=&quot;https://t.co/RHVAKTN2OV&quot;&gt;https://t.co/RHVAKTN2OV&lt;/a&gt; &lt;a href=&quot;https://t.co/sjfJb43GYs&quot;&gt;pic.twitter.com/sjfJb43GYs&lt;/a&gt;&lt;/p&gt;&amp;mdash; The New York Times (@nytimes) &lt;a href=&quot;https://twitter.com/nytimes/status/754938789240397824&quot;&gt;July 18, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BH-6MrXB035/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;Vertical and horizontal ain&amp;#39;t absolute&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by Salvatore Vivona (@viewsfromthedot) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2016-07-18T00:37:28+00:00&quot;&gt;Jul 17, 2016 at 5:37pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;span class=&quot;quora-content-embed&quot; data-name=&quot;What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J/answer/Ava-Monroe-2&quot;&gt;Read &lt;a class=&quot;quora-content-link&quot; data-width=&quot;559&quot; load-full-answer=&quot;False&quot; data-key=&quot;63bc93075b0bccc714ced691f94f15b5&quot; data-id=&quot;25095986&quot; data-embed=&quot;itmptlf&quot; href=&quot;https://www.quora.com/What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J/answer/Ava-Monroe-2&quot; data-type=&quot;answer&quot; data-height=&quot;250&quot;&gt;&lt;a href=&quot;https://www.quora.com/Ava-Monroe-2&quot;&gt;Ava Monroe&lt;/a&gt;'s &lt;a href=&quot;/What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J#ans25095986&quot;&gt;answer&lt;/a&gt; to &lt;a href=&quot;/What-are-the-best-Game-of-Thrones-fan-theories-out-there-aside-from-R+L-J&quot; ref=&quot;canonical&quot;&gt;&lt;span class=&quot;rendered_qtext&quot;&gt;What are the best Game of Thrones fan theories out there aside from R+L=J?&lt;/span&gt;&lt;/a&gt;&lt;/a&gt; on &lt;a href=&quot;https://www.__nousername__.main.quora.com&quot;&gt;Quora&lt;/a&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.quora.com/widgets/content&quot;&gt;&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;twitter-grid&quot; href=&quot;https://twitter.com/TwitterDev/timelines/539487832448843776&quot;&gt;National Park Tweets&lt;/a&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="journal" /><category term="documentation" /><category term="sample" /><summary type="html">As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the Markdown syntax. Examples of these text formatting features can be seen below. You can find this post in the _posts directory.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22spools.jpg%22,%20%22teaser%22=%3E%22spools-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Tripbene 陪你旅行</title><link href="http://localhost:4000/project/2015/06/03/create-Tripbene.html" rel="alternate" type="text/html" title="Tripbene 陪你旅行" /><published>2015-06-03T00:00:00+08:00</published><updated>2015-06-03T00:00:00+08:00</updated><id>http://localhost:4000/project/2015/06/03/create-Tripbene</id><content type="html" xml:base="http://localhost:4000/project/2015/06/03/create-Tripbene.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-&lt;p&gt;一站式旅行私人定制服务平台，包含热门景点、旅程定制、旅行百科、商城、机票、门票、酒店、餐饮等等内容。
-整体视觉前卫、布局优雅。同时兼容各种设备尺寸，满足各类需求！&lt;/p&gt;
-
-&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
-
-&lt;p&gt;Tripbene 陪你旅行 : &lt;a href=&quot;http://www.tripbene.com&quot;&gt;http://www.tripbene.com&lt;/a&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb3.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">About the Author</title><link href="http://localhost:4000/journal/2015/04/04/About-the-author.html" rel="alternate" type="text/html" title="About the Author" /><published>2015-04-04T00:00:00+08:00</published><updated>2015-04-04T00:00:00+08:00</updated><id>http://localhost:4000/journal/2015/04/04/About-the-author</id><content type="html" xml:base="http://localhost:4000/journal/2015/04/04/About-the-author.html">&lt;p&gt;Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my &lt;a href=&quot;http://github.com/lenpaul&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt; and &lt;a href=&quot;https://codepen.io/lenpaul&quot; target=&quot;_blank&quot;&gt;Code Pen&lt;/a&gt; profiles.&lt;/p&gt;
-
-&lt;h3 id=&quot;jekyll-website-theme-for-blogging&quot;&gt;Jekyll Website Theme for Blogging&lt;/h3&gt;
-
-&lt;p&gt;Millennial is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for a publication or blog. This theme is currently being used by about three dozen people, with this number growing every day.&lt;/p&gt;
-
-&lt;p&gt;Feel free to check out &lt;a href=&quot;https://lenpaul.github.io/Millennial/&quot; target=&quot;_blank&quot;&gt;the demo&lt;/a&gt;, where you’ll also find instructions on &lt;a href=&quot;https://lenpaul.github.io/Millennial/documentation/Installation-Guide.html&quot;&gt;how to use install&lt;/a&gt; and use the theme.&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="journal" /><category term="documentation" /><category term="sample" /><summary type="html">Hi there! I’m Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Below is a compilation of some of my favourite things that I have built over the years. You may find everything else on my Github and Code Pen profiles.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">ChemBeanGo 化学科研信息发布交易平台</title><link href="http://localhost:4000/project/2015/03/28/project-for-ChemBeanGo.html" rel="alternate" type="text/html" title="ChemBeanGo 化学科研信息发布交易平台" /><published>2015-03-28T00:00:00+08:00</published><updated>2015-03-28T00:00:00+08:00</updated><id>http://localhost:4000/project/2015/03/28/project-for-ChemBeanGo</id><content type="html" xml:base="http://localhost:4000/project/2015/03/28/project-for-ChemBeanGo.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-&lt;p&gt;ChemBeanGo平台专注于化学知识和经验的共享，发布和交易科研化学品、分离/合成方法和工艺信息的共享平台，从而提高研发效率，让知识和经验的创新者和分享者获益。&lt;/p&gt;
-
-&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
-
-&lt;p&gt;ChemBeanGo : &lt;a href=&quot;https://www.chembeango.com/&quot;&gt;https://www.chembeango.com&lt;/a&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_3.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/cbg_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">Post Content Styles</title><link href="http://localhost:4000/2013/01/01/post-content-styles.html" rel="alternate" type="text/html" title="Post Content Styles" /><published>2013-01-01T00:00:00+08:00</published><updated>2013-01-01T00:00:00+08:00</updated><id>http://localhost:4000/2013/01/01/post-content-styles</id><content type="html" xml:base="http://localhost:4000/2013/01/01/post-content-styles.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-great-heading-h2&quot;&gt;Some great heading (h2)&lt;/h2&gt;
-
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.&lt;/p&gt;
-
-&lt;p&gt;Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;h2 id=&quot;another-great-heading-h2&quot;&gt;Another great heading (h2)&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-great-subheading-h3&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.&lt;/p&gt;
-
-&lt;p&gt;Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-great-subheading-h3-1&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don’t misuse it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-great-subheading-h3-2&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hello, World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h4 id=&quot;you-might-want-a-sub-subheading-h4&quot;&gt;You might want a sub-subheading (h4)&lt;/h4&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h4 id=&quot;but-its-probably-overkill-h4&quot;&gt;But it’s probably overkill (h4)&lt;/h4&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h3 id=&quot;oh-hai-an-unordered-list&quot;&gt;Oh hai, an unordered list!!&lt;/h3&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;oh-hai-an-ordered-list&quot;&gt;Oh hai, an ordered list!!&lt;/h3&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;headings-are-cool-h2&quot;&gt;Headings are cool! (h2)&lt;/h2&gt;
-
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
-
-&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Title 1&lt;/th&gt;
-      &lt;th&gt;Title 2&lt;/th&gt;
-      &lt;th&gt;Title 3&lt;/th&gt;
-      &lt;th&gt;Title 4&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Title 1&lt;/th&gt;
-      &lt;th&gt;Title 2&lt;/th&gt;
-      &lt;th&gt;Title 3&lt;/th&gt;
-      &lt;th&gt;Title 4&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</summary></entry></feed>
+git merge a862&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">简介</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22forest.jpg%22,%20%22teaser%22=%3E%22forest-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry></feed>
