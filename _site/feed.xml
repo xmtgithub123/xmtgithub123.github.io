@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-21T16:42:09+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-22T10:21:34+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -129,14 +129,29 @@
 
 &lt;p&gt;jekyll 模板地址：&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;http://jekyllthemes.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;下载自己喜欢的风格,拷贝到你的项目里,然后&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit &lt;/code&gt;到你的github上,&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;后,就可以在自己的github pages上看到效果啦.&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">项目管理标准版</title><link href="http://localhost:4000/project/2016/11/21/project-management-software.html" rel="alternate" type="text/html" title="项目管理标准版" /><published>2016-11-21T00:00:00+08:00</published><updated>2016-11-21T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/11/21/project-management-software</id><content type="html" xml:base="http://localhost:4000/project/2016/11/21/project-management-software.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;下载自己喜欢的风格,拷贝到你的项目里,然后&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit &lt;/code&gt;到你的github上,&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;后,就可以在自己的github pages上看到效果啦.&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">项目管理标准版</title><link href="http://localhost:4000/project/2017/04/16/project-management-software.html" rel="alternate" type="text/html" title="项目管理标准版" /><published>2017-04-16T00:00:00+08:00</published><updated>2017-04-16T00:00:00+08:00</updated><id>http://localhost:4000/project/2017/04/16/project-management-software</id><content type="html" xml:base="http://localhost:4000/project/2017/04/16/project-management-software.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;项目管理软件 - 工程项目管理软件,主要有经营管理、协同设计、绩效管理、综合办公、人事管理、系统管理等等模块,功能丰富,操作方便(内部管理软件)。&lt;/p&gt;
 
 &lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">TechBank 科库</title><link href="http://localhost:4000/project/2016/10/08/TechBank.html" rel="alternate" type="text/html" title="TechBank 科库" /><published>2016-10-08T00:00:00+08:00</published><updated>2016-10-08T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/10/08/TechBank</id><content type="html" xml:base="http://localhost:4000/project/2016/10/08/TechBank.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">Meke 每刻 ( 移动端 )</title><link href="http://localhost:4000/project/2017/03/28/project-for-meke.html" rel="alternate" type="text/html" title="Meke 每刻 ( 移动端 )" /><published>2017-03-28T00:00:00+08:00</published><updated>2017-03-28T00:00:00+08:00</updated><id>http://localhost:4000/project/2017/03/28/project-for-meke</id><content type="html" xml:base="http://localhost:4000/project/2017/03/28/project-for-meke.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;Meke 每刻 一款移动端app活动发布社交平台,可以像朋友圈那样发布和阅览新动态,可以查看附近的店铺及详情。该项目预启动但未完成(已实现登录、注册、首页、详情、个人中心等模块)。本项目主要使用VueJS2.0 + webpack 等技术栈。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/mk_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">TechBank 科库</title><link href="http://localhost:4000/project/2016/10/08/TechBank.html" rel="alternate" type="text/html" title="TechBank 科库" /><published>2016-10-08T00:00:00+08:00</published><updated>2016-10-08T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/10/08/TechBank</id><content type="html" xml:base="http://localhost:4000/project/2016/10/08/TechBank.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;TechBank 科库是一个专注医疗健康行业，集跨境技术、孵化、投资于一体的平台。&lt;/p&gt;
 
@@ -148,16 +163,7 @@
 
 &lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-01.jpg&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-02.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/08/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-08-18T00:00:00+08:00</published><updated>2016-08-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/08/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/08/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-&lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
-
-&lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">上海金曲软件公司企业网站</title><link href="http://localhost:4000/project/2016/07/11/project-for-jq-company-website.html" rel="alternate" type="text/html" title="上海金曲软件公司企业网站" /><published>2016-07-11T00:00:00+08:00</published><updated>2016-07-11T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/07/11/project-for-jq-company-website</id><content type="html" xml:base="http://localhost:4000/project/2016/07/11/project-for-jq-company-website.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">上海金曲软件公司企业网站</title><link href="http://localhost:4000/project/2016/08/11/project-for-jq-company-website.html" rel="alternate" type="text/html" title="上海金曲软件公司企业网站" /><published>2016-08-11T00:00:00+08:00</published><updated>2016-08-11T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/08/11/project-for-jq-company-website</id><content type="html" xml:base="http://localhost:4000/project/2016/08/11/project-for-jq-company-website.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;上海金曲信息技术有限公司企业网站 整体响应式布局，适应各种设备尺寸，简洁大方。&lt;/p&gt;
 
@@ -168,7 +174,7 @@
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_02.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">中设软件公司企业网站</title><link href="http://localhost:4000/project/2016/06/20/project-for-company's-page.html" rel="alternate" type="text/html" title="中设软件公司企业网站" /><published>2016-06-20T00:00:00+08:00</published><updated>2016-06-20T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/06/20/project-for-company's-page</id><content type="html" xml:base="http://localhost:4000/project/2016/06/20/project-for-company's-page.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">中设软件公司企业网站</title><link href="http://localhost:4000/project/2016/07/20/project-for-company's-page.html" rel="alternate" type="text/html" title="中设软件公司企业网站" /><published>2016-07-20T00:00:00+08:00</published><updated>2016-07-20T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/07/20/project-for-company's-page</id><content type="html" xml:base="http://localhost:4000/project/2016/07/20/project-for-company's-page.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;中设软件公司企业网站 整体响应式布局，适应各种设备尺寸，简洁大方。&lt;/p&gt;
 
@@ -179,7 +185,7 @@
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">明朗眼镜店</title><link href="http://localhost:4000/project/2016/04/15/minglang-glasses.html" rel="alternate" type="text/html" title="明朗眼镜店" /><published>2016-04-15T00:00:00+08:00</published><updated>2016-04-15T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/04/15/minglang-glasses</id><content type="html" xml:base="http://localhost:4000/project/2016/04/15/minglang-glasses.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">明朗眼镜店 ( 移动端 )</title><link href="http://localhost:4000/project/2016/04/15/minglang-glasses.html" rel="alternate" type="text/html" title="明朗眼镜店 ( 移动端 )" /><published>2016-04-15T00:00:00+08:00</published><updated>2016-04-15T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/04/15/minglang-glasses</id><content type="html" xml:base="http://localhost:4000/project/2016/04/15/minglang-glasses.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;一款轻量级手机端、微信端眼镜购物功能,主要有主页,商品列表,商品详情,购物车,个人中心等系列流程。&lt;/p&gt;
 
@@ -189,7 +195,20 @@
 
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
-&lt;p&gt;‘暂无’&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
+&lt;p&gt;‘暂无’&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">1stgongshe 一号艺术公社</title><link href="http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html" rel="alternate" type="text/html" title="1stgongshe 一号艺术公社" /><published>2016-02-23T00:00:00+08:00</published><updated>2016-02-23T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/02/23/project-for-1stgongshe</id><content type="html" xml:base="http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+&lt;p&gt;1stgongshe 一号艺术公社是专业艺术活动展览游学的自助发布平台&lt;/p&gt;
+
+&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
+
+&lt;p&gt;1stgongshe 一号艺术公社 : &lt;a href=&quot;http://1stgongshe.com/&quot;&gt;http://1stgongshe.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
 
 &lt;h1 id=&quot;html&quot;&gt;HTML&lt;/h1&gt;
 
@@ -305,145 +324,4 @@
 &lt;span class=&quot;nc&quot;&gt;.parent&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>MengTing Xu</name></author><category term="css" /><category term="documentation" /><category term="sample" /><summary type="html">不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22mountains.jpg%22,%20%22teaser%22=%3E%22mountains-teaser.jpg%22,%20%22credit%22=%3E%22Death%20to%20Stock%20Photo%22,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">1stgongshe 一号艺术公社</title><link href="http://localhost:4000/project/2015/11/23/project-for-1stgongshe.html" rel="alternate" type="text/html" title="1stgongshe 一号艺术公社" /><published>2015-11-23T00:00:00+08:00</published><updated>2015-11-23T00:00:00+08:00</updated><id>http://localhost:4000/project/2015/11/23/project-for-1stgongshe</id><content type="html" xml:base="http://localhost:4000/project/2015/11/23/project-for-1stgongshe.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-&lt;p&gt;1stgongshe 一号艺术公社是专业艺术活动展览游学的自助发布平台&lt;/p&gt;
-
-&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
-
-&lt;p&gt;1stgongshe 一号艺术公社 : &lt;a href=&quot;http://1stgongshe.com/&quot;&gt;http://1stgongshe.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">Git</title><link href="http://localhost:4000/git/2015/10/10/getting-started.html" rel="alternate" type="text/html" title="Git" /><published>2015-10-10T00:00:00+08:00</published><updated>2015-10-10T00:00:00+08:00</updated><id>http://localhost:4000/git/2015/10/10/getting-started</id><content type="html" xml:base="http://localhost:4000/git/2015/10/10/getting-started.html">&lt;h1 id=&quot;简介&quot;&gt;简介&lt;/h1&gt;
-
-&lt;p&gt;Git是一个分布式版本控制／软件配置管理软件，原是Linux内核开发者Linus Torvalds为更好地管理Linux内核开发而设计。其主要的目的是用来记录软件源代码的历史状态，类似于SVN或CVS。&lt;/p&gt;
-
-&lt;p&gt;你可以利用git来追踪项目中的文件，并设置保存点。你可以和合作伙伴共享这些保存点，将他们的工作和你的工作合并，或者可以将整个工程或某些文件和之前的任何保存点进行对比，甚至恢复到早期的某个保存点。&lt;/p&gt;
-
-&lt;p&gt;由于Git有Linux这个干爹，理论上它是不能在Windows平台上运行的。不过强大的程序员总是不会轻易放过任何展现自己的机会。比如Git Bash这个程序就提供了在Windows平台上使用Linux环境的一套工具。在Git Bash上的所有命令行操作，都与Linux环境完全相同。&lt;/p&gt;
-
-&lt;p&gt;当然Git绝非仅能使用命令行来使用，eclipse里有插件EGit（搜索Market Place即可安装），其他比较常用的Git GUI工具有：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;TortoiseGit (Windows 平台)&lt;/li&gt;
-  &lt;li&gt;GitX (Mac 平台)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;工作流程&quot;&gt;工作流程&lt;/h1&gt;
-
-&lt;p&gt;Git的分布式体现在代码仓库有两种：本地仓库和远端仓库。所有的commit（设置保存点）都只会对本地仓库产生影响，而只有在开发者使用push将修改推送到远端仓库后，其他人才可以通过pull或fetch获取到该开发者的修改内容。所以，git的推荐工作方式是：
-&lt;strong&gt;经常commit，定期push&lt;/strong&gt;
-，也就是尽量将commit细致化，以便于后期回退或者对比，而按时（每天或每周）定期向服务器推送所有改动。&lt;/p&gt;
-
-&lt;p&gt;Git中，文件状态变化方式如下：&lt;/p&gt;
-
-&lt;p&gt;其中的动作及对应的命令：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;add the file：将文件添加到git追踪系统，命令为 git add .&lt;/li&gt;
-  &lt;li&gt;remove the file：将文件从git追踪系统中删除，后续修改将不再记录，命令为 git rm /path/to/file&lt;/li&gt;
-  &lt;li&gt;stage the file：将文件的修改暂存（如果既不想合并，又不希望丢失自己的修改），命令为 git stage&lt;/li&gt;
-  &lt;li&gt;commit：设置保存点，命令为 git commit -a -m ‘本次提交的改动描述’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;请协助我们在工作中做好流程标准化&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;应用场景&quot;&gt;应用场景&lt;/h1&gt;
-
-&lt;h2 id=&quot;克隆远端工程&quot;&gt;克隆远端工程&lt;/h2&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@***.com:/path/to/repo
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;查看项目状态&quot;&gt;查看项目状态&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 查看历史记录&lt;/span&gt;
-git log
-
-&lt;span class=&quot;c&quot;&gt;# 查看工程状态&lt;/span&gt;
-git status
-
-&lt;span class=&quot;c&quot;&gt;# 对比master分支和代号为eb3c2d的保存点&lt;/span&gt;
-git diff master eb3c2d&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;替换本地改动&quot;&gt;替换本地改动&lt;/h2&gt;
-
-&lt;p&gt;如果你想放弃本地的改动，让某一个文件恢复到之前的某个版本，你可以这么做&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout -- 文件名
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;如果你想丢弃掉所有的本地改动和提交，用服务器上的最新版替换&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch origin
-git reset --hard origin/master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;或者只是想恢复到本地的最新修改&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git reset --hard HEAD
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;新建工程&quot;&gt;新建工程&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;新建远端仓库（需要预先配置ssh key）&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;ssh git@&lt;span class=&quot;k&quot;&gt;***&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-it&lt;/span&gt;.com
-
-&lt;span class=&quot;c&quot;&gt;# 初始化远端仓库，注意，需要替换/path/to/repo为有意义的路径&lt;/span&gt;
-git init &lt;span class=&quot;nt&quot;&gt;--bare&lt;/span&gt; /path/to/repo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;配置新项目并推送至远端&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git init
-
-&lt;span class=&quot;c&quot;&gt;# 增加远端服务器地址，注意，需要将/path/to/repo替换为实际地址&lt;/span&gt;
-git remote add origin git@&lt;span class=&quot;k&quot;&gt;***&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-it&lt;/span&gt;.com:/path/to/repo
-git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'1st import'&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 推送至远端&lt;/span&gt;
-git push origin master&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;fetchrebase&quot;&gt;Fetch/Rebase&lt;/h2&gt;
-
-&lt;p&gt;Fetch/Rebase是使用git的最佳实践，它可以确保时间轴一致，并在多人开发时提高合并效率。一个典型的Fetch/Rebase流程为：&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 添加所有文件至git追踪系统&lt;/span&gt;
-git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# -a表示删除文件自动提交，-m表示此次提交的解释&lt;/span&gt;
-git commit &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'本次提交的改动描述'&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 从origin这个远端仓库把所有其他人的改动下载到本地&lt;/span&gt;
-git fetch origin master
-
-&lt;span class=&quot;c&quot;&gt;# 将远端仓库中的所有修改在本地“重放”进行合并&lt;/span&gt;
-git rebase origin/master master
-
-&lt;span class=&quot;c&quot;&gt;# 如果提示冲突，直接修改冲突文件后，继续，否则结束流程&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# 重新添加已改动的文件&lt;/span&gt;
-git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# 继续“重放”合并&lt;/span&gt;
-git rebase &lt;span class=&quot;nt&quot;&gt;--continue&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;分支修正&quot;&gt;分支修正&lt;/h2&gt;
-
-&lt;p&gt;默认状态下，git始终使用master分支，但是有些特殊情况会导致git分支异常，这样的情况下，需要重新手动恢复。该功能请慎用&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# 查看历史记录&lt;/span&gt;
-git log
-
-&lt;span class=&quot;c&quot;&gt;# 移动现有指针到某一次提交（这次提交的commit id是以eb3c开头）&lt;/span&gt;
-git checkout master
-
-&lt;span class=&quot;c&quot;&gt;# 合并至commit id为a862的保存点&lt;/span&gt;
-git merge a862&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>MengTing Xu</name></author><category term="git" /><category term="documentation" /><category term="sample" /><summary type="html">简介</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22forest.jpg%22,%20%22teaser%22=%3E%22forest-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry></feed>
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>MengTing Xu</name></author><category term="css" /><category term="documentation" /><category term="sample" /><summary type="html">不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22mountains.jpg%22,%20%22teaser%22=%3E%22mountains-teaser.jpg%22,%20%22credit%22=%3E%22Death%20to%20Stock%20Photo%22,%20%22creditlink%22=%3E%22%22%7D" /></entry></feed>

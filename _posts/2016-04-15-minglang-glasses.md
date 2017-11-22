@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "明朗眼镜店"
+title: "明朗眼镜店 ( 移动端 )"
 author: "XuMT"
 category: project
 tags: [documentation,sample]
