@@ -20,6 +20,19 @@
 			</item>
 		
 			<item>
+				<title>H5 小游戏 (移动端)</title>
+				
+				
+					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+
+</description>
+				
+				<pubDate>Fri, 18 Aug 2017 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/project/2017/08/18/project-for-h5-games.html</link>
+				<guid isPermaLink="true">http://localhost:4000/project/2017/08/18/project-for-h5-games.html</guid>
+			</item>
+		
+			<item>
 				<title>项目管理标准版</title>
 				
 				
@@ -121,19 +134,6 @@
 				<pubDate>Tue, 23 Feb 2016 00:00:00 +0800</pubDate>
 				<link>http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html</link>
 				<guid isPermaLink="true">http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html</guid>
-			</item>
-		
-			<item>
-				<title>让元素垂直居中的几种方法!</title>
-				
-				
-					<description>&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 01 Jan 2016 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/css/2016/01/01/let-div-align-center.html</link>
-				<guid isPermaLink="true">http://localhost:4000/css/2016/01/01/let-div-align-center.html</guid>
 			</item>
 		
 	</channel>
