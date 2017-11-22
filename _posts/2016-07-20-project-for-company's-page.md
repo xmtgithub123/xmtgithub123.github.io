@@ -16,5 +16,9 @@ tags: [documentation,sample]
 
 ### 三、项目截图
 
-<img src="http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg" alt="">
+<a href="http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg" alt="">
+</a>

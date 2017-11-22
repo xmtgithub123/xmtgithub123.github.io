@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-22T10:21:34+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-22T10:35:31+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -135,23 +135,36 @@
 
 &lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-02.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">Meke 每刻 ( 移动端 )</title><link href="http://localhost:4000/project/2017/03/28/project-for-meke.html" rel="alternate" type="text/html" title="Meke 每刻 ( 移动端 )" /><published>2017-03-28T00:00:00+08:00</published><updated>2017-03-28T00:00:00+08:00</updated><id>http://localhost:4000/project/2017/03/28/project-for-meke</id><content type="html" xml:base="http://localhost:4000/project/2017/03/28/project-for-meke.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-01.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-02.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq-02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">Meke 每刻 ( 移动端 )</title><link href="http://localhost:4000/project/2017/03/28/project-for-meke.html" rel="alternate" type="text/html" title="Meke 每刻 ( 移动端 )" /><published>2017-03-28T00:00:00+08:00</published><updated>2017-03-28T00:00:00+08:00</updated><id>http://localhost:4000/project/2017/03/28/project-for-meke</id><content type="html" xml:base="http://localhost:4000/project/2017/03/28/project-for-meke.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;Meke 每刻 一款移动端app活动发布社交平台,可以像朋友圈那样发布和阅览新动态,可以查看附近的店铺及详情。该项目预启动但未完成(已实现登录、注册、首页、详情、个人中心等模块)。本项目主要使用VueJS2.0 + webpack 等技术栈。&lt;/p&gt;
 
 &lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/mk_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/mk_01.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/mk_01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
 
 &lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">TechBank 科库</title><link href="http://localhost:4000/project/2016/10/08/TechBank.html" rel="alternate" type="text/html" title="TechBank 科库" /><published>2016-10-08T00:00:00+08:00</published><updated>2016-10-08T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/10/08/TechBank</id><content type="html" xml:base="http://localhost:4000/project/2016/10/08/TechBank.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">TechBank 科库</title><link href="http://localhost:4000/project/2016/10/08/TechBank.html" rel="alternate" type="text/html" title="TechBank 科库" /><published>2016-10-08T00:00:00+08:00</published><updated>2016-10-08T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/10/08/TechBank</id><content type="html" xml:base="http://localhost:4000/project/2016/10/08/TechBank.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;TechBank 科库是一个专注医疗健康行业，集跨境技术、孵化、投资于一体的平台。&lt;/p&gt;
 
@@ -161,9 +174,15 @@
 
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-02.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-03.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">上海金曲软件公司企业网站</title><link href="http://localhost:4000/project/2016/08/11/project-for-jq-company-website.html" rel="alternate" type="text/html" title="上海金曲软件公司企业网站" /><published>2016-08-11T00:00:00+08:00</published><updated>2016-08-11T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/08/11/project-for-jq-company-website</id><content type="html" xml:base="http://localhost:4000/project/2016/08/11/project-for-jq-company-website.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-01.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-02.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-03.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/tb-03.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">上海金曲软件公司企业网站</title><link href="http://localhost:4000/project/2016/08/11/project-for-jq-company-website.html" rel="alternate" type="text/html" title="上海金曲软件公司企业网站" /><published>2016-08-11T00:00:00+08:00</published><updated>2016-08-11T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/08/11/project-for-jq-company-website</id><content type="html" xml:base="http://localhost:4000/project/2016/08/11/project-for-jq-company-website.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;上海金曲信息技术有限公司企业网站 整体响应式布局，适应各种设备尺寸，简洁大方。&lt;/p&gt;
 
@@ -173,8 +192,12 @@
 
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_02.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_01.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">中设软件公司企业网站</title><link href="http://localhost:4000/project/2016/07/20/project-for-company's-page.html" rel="alternate" type="text/html" title="中设软件公司企业网站" /><published>2016-07-20T00:00:00+08:00</published><updated>2016-07-20T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/07/20/project-for-company's-page</id><content type="html" xml:base="http://localhost:4000/project/2016/07/20/project-for-company's-page.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_02.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_02.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_01.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/jq_01.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">中设软件公司企业网站</title><link href="http://localhost:4000/project/2016/07/20/project-for-company's-page.html" rel="alternate" type="text/html" title="中设软件公司企业网站" /><published>2016-07-20T00:00:00+08:00</published><updated>2016-07-20T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/07/20/project-for-company's-page</id><content type="html" xml:base="http://localhost:4000/project/2016/07/20/project-for-company's-page.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;中设软件公司企业网站 整体响应式布局，适应各种设备尺寸，简洁大方。&lt;/p&gt;
 
@@ -184,8 +207,12 @@
 
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">明朗眼镜店 ( 移动端 )</title><link href="http://localhost:4000/project/2016/04/15/minglang-glasses.html" rel="alternate" type="text/html" title="明朗眼镜店 ( 移动端 )" /><published>2016-04-15T00:00:00+08:00</published><updated>2016-04-15T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/04/15/minglang-glasses</id><content type="html" xml:base="http://localhost:4000/project/2016/04/15/minglang-glasses.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">明朗眼镜店 ( 移动端 )</title><link href="http://localhost:4000/project/2016/04/15/minglang-glasses.html" rel="alternate" type="text/html" title="明朗眼镜店 ( 移动端 )" /><published>2016-04-15T00:00:00+08:00</published><updated>2016-04-15T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/04/15/minglang-glasses</id><content type="html" xml:base="http://localhost:4000/project/2016/04/15/minglang-glasses.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;一款轻量级手机端、微信端眼镜购物功能,主要有主页,商品列表,商品详情,购物车,个人中心等系列流程。&lt;/p&gt;
 
@@ -205,10 +232,18 @@
 
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; target=&quot;_blank&quot;&gt; 
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">让元素垂直居中的几种方法!</title><link href="http://localhost:4000/css/2016/01/01/let-div-align-center.html" rel="alternate" type="text/html" title="让元素垂直居中的几种方法!" /><published>2016-01-01T00:00:00+08:00</published><updated>2016-01-01T00:00:00+08:00</updated><id>http://localhost:4000/css/2016/01/01/let-div-align-center</id><content type="html" xml:base="http://localhost:4000/css/2016/01/01/let-div-align-center.html">&lt;p&gt;不管在大大小小的项目中，多多少少会遇到要让元素各种的居中对齐，垂直对齐，水平对齐，垂直水平对齐啦，所以就在各种搜查中总结了以下几种方法，以便日后更快捷的完成对齐任务！让我们开始吧……&lt;/p&gt;
 
 &lt;h1 id=&quot;html&quot;&gt;HTML&lt;/h1&gt;
 

@@ -12,7 +12,15 @@ tags: [documentation,sample]
 
 ### 二、项目截图
 
-<img src="http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg" alt="">
+<a href="http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/sj-01.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/sj-02.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/sj-03.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/sj-04.jpg" alt="">
+</a>

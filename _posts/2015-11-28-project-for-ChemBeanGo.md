@@ -16,7 +16,15 @@ ChemBeanGo : [https://www.chembeango.com](https://www.chembeango.com/)
 
 ### 三、项目截图
 
-<img src="http://ozc5dgoun.bkt.clouddn.com/cbg_1.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/cbg_2.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/cbg_3.jpg" alt="">
-<img src="http://ozc5dgoun.bkt.clouddn.com/cbg_4.jpg" alt="">
+<a href="http://ozc5dgoun.bkt.clouddn.com/cbg_1.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/cbg_1.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/cbg_2.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/cbg_2.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/cbg_3.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/cbg_3.jpg" alt="">
+</a>
+<a href="http://ozc5dgoun.bkt.clouddn.com/cbg_4.jpg" target="_blank">
+    <img src="http://ozc5dgoun.bkt.clouddn.com/cbg_4.jpg" alt="">
+</a>
