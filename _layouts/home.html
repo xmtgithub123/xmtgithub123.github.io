@@ -5,9 +5,9 @@ title: Home
 
 {% for post in paginator.posts %}
 <div class="posts">
-  <h1>
+  <h2 style="margin-bottom: 5px;">
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-  </h1>
+  </h2>
   {% if post.image.teaser %}
     <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image.teaser }}"></a>
   {% endif %}
@@ -20,16 +20,17 @@ title: Home
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">过去</a>
-  {% else %}
-    <span class="pagination-button">过去</span>
-  {% endif %}
+  
 
   {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">未来</a>
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">上页</a>
     {% else %}
-      <span class="pagination-button">未来</span>
+      <span class="pagination-button">上页</span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active" href="{{ site.github.url }}{{ paginator.next_page_path }}" class="next">下页</a>
+  {% else %}
+    <span class="pagination-button">下页</span>
   {% endif %}
 
 </div>
