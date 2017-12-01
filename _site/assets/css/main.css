@@ -509,3 +509,15 @@ p.mysay {
     vertical-align: baseline;
     border-radius: .25em;
 }
+
+.leancloud_visitors {
+   float:right;
+  font-size:14px;
+  color:#777;
+  margin:0 0 15px 0;
+ 
+}
+.leancloud_visitors_home {
+  float:none;
+   font-size:12px;
+}

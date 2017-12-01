@@ -13,8 +13,20 @@ title: Home
   {% endif %}
   <p>
     {{ post.content | strip_html | truncate: 50 }} <a href="{{ site.github.url }}{{ post.url }}">更多>></a>
-    <span class="post-date" style="margin-top:3px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    <span class="post-date" style="margin-top:3px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+    
   </p>
+  <!-- {% if site.lean-cloud.enable %}
+     <span id="{{ page.url }}" class="leancloud_visitors" data-flag-title="{{ page.title }}" >
+        <span class="post-meta-item-icon">
+           <i class="fa fa-eye" aria-hidden="true"></i> 
+         </span>
+         <span class="old-visitors-count" style="display: none;"></span>
+         <span class="leancloud-visitors-count"></span>
+         <span class="post-meta-item-text">次浏览</span>
+     </span>
+  {% endif %} -->
+
 </div>
 {% endfor %}
 

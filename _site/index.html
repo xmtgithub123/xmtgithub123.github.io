@@ -35,7 +35,16 @@ var _hmt = _hmt || [];
   <script type="text/javascript" async
     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
-
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?47c54e2772f8450c644d2cd72585bc85";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -109,8 +118,20 @@ var _hmt = _hmt || [];
 
 
 
-</span>
+
+    
   </p>
+  <!-- 
+     <span id="/" class="leancloud_visitors" data-flag-title="Home" >
+        <span class="post-meta-item-icon">
+           <i class="fa fa-eye" aria-hidden="true"></i> 
+         </span>
+         <span class="old-visitors-count" style="display: none;"></span>
+         <span class="leancloud-visitors-count"></span>
+         <span class="post-meta-item-text">次浏览</span>
+     </span>
+   -->
+
 </div>
 
 <div class="posts">
@@ -134,8 +155,20 @@ var _hmt = _hmt || [];
 
 
 
-</span>
+
+    
   </p>
+  <!-- 
+     <span id="/" class="leancloud_visitors" data-flag-title="Home" >
+        <span class="post-meta-item-icon">
+           <i class="fa fa-eye" aria-hidden="true"></i> 
+         </span>
+         <span class="old-visitors-count" style="display: none;"></span>
+         <span class="leancloud-visitors-count"></span>
+         <span class="post-meta-item-text">次浏览</span>
+     </span>
+   -->
+
 </div>
 
 <div class="posts">
@@ -155,8 +188,20 @@ var _hmt = _hmt || [];
 
 
 
-</span>
+
+    
   </p>
+  <!-- 
+     <span id="/" class="leancloud_visitors" data-flag-title="Home" >
+        <span class="post-meta-item-icon">
+           <i class="fa fa-eye" aria-hidden="true"></i> 
+         </span>
+         <span class="old-visitors-count" style="display: none;"></span>
+         <span class="leancloud-visitors-count"></span>
+         <span class="post-meta-item-text">次浏览</span>
+     </span>
+   -->
+
 </div>
 
 <div class="posts">
@@ -176,8 +221,20 @@ Meke 每刻 一款移动端app活动发布社交平台,可以像朋友圈那样�
 
 
 
-</span>
+
+    
   </p>
+  <!-- 
+     <span id="/" class="leancloud_visitors" data-flag-title="Home" >
+        <span class="post-meta-item-icon">
+           <i class="fa fa-eye" aria-hidden="true"></i> 
+         </span>
+         <span class="old-visitors-count" style="display: none;"></span>
+         <span class="leancloud-visitors-count"></span>
+         <span class="post-meta-item-text">次浏览</span>
+     </span>
+   -->
+
 </div>
 
 <div class="posts">
@@ -197,8 +254,20 @@ Meke 每刻 一款移动端app活动发布社交平台,可以像朋友圈那样�
 
 
 
-</span>
+
+    
   </p>
+  <!-- 
+     <span id="/" class="leancloud_visitors" data-flag-title="Home" >
+        <span class="post-meta-item-icon">
+           <i class="fa fa-eye" aria-hidden="true"></i> 
+         </span>
+         <span class="old-visitors-count" style="display: none;"></span>
+         <span class="leancloud-visitors-count"></span>
+         <span class="post-meta-item-text">次浏览</span>
+     </span>
+   -->
+
 </div>
 
 
@@ -215,6 +284,7 @@ Meke 每刻 一款移动端app活动发布社交平台,可以像朋友圈那样�
 
 </div>
 
+      
     </div>
 
     <footer class="footer">
@@ -234,6 +304,126 @@ Meke 每刻 一款移动端app活动发布社交平台,可以像朋友圈那样�
 
 
   </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("s29M3hbKmQuBTvGAGpykgwll-gzGzoHsz", "lwovEN4Eqv4fkLrUly0bNXAi");</script>
+ <script type="text/javascript">
+function showTime(Counter) {
+    var query = new AV.Query(Counter);
+    var entries = [];
+    var $visitors = $(".leancloud_visitors");
+
+    $visitors.each(function() {
+        entries.push($(this).attr("id").trim());
+    });
+
+    query.containedIn('url', entries);
+    query.find()
+        .done(function(results) {
+            var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+            var OLD_COUNT_CONTAINER_REF = '.old-visitors-count';
+
+            // if (results.length === 0) {
+            //     $visitors.find(COUNT_CONTAINER_REF).text(0);
+            //     return;
+            // }
+
+            for (var i = 0; i < results.length; i++) {
+                var item = results[i];
+                var url = item.get('url');
+                var time = item.get('time');
+                var element = document.getElementById(url);
+
+                $(element).find(COUNT_CONTAINER_REF).text(time);
+            }
+            for (var i = 0; i < entries.length; i++) {
+                var url = entries[i];
+                var element = document.getElementById(url);
+                var countSpan = $(element).find(COUNT_CONTAINER_REF);
+                if (countSpan.text() == '') {
+                    var oldCountSpan = $(element).find(OLD_COUNT_CONTAINER_REF).text();
+                    if(oldCountSpan!=''){
+                        countSpan.text(0+parseInt(oldCountSpan));
+                    }else{
+                        countSpan.text(0);          
+                    }
+                }
+            }
+        })
+        .fail(function(object, error) {
+            console.log("Error: " + error.code + " " + error.message);
+        });
+}
+
+function addCount(Counter) {
+    var $visitors = $(".leancloud_visitors");
+    var url = $visitors.attr('id').trim();
+    var title = $visitors.attr('data-flag-title').trim();
+    var query = new AV.Query(Counter);
+
+    query.equalTo("url", url);
+    query.find({
+        success: function(results) {
+            if (results.length > 0) {
+                var counter = results[0];
+                counter.fetchWhenSave(true);
+                counter.increment("time");
+                counter.save(null, {
+                    success: function(counter) {
+                        var $element = $(document.getElementById(url));
+                        $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                    },
+                    error: function(counter, error) {
+                        console.log('Failed to save Visitor num, with error message: ' + error.message);
+                    }
+                });
+            } else {
+                var newcounter = new Counter();
+                /* Set ACL */
+                var acl = new AV.ACL();
+                acl.setPublicReadAccess(true);
+                acl.setPublicWriteAccess(true);
+                newcounter.setACL(acl);
+                /* End Set ACL */
+                newcounter.set("title", title);
+                newcounter.set("url", url);
+                var OLD_COUNT_CONTAINER_REF = '.old-visitors-count';
+                var $element = $(document.getElementById(url));
+                var oldCountSpan = $element.find(OLD_COUNT_CONTAINER_REF).text();
+                if(oldCountSpan!=''){
+                    newcounter.set("time", parseInt(oldCountSpan)+1);
+                }else{
+                        newcounter.set("time",  1);
+                }
+                newcounter.save(null, {
+                    success: function(newcounter) {
+                        var $element = $(document.getElementById(url));
+                        $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                    },
+                    error: function(newcounter, error) {
+                        console.log('Failed to create');
+                    }
+                });
+            }
+        },
+        error: function(error) {
+            console.log('Error:' + error.code + " " + error.message);
+        }
+    });
+}
+$(function() {
+    var Counter = AV.Object.extend("Counter");
+    //如果只有1个.leancloud_visitors，则说明是博客页，需要显示查看数并将查看数+1
+    //超过1个，则说明是文章列表，只需要显示查看数
+    if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+    } else {
+        showTime(Counter);
+    }
+});
+  </script>
 
 </body>
 </html>

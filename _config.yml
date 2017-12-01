@@ -7,6 +7,10 @@ markdown:            kramdown
 highlighter:         rouge
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed]
 baidu-analysis:      '47c54e2772f8450c644d2cd72585bc85'
+lean-cloud:
+  enable: true
+  app_id: s29M3hbKmQuBTvGAGpykgwll-gzGzoHsz
+  app_key: lwovEN4Eqv4fkLrUly0bNXAi
 
 # Customise feed settings (uncommenting following two fields to customise feed title and description)
 #title:		     "Lagrange-Custom"
