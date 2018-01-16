@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-01T16:40:40+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T09:14:17+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -158,7 +158,300 @@
 &lt;h3 id=&quot;二项目截图&quot;&gt;二、项目截图&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/mk_01.jpg&quot; target=&quot;_blank&quot;&gt;
     &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/mk_01.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">你不知道的javascript学习笔记</title><link href="http://localhost:4000/js/2017/01/15/base-js-note.html" rel="alternate" type="text/html" title="你不知道的javascript学习笔记" /><published>2017-01-15T00:00:00+08:00</published><updated>2017-01-15T00:00:00+08:00</updated><id>http://localhost:4000/js/2017/01/15/base-js-note</id><content type="html" xml:base="http://localhost:4000/js/2017/01/15/base-js-note.html">&lt;p&gt;好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！&lt;/p&gt;
+
+&lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
+
+&lt;h3 id=&quot;目录&quot;&gt;目录&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;作用域是什么
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#理解作用域&quot;&gt;理解作用域&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#作用域嵌套&quot;&gt;作用域嵌套&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#会发生的异常&quot;&gt;会发生的异常&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;词法作用域
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#词法阶段&quot;&gt;词法阶段&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#欺骗词法&quot;&gt;欺骗词法&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;函数作用域和块作用域
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#函数中的作用域&quot;&gt;函数中的作用域&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#隐藏内部实现&quot;&gt;隐藏内部实现&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#函数作用域&quot;&gt;函数作用域&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#匿名和具名&quot;&gt;匿名和具名&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#立即执行函数表达示&quot;&gt;立即执行函数表达示&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#块作用域&quot;&gt;块作用域&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;理解作用域&quot;&gt;理解作用域&lt;/h3&gt;
+
+&lt;p&gt;对程序的处理需要这三个帮手：&lt;br /&gt;
+1.引擎：负责整个js程序的编译及执行过程&lt;br /&gt;
+2.编译器：负责语法分析及代码生成等&lt;br /&gt;
+3.作用域：负责收集并维护由所有声明的标识符组成的理询，确定肖前执行的代码对这些标识符的访问权限&lt;/p&gt;
+
+&lt;pre&gt;var a = 2&lt;/pre&gt;
+
+&lt;p&gt;例如碰到上以代码的执行时编译器会作如下处理：&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1.&lt;code class=&quot;highlighter-rouge&quot;&gt;var a&lt;/code&gt;,编译器会查询作用域中是否已经有对该变量在于同一个作用域的集合中，如果已有了，编译器会忽略并继续工作;否则会要求作用域在当前作用域的集合中声明一个新的变量，命名为a。&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2.之后编译器会为引擎生成运行时所需要的代码，用来处理&lt;code class=&quot;highlighter-rouge&quot;&gt;a=2&lt;/code&gt;的赋值操作，引擎第一步会问作用域是否在当前作用域集合中有a的变量，若有则使用这个变量，如果没有，引擎则会继续查找该变量。&lt;/p&gt;
+
+&lt;p&gt;3.在该例子中，引擎为变量&lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; 进行LHS（赋值操作）查询。另一个查找类型 RHS（取到它的源值）&lt;/p&gt;
+
+&lt;pre&gt;例1：console.log(a)  //可以看出对`a`的引用是一个RHS引用&lt;/pre&gt;
+
+&lt;pre&gt;例2：a = 2 ;  //可以看出对`a`的引用是一个LHS引用&lt;/pre&gt;
+
+&lt;pre&gt;例3：function foo(i) {
+        console.log(i)  // 查找i并打印出来是对i的源值查找操作 此为RHS操作
+    }
+    foo(2)  //调用foo函数并为i赋值为2 此为LHS 操作
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;作用域嵌套&quot;&gt;作用域嵌套&lt;/h3&gt;
+
+&lt;p&gt;当一个块或函数嵌套在另一个块或函数中，就会发生了作用域的嵌套。所以在当前作用域中无法找个某个变量时，引擎就会在外层嵌套的作用域中继续查找，直到找到该变量或找到最外层的作用域（全局）为止。&lt;/p&gt;
+
+&lt;pre&gt;function foo(a) {
+    console.log(a + b) //在这里对a是RHS操作，对b的RHS引用无法在foo函数内完成，这里可以在上一级作用域中完成（此例是在全局中）
+}
+var b = 2;
+foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
+
+&lt;p&gt;注：引擎从当前执行作用域开始查找变量，若找不到，则向上一级查找。如果找到最外层即全局作用域时，不管找到与否，过程都将停止。&lt;/p&gt;
+
+&lt;p&gt;如图，可作参考
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/%E4%BD%9C%E7%94%A8%E5%9F%9F.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;会发生的异常&quot;&gt;会发生的异常&lt;/h3&gt;
+
+&lt;p&gt;上面提到的LHS 与 RHS，因为在变量还没有声明（其他作用域或全局作用域都无法找到）的情况下，这两种的查询行为是不一样的。&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo(a) {
+        console.log(a + b); // a:执行RHS操作  但是对b的RHS操作无法找到变量，此为`未声明`的变量，在任何作用域下都找不到它。
+        b = a;
+    }
+    foo(2);   // 调用foo()函数，执行LHS操作
+
+    注：如RHS查询（在任何作用域中）找不到变量，引擎会抛出`ReferenceError`的异常。此异常是重要的异常类型。
+
+    不成功的RHS引用会导致ReferenceError异常。不成功的LHS引用会导致自动隐式创建一个全局变量(非严格模式下)，该变量使用LHS引用的目标作为标识符，或者抛出ReferenceError异常(严格模式下)
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;词法阶段&quot;&gt;词法阶段&lt;/h3&gt;
+
+&lt;p&gt;词法作用域是定义在词法阶段的作用域。&lt;/p&gt;
+
+&lt;p&gt;词法作用域是由你在写代码时将变量和块作用域写在哪里决定的，所以当词法分析器处理代码时会保持作用域不变(大部份情况下)&lt;/p&gt;
+
+&lt;pre&gt;
+例1: function foo(a) {
+    var b = a*2;
+    function bar(c) {
+        console.log(a,b,c);
+    }
+    bar(b*3)
+    }
+    foo(2);
+&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F1.png&quot; alt=&quot;&quot; /&gt;
+&lt;/pre&gt;
+&lt;pre&gt;例2：
+    function foo(){
+        console.log(a);
+    }
+    function bar(){
+        var a = 2;
+        foo();
+    }
+    var a=1;
+    bar();  =&amp;gt; 1
+    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F2.png&quot; alt=&quot;&quot; style=&quot;width:300px&quot; /&gt;
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;期骗词法&quot;&gt;期骗词法&lt;/h3&gt;
+
+&lt;h4 id=&quot;1eval&quot;&gt;1.eval&lt;/h4&gt;
+
+&lt;p&gt;js中的Eval()函数可接受一个字符串为参数，并将其中内容视为好像在书写时就存在程程序中这个位置的代码。&lt;/p&gt;
+
+&lt;h4 id=&quot;2with&quot;&gt;2.with&lt;/h4&gt;
+
+&lt;p&gt;with声明实际是根据你传递给它的对象凭空创建了一个全新的词法作用域。&lt;/p&gt;
+
+&lt;p&gt;注：不推荐使用这两个机制&lt;/p&gt;
+
+&lt;h3 id=&quot;函数中的作用域&quot;&gt;函数中的作用域&lt;/h3&gt;
+
+&lt;p&gt;属于这个函数的全部变量都可以在整个函数的范围内使用和复用。&lt;/p&gt;
+
+&lt;pre&gt;例：
+    function foo(a){    //foo()的作用域包括了(b,bar(),c)
+        var b = 2;
+        function bar(){  //barr()的作用域包括了它自己的标识符
+            ...
+        }
+        var c = 3;
+
+    }
+    bar(); // 错误   由于bar是foo()作用域包含的，所以不能从全局作用域中访问
+    console.log(a,b,c) //错误  同理
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;隐藏内部实现&quot;&gt;隐藏内部实现&lt;/h3&gt;
+
+&lt;p&gt;一般来讲，都是先声明一个函数，然后在函数内添加代码;同时，可以用函数声明的方式对代码进行包装，就是把这些代码“隐藏”了的意思。&lt;/p&gt;
+
+&lt;p&gt;就是说，可以把变量和函数包裹在一个函数的作用域中，用这个作用域来“隐藏”它们。&lt;/p&gt;
+
+&lt;pre&gt;例：
+    function foo(a){
+        b = a + bar(a *2);
+        console.log(b*3);
+    }
+    function bar(a){
+        return a-1;
+    }
+    var b ;
+    foo(2); =&amp;gt; 15
+    //这里需要注意的是 变量b和bar()应该是foo()内部具体实现的‘私有’内容。放在全局作用域不仅没有必要，而且是‘危险’，所以更‘隐藏’的设计会更加的私有化，例如
+
+    function foo(a){
+        function bar(a) {
+            return a -1 ;
+        }
+        var b;
+        b = a + bar(a*2);
+        console.log(b*3)
+    }
+    foo(2) =&amp;gt; 15
+
+    //这样一来，b和bar()都无法从外部被访问，只被foo()控制。
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;函数作用域&quot;&gt;函数作用域&lt;/h3&gt;
+
+&lt;p&gt;先看一个例子:&lt;/p&gt;
+&lt;pre&gt;
+    var a = 2;
+    function foo() {
+        var a = 3;
+        console.log(a); =&amp;gt;3
+    }
+    foo();
+    console.log(a); =&amp;gt;2
+&lt;/pre&gt;
+
+&lt;p&gt;该例子本身没毛病，但有点不太精致，会导致一些额外的问题&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;必须声明一个具明函数foo(),foo名子本身‘污染’了所在作用域(全局)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;必须是通过一个函数名foo()来调用这个函数才能运行其中代码&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;后来，js提供了可以解决这两个问题的办法：&lt;/p&gt;
+
+&lt;pre&gt;
+    var a = 2;
+    (function foo(){
+        var a = 3;
+        console.log(a); =&amp;gt; 3
+    })();
+    console.log(a); =&amp;gt; 2
+    
+    // 自执行匿名函数
+    // (function foo(){...})作为函数表达示意味着foo只能在...所代表的位置中访问，外部作用域则不可访问
+    // 函数会被当作 &lt;b style=&quot;color:red;&quot;&gt;函数表达示&lt;/b&gt; 而不是一个标准的函数声明来处理
+&lt;/pre&gt;
+
+&lt;pre&gt;
+&lt;b&gt;*区别函数声明 和 表达示的方法&lt;/b&gt;
+&amp;gt; 如果function 是声明中的第一个词 =&amp;gt; 函数声明
+&amp;gt; 否则就是一个函数表达示
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;立即执行函数表达示&quot;&gt;立即执行函数表达示&lt;/h3&gt;
+
+&lt;p&gt;IIFE : 立即执行函数表达示&lt;/p&gt;
+
+&lt;pre&gt;
+    var a = 2;
+    (function foo(){
+        var a = 3;
+        console.log(a); =&amp;gt; 3
+    })();
+    console.log(a); =&amp;gt; 2
+    
+&lt;/pre&gt;
+
+&lt;p&gt;IIFE的进阶用法：把它们当作函数调用并传递参数进去&lt;/p&gt;
+&lt;pre&gt;
+    var a = 2;
+    (function foo(global){
+        var a = 3;
+        console.log(a); =&amp;gt; 3 
+        console.log(global.a); = &amp;gt;2
+    })(window);
+    console.log(a);  =&amp;gt; 2
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;块作用域&quot;&gt;块作用域&lt;/h3&gt;
+
+&lt;p&gt;常见的javascript代码&lt;/p&gt;
+&lt;pre&gt;
+    for(var i=0;i&amp;lt;10;i++) {
+        console.log(i)
+    }
+    console.log(i); =&amp;gt; 10
+    //在for循环内部的上下文中使用i，
+&lt;/pre&gt;
+
+&lt;h4 id=&quot;let&quot;&gt;let&lt;/h4&gt;
+
+&lt;p&gt;前面的不是重点，重点是让你心里知道块作用域的用法及其内涵&lt;/p&gt;
+
+&lt;p&gt;ES6 改变了现状，引入&lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; 关键字，是var以处的另一种变量声明方式 。&lt;/p&gt;
+
+&lt;p&gt;对ES6不太理解的可以去看下&lt;a href=&quot;http://es6.ruanyifeng.com/&quot;&gt;ES6的官方文档&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+    {
+      let a = 10;
+      var b = 1;
+    }
+    a =&amp;gt; ReferenceError: a is not defined
+    b =&amp;gt; 1
+&lt;/pre&gt;
+&lt;pre&gt;
+    for (let i = 0; i &amp;lt; 10; i++) {
+      // ...
+    }
+
+    console.log(i);
+    // ReferenceError: i is not defined
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;b style=&quot;color:red;&quot;&gt;注：let 命令不存在变量提升&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 命令会发生“变量提升”，即变量可以在声明之前使用(输出undefind)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; 命令则改变了语法行为，所声明的变量一定是要在声明后使用，否则报错(报错：ReferenceError)。&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
 
@@ -233,25 +526,4 @@
 
 &lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
 
-&lt;p&gt;‘暂无’&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">1stgongshe 一号艺术公社</title><link href="http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html" rel="alternate" type="text/html" title="1stgongshe 一号艺术公社" /><published>2016-02-23T00:00:00+08:00</published><updated>2016-02-23T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/02/23/project-for-1stgongshe</id><content type="html" xml:base="http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-&lt;p&gt;1stgongshe 一号艺术公社是专业艺术活动展览游学的自助发布平台&lt;/p&gt;
-
-&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
-
-&lt;p&gt;1stgongshe 一号艺术公社 : &lt;a href=&quot;http://1stgongshe.com/&quot;&gt;http://1stgongshe.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;
-&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_2.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;
-&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_3.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;
-&lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; target=&quot;_blank&quot;&gt; 
-    &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/1st_4.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry></feed>
+&lt;p&gt;‘暂无’&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry></feed>

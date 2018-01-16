@@ -59,6 +59,19 @@
 			</item>
 		
 			<item>
+				<title>你不知道的javascript学习笔记</title>
+				
+				
+					<description>&lt;p&gt;好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 15 Jan 2017 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/js/2017/01/15/base-js-note.html</link>
+				<guid isPermaLink="true">http://localhost:4000/js/2017/01/15/base-js-note.html</guid>
+			</item>
+		
+			<item>
 				<title>设计师平台</title>
 				
 				
@@ -121,19 +134,6 @@
 				<pubDate>Fri, 15 Apr 2016 00:00:00 +0800</pubDate>
 				<link>http://localhost:4000/project/2016/04/15/minglang-glasses.html</link>
 				<guid isPermaLink="true">http://localhost:4000/project/2016/04/15/minglang-glasses.html</guid>
-			</item>
-		
-			<item>
-				<title>1stgongshe 一号艺术公社</title>
-				
-				
-					<description>&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-</description>
-				
-				<pubDate>Tue, 23 Feb 2016 00:00:00 +0800</pubDate>
-				<link>http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html</link>
-				<guid isPermaLink="true">http://localhost:4000/project/2016/02/23/project-for-1stgongshe.html</guid>
 			</item>
 		
 	</channel>

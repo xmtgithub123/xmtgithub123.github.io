@@ -1,0 +1,663 @@
+<!doctype html>
+<html>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?47c54e2772f8450c644d2cd72585bc85";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<head>
+
+  <title>
+    
+      你不知道的javascript学习笔记 | XuMengTing's Web
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- RSS-v2.0
+  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="XuMengTing's Web | 宁静致远"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?47c54e2772f8450c644d2cd72585bc85";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- Use Atom --> 
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" /> 
+  
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">XuMengTing's Web</a>
+    <small class="masthead-subtitle">宁静致远</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/writing.html">笔记</a>
+    
+      <a href="/menu/project.html">项目</a>
+    
+      <a href="/menu/about.html">关于</a>
+    
+      <a href="/menu/contact.html">方式</a>
+    
+  </nav>
+ <!--  <nav class="social-icons">
+    
+      <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    
+      <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+    
+      <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+      <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+      <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+    
+  </nav> -->
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  你不知道的javascript学习笔记
+</h1>
+
+   <span id="/js/2017/01/15/base-js-note.html" class="leancloud_visitors" data-flag-title="你不知道的javascript学习笔记" >
+      <span class="post-meta-item-icon">
+         <i class="fa fa-eye" aria-hidden="true"></i> 
+       </span>
+       <span class="old-visitors-count" style="display: none;"></span>
+       <span class="leancloud-visitors-count"></span>
+       <span class="post-meta-item-text">次浏览</span>
+   </span>
+
+
+
+  <img src="/assets/img/cutting.jpg">
+
+
+
+<p>好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</p>
+
+<h2 id="开始">开始</h2>
+
+<h3 id="目录">目录</h3>
+
+<ol>
+  <li>作用域是什么
+    <ol>
+      <li><a href="#理解作用域">理解作用域</a></li>
+      <li><a href="#作用域嵌套">作用域嵌套</a></li>
+      <li><a href="#会发生的异常">会发生的异常</a></li>
+    </ol>
+  </li>
+  <li>词法作用域
+    <ol>
+      <li><a href="#词法阶段">词法阶段</a></li>
+      <li><a href="#欺骗词法">欺骗词法</a></li>
+    </ol>
+  </li>
+  <li>函数作用域和块作用域
+    <ol>
+      <li><a href="#函数中的作用域">函数中的作用域</a></li>
+      <li><a href="#隐藏内部实现">隐藏内部实现</a></li>
+      <li><a href="#函数作用域">函数作用域</a>
+        <ol>
+          <li><a href="#匿名和具名">匿名和具名</a></li>
+          <li><a href="#立即执行函数表达示">立即执行函数表达示</a></li>
+        </ol>
+      </li>
+      <li><a href="#块作用域">块作用域</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="理解作用域">理解作用域</h3>
+
+<p>对程序的处理需要这三个帮手：<br />
+1.引擎：负责整个js程序的编译及执行过程<br />
+2.编译器：负责语法分析及代码生成等<br />
+3.作用域：负责收集并维护由所有声明的标识符组成的理询，确定肖前执行的代码对这些标识符的访问权限</p>
+
+<pre>var a = 2</pre>
+
+<p>例如碰到上以代码的执行时编译器会作如下处理：<br /></p>
+
+<p>1.<code class="highlighter-rouge">var a</code>,编译器会查询作用域中是否已经有对该变量在于同一个作用域的集合中，如果已有了，编译器会忽略并继续工作;否则会要求作用域在当前作用域的集合中声明一个新的变量，命名为a。<br /></p>
+
+<p>2.之后编译器会为引擎生成运行时所需要的代码，用来处理<code class="highlighter-rouge">a=2</code>的赋值操作，引擎第一步会问作用域是否在当前作用域集合中有a的变量，若有则使用这个变量，如果没有，引擎则会继续查找该变量。</p>
+
+<p>3.在该例子中，引擎为变量<code class="highlighter-rouge">a</code> 进行LHS（赋值操作）查询。另一个查找类型 RHS（取到它的源值）</p>
+
+<pre>例1：console.log(a)  //可以看出对`a`的引用是一个RHS引用</pre>
+
+<pre>例2：a = 2 ;  //可以看出对`a`的引用是一个LHS引用</pre>
+
+<pre>例3：function foo(i) {
+        console.log(i)  // 查找i并打印出来是对i的源值查找操作 此为RHS操作
+    }
+    foo(2)  //调用foo函数并为i赋值为2 此为LHS 操作
+</pre>
+
+<h3 id="作用域嵌套">作用域嵌套</h3>
+
+<p>当一个块或函数嵌套在另一个块或函数中，就会发生了作用域的嵌套。所以在当前作用域中无法找个某个变量时，引擎就会在外层嵌套的作用域中继续查找，直到找到该变量或找到最外层的作用域（全局）为止。</p>
+
+<pre>function foo(a) {
+    console.log(a + b) //在这里对a是RHS操作，对b的RHS引用无法在foo函数内完成，这里可以在上一级作用域中完成（此例是在全局中）
+}
+var b = 2;
+foo(1)  =&gt; 3   //调用foo()函数 对a是LHS操作</pre>
+
+<p>注：引擎从当前执行作用域开始查找变量，若找不到，则向上一级查找。如果找到最外层即全局作用域时，不管找到与否，过程都将停止。</p>
+
+<p>如图，可作参考
+<img src="http://ozc5dgoun.bkt.clouddn.com/%E4%BD%9C%E7%94%A8%E5%9F%9F.png" alt="" /></p>
+
+<h3 id="会发生的异常">会发生的异常</h3>
+
+<p>上面提到的LHS 与 RHS，因为在变量还没有声明（其他作用域或全局作用域都无法找到）的情况下，这两种的查询行为是不一样的。</p>
+
+<pre>
+    function foo(a) {
+        console.log(a + b); // a:执行RHS操作  但是对b的RHS操作无法找到变量，此为`未声明`的变量，在任何作用域下都找不到它。
+        b = a;
+    }
+    foo(2);   // 调用foo()函数，执行LHS操作
+
+    注：如RHS查询（在任何作用域中）找不到变量，引擎会抛出`ReferenceError`的异常。此异常是重要的异常类型。
+
+    不成功的RHS引用会导致ReferenceError异常。不成功的LHS引用会导致自动隐式创建一个全局变量(非严格模式下)，该变量使用LHS引用的目标作为标识符，或者抛出ReferenceError异常(严格模式下)
+</pre>
+
+<h3 id="词法阶段">词法阶段</h3>
+
+<p>词法作用域是定义在词法阶段的作用域。</p>
+
+<p>词法作用域是由你在写代码时将变量和块作用域写在哪里决定的，所以当词法分析器处理代码时会保持作用域不变(大部份情况下)</p>
+
+<pre>
+例1: function foo(a) {
+    var b = a*2;
+    function bar(c) {
+        console.log(a,b,c);
+    }
+    bar(b*3)
+    }
+    foo(2);
+<img src="http://ozc5dgoun.bkt.clouddn.com/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F1.png" alt="" />
+</pre>
+<pre>例2：
+    function foo(){
+        console.log(a);
+    }
+    function bar(){
+        var a = 2;
+        foo();
+    }
+    var a=1;
+    bar();  =&gt; 1
+    <img src="http://ozc5dgoun.bkt.clouddn.com/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F2.png" alt="" style="width:300px" />
+</pre>
+
+<h3 id="期骗词法">期骗词法</h3>
+
+<h4 id="1eval">1.eval</h4>
+
+<p>js中的Eval()函数可接受一个字符串为参数，并将其中内容视为好像在书写时就存在程程序中这个位置的代码。</p>
+
+<h4 id="2with">2.with</h4>
+
+<p>with声明实际是根据你传递给它的对象凭空创建了一个全新的词法作用域。</p>
+
+<p>注：不推荐使用这两个机制</p>
+
+<h3 id="函数中的作用域">函数中的作用域</h3>
+
+<p>属于这个函数的全部变量都可以在整个函数的范围内使用和复用。</p>
+
+<pre>例：
+    function foo(a){    //foo()的作用域包括了(b,bar(),c)
+        var b = 2;
+        function bar(){  //barr()的作用域包括了它自己的标识符
+            ...
+        }
+        var c = 3;
+
+    }
+    bar(); // 错误   由于bar是foo()作用域包含的，所以不能从全局作用域中访问
+    console.log(a,b,c) //错误  同理
+</pre>
+
+<h3 id="隐藏内部实现">隐藏内部实现</h3>
+
+<p>一般来讲，都是先声明一个函数，然后在函数内添加代码;同时，可以用函数声明的方式对代码进行包装，就是把这些代码“隐藏”了的意思。</p>
+
+<p>就是说，可以把变量和函数包裹在一个函数的作用域中，用这个作用域来“隐藏”它们。</p>
+
+<pre>例：
+    function foo(a){
+        b = a + bar(a *2);
+        console.log(b*3);
+    }
+    function bar(a){
+        return a-1;
+    }
+    var b ;
+    foo(2); =&gt; 15
+    //这里需要注意的是 变量b和bar()应该是foo()内部具体实现的‘私有’内容。放在全局作用域不仅没有必要，而且是‘危险’，所以更‘隐藏’的设计会更加的私有化，例如
+
+    function foo(a){
+        function bar(a) {
+            return a -1 ;
+        }
+        var b;
+        b = a + bar(a*2);
+        console.log(b*3)
+    }
+    foo(2) =&gt; 15
+
+    //这样一来，b和bar()都无法从外部被访问，只被foo()控制。
+</pre>
+
+<h3 id="函数作用域">函数作用域</h3>
+
+<p>先看一个例子:</p>
+<pre>
+    var a = 2;
+    function foo() {
+        var a = 3;
+        console.log(a); =&gt;3
+    }
+    foo();
+    console.log(a); =&gt;2
+</pre>
+
+<p>该例子本身没毛病，但有点不太精致，会导致一些额外的问题</p>
+
+<ol>
+  <li>
+    <p>必须声明一个具明函数foo(),foo名子本身‘污染’了所在作用域(全局)</p>
+  </li>
+  <li>
+    <p>必须是通过一个函数名foo()来调用这个函数才能运行其中代码</p>
+  </li>
+</ol>
+
+<p>后来，js提供了可以解决这两个问题的办法：</p>
+
+<pre>
+    var a = 2;
+    (function foo(){
+        var a = 3;
+        console.log(a); =&gt; 3
+    })();
+    console.log(a); =&gt; 2
+    
+    // 自执行匿名函数
+    // (function foo(){...})作为函数表达示意味着foo只能在...所代表的位置中访问，外部作用域则不可访问
+    // 函数会被当作 <b style="color:red;">函数表达示</b> 而不是一个标准的函数声明来处理
+</pre>
+
+<pre>
+<b>*区别函数声明 和 表达示的方法</b>
+&gt; 如果function 是声明中的第一个词 =&gt; 函数声明
+&gt; 否则就是一个函数表达示
+</pre>
+
+<h3 id="立即执行函数表达示">立即执行函数表达示</h3>
+
+<p>IIFE : 立即执行函数表达示</p>
+
+<pre>
+    var a = 2;
+    (function foo(){
+        var a = 3;
+        console.log(a); =&gt; 3
+    })();
+    console.log(a); =&gt; 2
+    
+</pre>
+
+<p>IIFE的进阶用法：把它们当作函数调用并传递参数进去</p>
+<pre>
+    var a = 2;
+    (function foo(global){
+        var a = 3;
+        console.log(a); =&gt; 3 
+        console.log(global.a); = &gt;2
+    })(window);
+    console.log(a);  =&gt; 2
+</pre>
+
+<h3 id="块作用域">块作用域</h3>
+
+<p>常见的javascript代码</p>
+<pre>
+    for(var i=0;i&lt;10;i++) {
+        console.log(i)
+    }
+    console.log(i); =&gt; 10
+    //在for循环内部的上下文中使用i，
+</pre>
+
+<h4 id="let">let</h4>
+
+<p>前面的不是重点，重点是让你心里知道块作用域的用法及其内涵</p>
+
+<p>ES6 改变了现状，引入<code class="highlighter-rouge">let</code> 关键字，是var以处的另一种变量声明方式 。</p>
+
+<p>对ES6不太理解的可以去看下<a href="http://es6.ruanyifeng.com/">ES6的官方文档</a></p>
+
+<pre>
+    {
+      let a = 10;
+      var b = 1;
+    }
+    a =&gt; ReferenceError: a is not defined
+    b =&gt; 1
+</pre>
+<pre>
+    for (let i = 0; i &lt; 10; i++) {
+      // ...
+    }
+
+    console.log(i);
+    // ReferenceError: i is not defined
+</pre>
+
+<p><b style="color:red;">注：let 命令不存在变量提升</b></p>
+
+<p><code class="highlighter-rouge">var</code> 命令会发生“变量提升”，即变量可以在声明之前使用(输出undefind)</p>
+
+<p><code class="highlighter-rouge">let</code> 命令则改变了语法行为，所声明的变量一定是要在声明后使用，否则报错(报错：ReferenceError)。</p>
+
+
+<span class="post-date pull-right">
+  Written on
+  
+  January
+  15th,
+  2017
+  <!-- by
+  
+    MengTing Xu
+   -->
+</span>
+
+
+
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=你不知道的javascript学习笔记&amp;url=/js/2017/01/15/base-js-note.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/js/2017/01/15/base-js-note.html&amp;title=你不知道的javascript学习笔记" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://github.com/share?url=/js/2017/01/15/base-js-note.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >你也可能喜欢:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+          <li>
+            <h3>
+              <a href="/git/2017/11/06/my-first-jekyll-blog.html">
+                使用github和jekyll设置自己的个人网站
+                <!--<img src="http://localhost:4000/images/cutting-teaser.jpg">-->
+                <!--<small>November 6, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/project/2017/08/18/project-for-h5-games.html">
+                H5 小游戏 (移动端)
+                <!--<img src="http://localhost:4000/images/">-->
+                <!--<small>August 18, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/project/2017/04/16/project-management-software.html">
+                项目管理标准版
+                <!--<img src="http://localhost:4000/images/">-->
+                <!--<small>April 16, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="/assets/css/default.css">
+<script src="/assets/js/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    id:'',
+    owner: 'xmtgithub123',
+    repo: 'xmtgithub123.github.io',
+    oauth: {
+        client_id: '9df06563fad6a7ac1226',
+        client_secret: '8d170887fdecf9fcf78d1692baeea8fcec114c2e',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
+
+      
+    </div>
+
+    <footer class="footer">
+  
+   <!--  <a href="https://github.com/xmtgithub123" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> -->
+  
+   <!--  <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-wechat" aria-hidden="true"></i></a> -->
+  
+   <!--  <a href="http://www.linkedin.com/in/lenpaul/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+  
+   <!--  <a href="mailto:l.nguyen.paul@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> -->
+  
+   <!--  <a href="feed.xml" target="_blank"><i class="fa fa-rss-square" aria-hidden="true"></i></a> -->
+  
+  <div class="post-date"><a href="/menu/about.html">XuMengTing's Web | 宁静致远 by MengTing Xu</a></div>
+</footer>
+
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("s29M3hbKmQuBTvGAGpykgwll-gzGzoHsz", "lwovEN4Eqv4fkLrUly0bNXAi");</script>
+ <script type="text/javascript">
+function showTime(Counter) {
+    var query = new AV.Query(Counter);
+    var entries = [];
+    var $visitors = $(".leancloud_visitors");
+
+    $visitors.each(function() {
+        entries.push($(this).attr("id").trim());
+    });
+
+    query.containedIn('url', entries);
+    query.find()
+        .done(function(results) {
+            var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+            var OLD_COUNT_CONTAINER_REF = '.old-visitors-count';
+
+            // if (results.length === 0) {
+            //     $visitors.find(COUNT_CONTAINER_REF).text(0);
+            //     return;
+            // }
+
+            for (var i = 0; i < results.length; i++) {
+                var item = results[i];
+                var url = item.get('url');
+                var time = item.get('time');
+                var element = document.getElementById(url);
+
+                $(element).find(COUNT_CONTAINER_REF).text(time);
+            }
+            for (var i = 0; i < entries.length; i++) {
+                var url = entries[i];
+                var element = document.getElementById(url);
+                var countSpan = $(element).find(COUNT_CONTAINER_REF);
+                if (countSpan.text() == '') {
+                    var oldCountSpan = $(element).find(OLD_COUNT_CONTAINER_REF).text();
+                    if(oldCountSpan!=''){
+                        countSpan.text(0+parseInt(oldCountSpan));
+                    }else{
+                        countSpan.text(0);          
+                    }
+                }
+            }
+        })
+        .fail(function(object, error) {
+            console.log("Error: " + error.code + " " + error.message);
+        });
+}
+
+function addCount(Counter) {
+    var $visitors = $(".leancloud_visitors");
+    var url = $visitors.attr('id').trim();
+    var title = $visitors.attr('data-flag-title').trim();
+    var query = new AV.Query(Counter);
+
+    query.equalTo("url", url);
+    query.find({
+        success: function(results) {
+            if (results.length > 0) {
+                var counter = results[0];
+                counter.fetchWhenSave(true);
+                counter.increment("time");
+                counter.save(null, {
+                    success: function(counter) {
+                        var $element = $(document.getElementById(url));
+                        $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                    },
+                    error: function(counter, error) {
+                        console.log('Failed to save Visitor num, with error message: ' + error.message);
+                    }
+                });
+            } else {
+                var newcounter = new Counter();
+                /* Set ACL */
+                var acl = new AV.ACL();
+                acl.setPublicReadAccess(true);
+                acl.setPublicWriteAccess(true);
+                newcounter.setACL(acl);
+                /* End Set ACL */
+                newcounter.set("title", title);
+                newcounter.set("url", url);
+                var OLD_COUNT_CONTAINER_REF = '.old-visitors-count';
+                var $element = $(document.getElementById(url));
+                var oldCountSpan = $element.find(OLD_COUNT_CONTAINER_REF).text();
+                if(oldCountSpan!=''){
+                    newcounter.set("time", parseInt(oldCountSpan)+1);
+                }else{
+                        newcounter.set("time",  1);
+                }
+                newcounter.save(null, {
+                    success: function(newcounter) {
+                        var $element = $(document.getElementById(url));
+                        $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                    },
+                    error: function(newcounter, error) {
+                        console.log('Failed to create');
+                    }
+                });
+            }
+        },
+        error: function(error) {
+            console.log('Error:' + error.code + " " + error.message);
+        }
+    });
+}
+$(function() {
+    var Counter = AV.Object.extend("Counter");
+    //如果只有1个.leancloud_visitors，则说明是博客页，需要显示查看数并将查看数+1
+    //超过1个，则说明是文章列表，只需要显示查看数
+    if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+    } else {
+        showTime(Counter);
+    }
+});
+  </script>
+
+</body>
+</html>
