@@ -124,9 +124,11 @@ foo(1)  => 3   //调用foo()函数 对a是LHS操作</pre>
     }
     var a=1;
     bar();  => 1
+    //如果javascript具有动态作用域，理论上，会输出2
     <img src="http://ozc5dgoun.bkt.clouddn.com/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F2.png" alt="" style="width:300px">
 </pre>
 
+> 词法作用域是在写代码或者说定义时确定的，而动态作用域是在运行时确定的(this也是)。词法作用域关注函数是在何处声明的，而动态作用域是关注函数从何处调用。
 
 ### 期骗词法
 
@@ -148,7 +150,7 @@ with声明实际是根据你传递给它的对象凭空创建了一个全新的�
 <pre>例：
     function foo(a){    //foo()的作用域包括了(b,bar(),c)
         var b = 2;
-        function bar(){  //barr()的作用域包括了它自己的标识符
+        function bar(){  //bar()的作用域包括了它自己的标识符
             ...
         }
         var c = 3;

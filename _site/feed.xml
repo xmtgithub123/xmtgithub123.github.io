@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T14:30:29+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T15:39:07+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -285,8 +285,13 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
     }
     var a=1;
     bar();  =&amp;gt; 1
+    //如果javascript具有动态作用域，理论上，会输出2
     &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/%E8%AF%8D%E6%B3%95%E4%BD%9C%E7%94%A8%E5%9F%9F2.png&quot; alt=&quot;&quot; style=&quot;width:300px&quot; /&gt;
 &lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;词法作用域是在写代码或者说定义时确定的，而动态作用域是在运行时确定的(this也是)。词法作用域关注函数是在何处声明的，而动态作用域是关注函数从何处调用。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;期骗词法&quot;&gt;期骗词法&lt;/h3&gt;
 
@@ -307,7 +312,7 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
 &lt;pre&gt;例：
     function foo(a){    //foo()的作用域包括了(b,bar(),c)
         var b = 2;
-        function bar(){  //barr()的作用域包括了它自己的标识符
+        function bar(){  //bar()的作用域包括了它自己的标识符
             ...
         }
         var c = 3;
