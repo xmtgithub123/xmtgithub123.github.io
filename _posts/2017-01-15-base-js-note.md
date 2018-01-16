@@ -32,6 +32,11 @@ image:
       1. [匿名和具名](#匿名和具名)
       2. [立即执行函数表达示](#立即执行函数表达示)
    4. [块作用域](#块作用域)
+4. [提升](#提升)
+   1. [变量提升](#变量提升)
+   2. [函数提升](#函数提升)
+   3. [函数优先](#函数优先)
+
 
 ### 理解作用域
 
@@ -291,3 +296,156 @@ ES6 改变了现状，引入`let` 关键字，是var以处的另一种变量声�
 `var` 命令会发生“变量提升”，即变量可以在声明之前使用(输出undefind)
 
 `let` 命令则改变了语法行为，所声明的变量一定是要在声明后使用，否则报错(报错：ReferenceError)。
+
+### const 
+
+>除了let以外,ES6还引入了const,同样也可以用来创建作用域变量，但其值是固定的常量，之后若试图修改值都会报错。
+
+<pre>
+    const a = 3;
+    a // 3
+
+    a = 4;
+    // TypeError: Assignment to constant variable.
+</pre>
+
+
+### 提升
+
+引擎会在解释javascript代码之前首先对其进行编译。编译阶段中的一部份工作就是找到所有的声明，并用合适的作用域将它们关联起来。
+
+>正确说法就是，包括变量和函数在内的所有声明都会在任何代码被执行前首先被处理。
+
+### 变量提升
+
+可以看个简单的例子：
+
+<pre>var a = 1;</pre>
+
+可能会被认为是一个声明，但在之前，javascript会将其看成两个声明 `var a;` 和 `a = 1` ，第一个定义声明是在编译阶段;第二个赋值声明 会被留在原地等待执行阶段 
+
+所以，上面代码会以如下顺序处理：
+
+<pre>
+    var a ;
+    a = 1;
+    console.log(a) =>1
+</pre>
+
+### 函数提升
+
+<pre>
+    // 函数声明会被提升
+
+    foo();
+    function foo() {
+        console.log(a);
+        var a = 1;
+    }
+
+    //以下函数声明可以理解为下面的形式:
+
+    function foo() {
+        var a ;
+        console.log(a); => undefined
+        a = 1;
+    }
+    foo();
+</pre>
+
+
+> 函数声明会被提升 ，但函数表达示却不会被提升
+
+<pre>
+    foo();  // 不是ReferenceError ，而是TypeError
+    var foo = function bar() {
+        ...
+    }
+</pre>
+
+<pre>
+    foo();  // 不是ReferenceError ，而是TypeError
+    bar();  // ReferenceError
+    var foo = function bar() {
+        ...
+    }
+
+    经过提升后的代码：
+
+    var foo;
+    foo();
+    bar();
+    foo = function () {
+        var bar = ....
+        //...
+    }
+</pre>
+
+
+### 函数优先
+
+> 函数声明和变量声明都会被提升，但函数声明优先于变量，函数声明会被提升到普通变量之前。
+
+> 重复的变量声明会被忽略，只剩下赋值操作，多个函数声明可以覆盖前一个。
+
+<pre>
+例1：
+    var a;
+    a = 1;
+    foo();
+    function foo(){...}
+
+    提升之后的形式如下：
+    
+    function foo(){...}
+    var a ; 
+    a = 1;
+    foo();
+</pre>
+
+<pre>
+例2：
+    foo();  => 1
+    var foo;
+    function foo() {
+        console.log(1);
+    }
+    foo = function() {
+        console.log(2);
+    };
+
+    提升后的代码形式如下：
+
+    function foo(){
+        console.log(1);
+    }
+    /*var foo;*/
+    foo(); => 1
+    foo = function(){
+        console.log(2);
+    };
+
+</pre>
+
+var foo 虽然是出现在function foo()...的声明之前，但它是重复声明 (因此被忽略)，因为函数声明会被提升 到普通这变量之前。
+
+<pre>
+    foo(); = > 3
+    function foo(){
+        console.log(1)
+    }
+    var foo = function () {
+        console.log(2)
+    }
+    function foo(){
+        console.log(3)
+    }
+
+    提升后的代码形式如下：
+    function foo(){console.log(1)}
+    function foo(){console.log(3)}
+    foo(); => 3
+    /*var foo;*/
+    foo = function() {console.log(2)}
+
+</pre>

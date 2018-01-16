@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T09:17:04+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T14:30:29+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -189,6 +189,13 @@
         &lt;/ol&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#块作用域&quot;&gt;块作用域&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#提升&quot;&gt;提升&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#变量提升&quot;&gt;变量提升&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#函数提升&quot;&gt;函数提升&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#函数优先&quot;&gt;函数优先&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -451,7 +458,167 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 命令会发生“变量提升”，即变量可以在声明之前使用(输出undefind)&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; 命令则改变了语法行为，所声明的变量一定是要在声明后使用，否则报错(报错：ReferenceError)。&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; 命令则改变了语法行为，所声明的变量一定是要在声明后使用，否则报错(报错：ReferenceError)。&lt;/p&gt;
+
+&lt;h3 id=&quot;const&quot;&gt;const&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;除了let以外,ES6还引入了const,同样也可以用来创建作用域变量，但其值是固定的常量，之后若试图修改值都会报错。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;
+    const a = 3;
+    a // 3
+
+    a = 4;
+    // TypeError: Assignment to constant variable.
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;提升&quot;&gt;提升&lt;/h3&gt;
+
+&lt;p&gt;引擎会在解释javascript代码之前首先对其进行编译。编译阶段中的一部份工作就是找到所有的声明，并用合适的作用域将它们关联起来。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;正确说法就是，包括变量和函数在内的所有声明都会在任何代码被执行前首先被处理。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;变量提升&quot;&gt;变量提升&lt;/h3&gt;
+
+&lt;p&gt;可以看个简单的例子：&lt;/p&gt;
+
+&lt;pre&gt;var a = 1;&lt;/pre&gt;
+
+&lt;p&gt;可能会被认为是一个声明，但在之前，javascript会将其看成两个声明 &lt;code class=&quot;highlighter-rouge&quot;&gt;var a;&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;a = 1&lt;/code&gt; ，第一个定义声明是在编译阶段;第二个赋值声明 会被留在原地等待执行阶段&lt;/p&gt;
+
+&lt;p&gt;所以，上面代码会以如下顺序处理：&lt;/p&gt;
+
+&lt;pre&gt;
+    var a ;
+    a = 1;
+    console.log(a) =&amp;gt;1
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;函数提升&quot;&gt;函数提升&lt;/h3&gt;
+
+&lt;pre&gt;
+    // 函数声明会被提升
+
+    foo();
+    function foo() {
+        console.log(a);
+        var a = 1;
+    }
+
+    //以下函数声明可以理解为下面的形式:
+
+    function foo() {
+        var a ;
+        console.log(a); =&amp;gt; undefined
+        a = 1;
+    }
+    foo();
+&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;函数声明会被提升 ，但函数表达示却不会被提升&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;
+    foo();  // 不是ReferenceError ，而是TypeError
+    var foo = function bar() {
+        ...
+    }
+&lt;/pre&gt;
+
+&lt;pre&gt;
+    foo();  // 不是ReferenceError ，而是TypeError
+    bar();  // ReferenceError
+    var foo = function bar() {
+        ...
+    }
+
+    经过提升后的代码：
+
+    var foo;
+    foo();
+    bar();
+    foo = function () {
+        var bar = ....
+        //...
+    }
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;函数优先&quot;&gt;函数优先&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;函数声明和变量声明都会被提升，但函数声明优先于变量，函数声明会被提升到普通变量之前。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;重复的变量声明会被忽略，只剩下赋值操作，多个函数声明可以覆盖前一个。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;
+例1：
+    var a;
+    a = 1;
+    foo();
+    function foo(){...}
+
+    提升之后的形式如下：
+    
+    function foo(){...}
+    var a ; 
+    a = 1;
+    foo();
+&lt;/pre&gt;
+
+&lt;pre&gt;
+例2：
+    foo();  =&amp;gt; 1
+    var foo;
+    function foo() {
+        console.log(1);
+    }
+    foo = function() {
+        console.log(2);
+    };
+
+    提升后的代码形式如下：
+
+    function foo(){
+        console.log(1);
+    }
+    /*var foo;*/
+    foo(); =&amp;gt; 1
+    foo = function(){
+        console.log(2);
+    };
+
+&lt;/pre&gt;
+
+&lt;p&gt;var foo 虽然是出现在function foo()…的声明之前，但它是重复声明 (因此被忽略)，因为函数声明会被提升 到普通这变量之前。&lt;/p&gt;
+
+&lt;pre&gt;
+    foo(); = &amp;gt; 3
+    function foo(){
+        console.log(1)
+    }
+    var foo = function () {
+        console.log(2)
+    }
+    function foo(){
+        console.log(3)
+    }
+
+    提升后的代码形式如下：
+    function foo(){console.log(1)}
+    function foo(){console.log(3)}
+    foo(); =&amp;gt; 3
+    /*var foo;*/
+    foo = function() {console.log(2)}
+
+&lt;/pre&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
 

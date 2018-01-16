@@ -152,6 +152,13 @@ var _hmt = _hmt || [];
       <li><a href="#块作用域">块作用域</a></li>
     </ol>
   </li>
+  <li><a href="#提升">提升</a>
+    <ol>
+      <li><a href="#变量提升">变量提升</a></li>
+      <li><a href="#函数提升">函数提升</a></li>
+      <li><a href="#函数优先">函数优先</a></li>
+    </ol>
+  </li>
 </ol>
 
 <h3 id="理解作用域">理解作用域</h3>
@@ -413,6 +420,166 @@ foo(1)  =&gt; 3   //调用foo()函数 对a是LHS操作</pre>
 <p><code class="highlighter-rouge">var</code> 命令会发生“变量提升”，即变量可以在声明之前使用(输出undefind)</p>
 
 <p><code class="highlighter-rouge">let</code> 命令则改变了语法行为，所声明的变量一定是要在声明后使用，否则报错(报错：ReferenceError)。</p>
+
+<h3 id="const">const</h3>
+
+<blockquote>
+  <p>除了let以外,ES6还引入了const,同样也可以用来创建作用域变量，但其值是固定的常量，之后若试图修改值都会报错。</p>
+</blockquote>
+
+<pre>
+    const a = 3;
+    a // 3
+
+    a = 4;
+    // TypeError: Assignment to constant variable.
+</pre>
+
+<h3 id="提升">提升</h3>
+
+<p>引擎会在解释javascript代码之前首先对其进行编译。编译阶段中的一部份工作就是找到所有的声明，并用合适的作用域将它们关联起来。</p>
+
+<blockquote>
+  <p>正确说法就是，包括变量和函数在内的所有声明都会在任何代码被执行前首先被处理。</p>
+</blockquote>
+
+<h3 id="变量提升">变量提升</h3>
+
+<p>可以看个简单的例子：</p>
+
+<pre>var a = 1;</pre>
+
+<p>可能会被认为是一个声明，但在之前，javascript会将其看成两个声明 <code class="highlighter-rouge">var a;</code> 和 <code class="highlighter-rouge">a = 1</code> ，第一个定义声明是在编译阶段;第二个赋值声明 会被留在原地等待执行阶段</p>
+
+<p>所以，上面代码会以如下顺序处理：</p>
+
+<pre>
+    var a ;
+    a = 1;
+    console.log(a) =&gt;1
+</pre>
+
+<h3 id="函数提升">函数提升</h3>
+
+<pre>
+    // 函数声明会被提升
+
+    foo();
+    function foo() {
+        console.log(a);
+        var a = 1;
+    }
+
+    //以下函数声明可以理解为下面的形式:
+
+    function foo() {
+        var a ;
+        console.log(a); =&gt; undefined
+        a = 1;
+    }
+    foo();
+</pre>
+
+<blockquote>
+  <p>函数声明会被提升 ，但函数表达示却不会被提升</p>
+</blockquote>
+
+<pre>
+    foo();  // 不是ReferenceError ，而是TypeError
+    var foo = function bar() {
+        ...
+    }
+</pre>
+
+<pre>
+    foo();  // 不是ReferenceError ，而是TypeError
+    bar();  // ReferenceError
+    var foo = function bar() {
+        ...
+    }
+
+    经过提升后的代码：
+
+    var foo;
+    foo();
+    bar();
+    foo = function () {
+        var bar = ....
+        //...
+    }
+</pre>
+
+<h3 id="函数优先">函数优先</h3>
+
+<blockquote>
+  <p>函数声明和变量声明都会被提升，但函数声明优先于变量，函数声明会被提升到普通变量之前。</p>
+</blockquote>
+
+<blockquote>
+  <p>重复的变量声明会被忽略，只剩下赋值操作，多个函数声明可以覆盖前一个。</p>
+</blockquote>
+
+<pre>
+例1：
+    var a;
+    a = 1;
+    foo();
+    function foo(){...}
+
+    提升之后的形式如下：
+    
+    function foo(){...}
+    var a ; 
+    a = 1;
+    foo();
+</pre>
+
+<pre>
+例2：
+    foo();  =&gt; 1
+    var foo;
+    function foo() {
+        console.log(1);
+    }
+    foo = function() {
+        console.log(2);
+    };
+
+    提升后的代码形式如下：
+
+    function foo(){
+        console.log(1);
+    }
+    /*var foo;*/
+    foo(); =&gt; 1
+    foo = function(){
+        console.log(2);
+    };
+
+</pre>
+
+<p>var foo 虽然是出现在function foo()…的声明之前，但它是重复声明 (因此被忽略)，因为函数声明会被提升 到普通这变量之前。</p>
+
+<pre>
+    foo(); = &gt; 3
+    function foo(){
+        console.log(1)
+    }
+    var foo = function () {
+        console.log(2)
+    }
+    function foo(){
+        console.log(3)
+    }
+
+    提升后的代码形式如下：
+    function foo(){console.log(1)}
+    function foo(){console.log(3)}
+    foo(); =&gt; 3
+    /*var foo;*/
+    foo = function() {console.log(2)}
+
+</pre>
 
 
 <span class="post-date pull-right">
