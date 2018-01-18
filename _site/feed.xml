@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-16T15:39:07+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-18T11:46:52+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -196,6 +196,20 @@
       &lt;li&gt;&lt;a href=&quot;#变量提升&quot;&gt;变量提升&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#函数提升&quot;&gt;函数提升&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#函数优先&quot;&gt;函数优先&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;关于this
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#调用的位置&quot;&gt;调用的位置&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#绑定规则&quot;&gt;绑定规则&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#默认绑定&quot;&gt;默认绑定&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#隐式绑定&quot;&gt;隐式绑定&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#优先级&quot;&gt;优先级&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#绑定例外&quot;&gt;绑定例处&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#this词法&quot;&gt;this词法&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -623,7 +637,110 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
     /*var foo;*/
     foo = function() {console.log(2)}
 
-&lt;/pre&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;调用的位置&quot;&gt;调用的位置&lt;/h3&gt;
+
+&lt;p&gt;this关键字是js中最复杂的机制之一，被定义在所有的函数的作用域中。&lt;/p&gt;
+
+&lt;p&gt;当一个函数被调用时，会创建一个活动记录(也称执行上下文)。该记录会包含函数在哪里被调用(调用栈)、函数的调用方法、传入的参数等信息，this就是记录的其中一个属性，会在函数执行的过程中用到。&lt;/p&gt;
+
+&lt;p&gt;调用位置：函数在代码中被调用的位置(而不是声明的位置)&lt;/p&gt;
+
+&lt;h3 id=&quot;绑定规则&quot;&gt;绑定规则&lt;/h3&gt;
+
+&lt;p&gt;首先得先找到函数的调用位置，然后再进行以下四条规则的判断，以及多条规则下都可使用的情况下的优先级别是如何进行判断的。&lt;/p&gt;
+
+&lt;h4 id=&quot;默认绑定&quot;&gt;默认绑定&lt;/h4&gt;
+
+&lt;p&gt;先看如下代码：&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo() {
+        console.log(this.a); =&amp;gt; 2
+    }
+    var a = 2; 
+    foo(); //函数调用的位置，在非严格模式下可看作为 window.foo()的调用
+&lt;/pre&gt;
+
+&lt;p&gt;在这里需要注意的是:这里的this.a最后打印出是2，为什么？因为函数在调用的时候，其实可以看作为全局调用，即window.foo()。所以，函数调用的位置可看作是全局window是调用，这可以看作为默认调用。所以foo()函数里的this就是指向全局，而this.a解析成全局变量a。&lt;/p&gt;
+
+&lt;p&gt;注：如果使用严格模式下，那么，this的绑定与foo()的调用位置无关。&lt;/p&gt;
+
+&lt;pre&gt;
+    functon foo(){
+        &quot;use strict&quot;;
+        console.log(this.a)
+    }
+    var a = 2;
+    foo(); //TypeError: this is undefined
+&lt;/pre&gt;
+
+&lt;h4 id=&quot;隐式绑定&quot;&gt;隐式绑定&lt;/h4&gt;
+
+&lt;p&gt;再看看一段代码来理解隐式绑定的意思&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo() {
+        console.log(this.a); =&amp;gt;2
+    }
+    var obj = {
+          a: 2,
+          foo:foo  
+    };
+    obj.foo(); // 调用的位置
+&lt;/pre&gt;
+
+&lt;p&gt;按照我自己的理解：先看函数的调用位置。再看是否是默认绑定，如果不是就看是谁调用了这个函数，在这里可以显而易见的知道，是obj这个对象调用了foo()，即调用位置会使用obj上下文来引用函数，这样隐匿绑定规则会把函数用中的this绑定到这个上下文对像，&lt;/p&gt;
+
+&lt;p&gt;所以调用foo()的时候this会被绑定到obj。结果就是this.a = obj.a&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;对像属性引用链中只有最后一层会影响调用位置。看例子：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+    functon foo() {
+        console.log(this.a)  =&amp;gt; 42
+    }
+    var obj2 = {
+        a:42,
+        foo:foo 
+    };
+    var obj1 = {
+        a:2,
+        obj2:obj2
+    };
+    obj1.obj2.foo();  // foo函数调用的位置
+&lt;/pre&gt;
+
+&lt;p&gt;这里和上一个例子不同的是foo调用的位置。这时候肯定一脸蒙蔽，这个怎么判断this是调用到哪个对像的上下文。根据“圆点”号的概念，查找最后调用的那个对象作为this的指向上下文。obj1.obj2.foo()，可以看出最后调用foo()的是obj2，所以this的上下文指向obj2，所以结果输出为 42&lt;/p&gt;
+
+&lt;h4 id=&quot;显式绑定&quot;&gt;显式绑定&lt;/h4&gt;
+
+&lt;p&gt;可以使用函数的call() 和 apply() 方法来进行显式绑定。&lt;/p&gt;
+
+&lt;p&gt;老样子，看例子啦&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo() {
+        console.log(this.a);
+    }
+    var obj = {a:3};
+    foo.call(obj);
+&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;通过使用foo.call(obj)，简单理解为：调用foo()函数并强制将this绑定到obj对象上。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;从this的绑定角度来讲。call() 和 apply() 的操作是一样，但区别在于 传参的的情况下，foo.apply(‘这里是数组’)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;硬绑定&quot;&gt;硬绑定&lt;/h5&gt;
+
+&lt;p&gt;显示绑定仍然无法解决丢失绑定的问题&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
 
