@@ -166,10 +166,12 @@ var _hmt = _hmt || [];
         <ol>
           <li><a href="#默认绑定">默认绑定</a></li>
           <li><a href="#隐式绑定">隐式绑定</a></li>
+          <li><a href="#显式绑定">显式绑定</a></li>
+          <li><a href="#new绑定">new绑定</a></li>
         </ol>
       </li>
       <li><a href="#优先级">优先级</a></li>
-      <li><a href="#绑定例外">绑定例处</a></li>
+      <li><a href="#绑定例外">绑定例外</a></li>
       <li><a href="#this词法">this词法</a></li>
     </ol>
   </li>
@@ -702,6 +704,133 @@ foo(1)  =&gt; 3   //调用foo()函数 对a是LHS操作</pre>
 <h5 id="硬绑定">硬绑定</h5>
 
 <p>显示绑定仍然无法解决丢失绑定的问题</p>
+
+<pre>
+    function foo(){
+        console.log(this.a);
+    }
+    var obj = {
+        foo.call(obj);
+    };
+    bar(); =&gt;2
+    setTimeout(bar,100); =&gt;2
+
+    //硬绑定的bar，不可能再修改它的this
+    bar.call(window); =&gt; 2
+</pre>
+
+<p>创建bar()函数，并手动foo.call(obj),强制把foo绑定到obj上。之后无论如何调用函数bar，都会手动在obj上调用foo。所以这种绑定是一种显式的强制绑定，即硬绑定</p>
+
+<h3 id="new绑定">new绑定</h3>
+
+<blockquote>
+  <p>Javascript中的“构造函数”只是一些使用new操作符时被调用的函数。它们并不属于某个类，也不会实例化一个类(即js中没有类的概念)。</p>
+</blockquote>
+
+<p>使用new来调用函数，或者是在构造函数调用的时候，有如下操作：</p>
+
+<ol>
+  <li>
+    <p>创建(构造)一个全新的对象</p>
+  </li>
+  <li>
+    <p>这个新对象会被执行(原型)连接</p>
+  </li>
+  <li>
+    <p>新对象会绑定到函数调用的this</p>
+  </li>
+  <li>
+    <p>如果函数没有返回其他对象，new表达式中的函数调用会自动返回这个新对象</p>
+  </li>
+</ol>
+
+<p>例：</p>
+<pre>
+    function foo(a) {
+        this.a = a;
+    }
+    var bar = new foo(3);
+    console.log(bar.a ); =&gt; 2
+</pre>
+
+<p>new 调用foo()时，会构造一个新对象并绑定到foo()调用中的this上。</p>
+
+<h3 id="优先级">优先级</h3>
+
+<!-- new绑定 > 显式绑定 > 隐式绑定 > 默认绑定 -->
+
+<blockquote>
+  <p>new 和 call/apply无法一起使用</p>
+</blockquote>
+
+<p>以上四种绑定规则的使用先后推断如下：
+ 1、函数是否在 new 中调用（new 绑定）？如果是的话 this 绑定的是新创建的对象。</p>
+
+<p><code class="highlighter-rouge">var bar = new foo(); </code></p>
+
+<p>2、函数是否通过 call、apply （显示绑定）或者硬绑定？如果是的话，this 绑定的是指定的对象。</p>
+
+<p><code class="highlighter-rouge"> var bar = foo.call(obj2); </code></p>
+
+<p>3、函数是否在某个上下文对象中调用（隐式绑定）？如果是的话，this 绑定的是那个上下文对象。</p>
+
+<p><code class="highlighter-rouge"> var bar = obj1.foo(); </code></p>
+
+<p>4、如果都不是的话，使用默认绑定。如果在严格模式下，就绑定到 undefined，否则绑定到全局对象。</p>
+
+<p><code class="highlighter-rouge"> var bar = foo(); </code></p>
+
+<h3 id="绑定例外">绑定例外</h3>
+
+<blockquote>
+  <p>若把<code class="highlighter-rouge">null</code>或<code class="highlighter-rouge">undefined</code> 作为<code class="highlighter-rouge">this</code>的绑定对象传入<code class="highlighter-rouge">call</code>,<code class="highlighter-rouge">applh</code>,或<code class="highlighter-rouge">bind</code>,这些值在调用的时候会被忽略，实际应用的是默认绑定规则</p>
+</blockquote>
+
+<pre>
+    function foo(){
+        console.log(this.a); =&gt; 2
+    }
+    var a = 2;
+    foo.call(null)
+</pre>
+
+<p>什么情况下会在绑定下传入<code class="highlighter-rouge">null</code>？</p>
+
+<p>常见的做法是使用apply(…)来“展开”一个数组，并当作参数传入一个函数。类似的，bind(…)可对参数进行柯里化（预先设置一些参数）</p>
+
+<pre>
+    function foo(a,b) {
+        console.log("a:" + a + ",b:" + b);
+    }
+    //把数组“展开”成参数 
+    foo.apply(null,[2,3]); //a:2,b:3
+    
+    //使用bind(...)进行柯里化
+    var bar = foo.bind(null ,2);
+    bar(3);  // a:2,b:3
+</pre>
+
+<p>这两种方法都需要传入一个参数当this的绑定对象。若函数并不关心this的话，你仍需要传入一个占位符，null会是一个不错的选择</p>
+
+<h4 id="更安全的this">更安全的this</h4>
+
+<p>一种更安全的做法是传入一个特殊的对象，把this绑定到这个对象不会对你的程序产生任何副作用。
+在js中创建一个空对象最简单的方法 <code class="highlighter-rouge">Object.create(null)</code>,<code class="highlighter-rouge">Object.create(null)</code>和<code class="highlighter-rouge">{}</code>很像，但并不会创建Object.prototype这委托，所以比<code class="highlighter-rouge">{}</code>更空</p>
+
+<pre>
+    function foo(a,b) {
+        console.log("a:" + a + ",b:" + b);
+    }
+
+    var &amp; = Object.create(null);  //空对象 
+    
+    //把数组“展开”成参数 
+    foo.apply(&amp;,[2,3]); //a:2,b:3
+    
+    //使用bind(...)进行柯里化
+    var bar = foo.bind(&amp; ,2);
+    bar(3);  // a:2,b:3
+</pre>
 
 
 <span class="post-date pull-right">

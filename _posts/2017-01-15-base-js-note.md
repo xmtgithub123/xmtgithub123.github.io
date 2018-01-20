@@ -41,8 +41,10 @@ image:
    2. [绑定规则](#绑定规则)
       1. [默认绑定](#默认绑定)
       2. [隐式绑定](#隐式绑定)
+      3. [显式绑定](#显式绑定)
+      4. [new绑定](#new绑定)
    3. [优先级](#优先级)
-   4. [绑定例处](#绑定例外)
+   4. [绑定例外](#绑定例外)
    5. [this词法](#this词法)
 
 
@@ -557,3 +559,117 @@ this关键字是js中最复杂的机制之一，被定义在所有的函数的�
 ##### 硬绑定
 
 显示绑定仍然无法解决丢失绑定的问题
+
+<pre>
+    function foo(){
+        console.log(this.a);
+    }
+    var obj = {
+        foo.call(obj);
+    };
+    bar(); =>2
+    setTimeout(bar,100); =>2
+
+    //硬绑定的bar，不可能再修改它的this
+    bar.call(window); => 2
+</pre>
+
+创建bar()函数，并手动foo.call(obj),强制把foo绑定到obj上。之后无论如何调用函数bar，都会手动在obj上调用foo。所以这种绑定是一种显式的强制绑定，即硬绑定
+
+### new绑定
+
+> Javascript中的“构造函数”只是一些使用new操作符时被调用的函数。它们并不属于某个类，也不会实例化一个类(即js中没有类的概念)。
+
+使用new来调用函数，或者是在构造函数调用的时候，有如下操作：
+
+1. 创建(构造)一个全新的对象 
+
+2. 这个新对象会被执行(原型)连接
+
+3. 新对象会绑定到函数调用的this
+
+4. 如果函数没有返回其他对象，new表达式中的函数调用会自动返回这个新对象 
+
+例：
+<pre>
+    function foo(a) {
+        this.a = a;
+    }
+    var bar = new foo(3);
+    console.log(bar.a ); => 2
+</pre>
+
+new 调用foo()时，会构造一个新对象并绑定到foo()调用中的this上。
+
+### 优先级
+
+<!-- new绑定 > 显式绑定 > 隐式绑定 > 默认绑定 -->
+
+> new 和 call/apply无法一起使用
+
+以上四种绑定规则的使用先后推断如下：
+ 1、函数是否在 new 中调用（new 绑定）？如果是的话 this 绑定的是新创建的对象。
+
+`var bar = new foo(); `
+
+2、函数是否通过 call、apply （显示绑定）或者硬绑定？如果是的话，this 绑定的是指定的对象。
+
+` var bar = foo.call(obj2); `
+
+3、函数是否在某个上下文对象中调用（隐式绑定）？如果是的话，this 绑定的是那个上下文对象。
+
+` var bar = obj1.foo(); `
+
+4、如果都不是的话，使用默认绑定。如果在严格模式下，就绑定到 undefined，否则绑定到全局对象。
+
+` var bar = foo(); `
+
+### 绑定例外
+
+> 若把`null`或`undefined` 作为`this`的绑定对象传入`call`,`applh`,或`bind`,这些值在调用的时候会被忽略，实际应用的是默认绑定规则
+
+<pre>
+    function foo(){
+        console.log(this.a); => 2
+    }
+    var a = 2;
+    foo.call(null)
+</pre>
+
+什么情况下会在绑定下传入`null`？
+
+常见的做法是使用apply(...)来“展开”一个数组，并当作参数传入一个函数。类似的，bind(...)可对参数进行柯里化（预先设置一些参数）
+
+<pre>
+    function foo(a,b) {
+        console.log("a:" + a + ",b:" + b);
+    }
+    //把数组“展开”成参数 
+    foo.apply(null,[2,3]); //a:2,b:3
+    
+    //使用bind(...)进行柯里化
+    var bar = foo.bind(null ,2);
+    bar(3);  // a:2,b:3
+</pre>
+
+这两种方法都需要传入一个参数当this的绑定对象。若函数并不关心this的话，你仍需要传入一个占位符，null会是一个不错的选择
+
+#### 更安全的this
+
+一种更安全的做法是传入一个特殊的对象，把this绑定到这个对象不会对你的程序产生任何副作用。
+在js中创建一个空对象最简单的方法 `Object.create(null)`,`Object.create(null)`和`{}`很像，但并不会创建Object.prototype这委托，所以比`{}`更空
+
+<pre>
+    function foo(a,b) {
+        console.log("a:" + a + ",b:" + b);
+    }
+
+    var & = Object.create(null);  //空对象 
+    
+    //把数组“展开”成参数 
+    foo.apply(&,[2,3]); //a:2,b:3
+    
+    //使用bind(...)进行柯里化
+    var bar = foo.bind(& ,2);
+    bar(3);  // a:2,b:3
+</pre>

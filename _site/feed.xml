@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-18T11:46:52+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-20T22:06:18+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -205,10 +205,12 @@
         &lt;ol&gt;
           &lt;li&gt;&lt;a href=&quot;#默认绑定&quot;&gt;默认绑定&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#隐式绑定&quot;&gt;隐式绑定&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#显式绑定&quot;&gt;显式绑定&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#new绑定&quot;&gt;new绑定&lt;/a&gt;&lt;/li&gt;
         &lt;/ol&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#优先级&quot;&gt;优先级&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#绑定例外&quot;&gt;绑定例处&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#绑定例外&quot;&gt;绑定例外&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#this词法&quot;&gt;this词法&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
@@ -740,7 +742,134 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
 
 &lt;h5 id=&quot;硬绑定&quot;&gt;硬绑定&lt;/h5&gt;
 
-&lt;p&gt;显示绑定仍然无法解决丢失绑定的问题&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;p&gt;显示绑定仍然无法解决丢失绑定的问题&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo(){
+        console.log(this.a);
+    }
+    var obj = {
+        foo.call(obj);
+    };
+    bar(); =&amp;gt;2
+    setTimeout(bar,100); =&amp;gt;2
+
+    //硬绑定的bar，不可能再修改它的this
+    bar.call(window); =&amp;gt; 2
+&lt;/pre&gt;
+
+&lt;p&gt;创建bar()函数，并手动foo.call(obj),强制把foo绑定到obj上。之后无论如何调用函数bar，都会手动在obj上调用foo。所以这种绑定是一种显式的强制绑定，即硬绑定&lt;/p&gt;
+
+&lt;h3 id=&quot;new绑定&quot;&gt;new绑定&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Javascript中的“构造函数”只是一些使用new操作符时被调用的函数。它们并不属于某个类，也不会实例化一个类(即js中没有类的概念)。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;使用new来调用函数，或者是在构造函数调用的时候，有如下操作：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;创建(构造)一个全新的对象&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;这个新对象会被执行(原型)连接&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;新对象会绑定到函数调用的this&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果函数没有返回其他对象，new表达式中的函数调用会自动返回这个新对象&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;例：&lt;/p&gt;
+&lt;pre&gt;
+    function foo(a) {
+        this.a = a;
+    }
+    var bar = new foo(3);
+    console.log(bar.a ); =&amp;gt; 2
+&lt;/pre&gt;
+
+&lt;p&gt;new 调用foo()时，会构造一个新对象并绑定到foo()调用中的this上。&lt;/p&gt;
+
+&lt;h3 id=&quot;优先级&quot;&gt;优先级&lt;/h3&gt;
+
+&lt;!-- new绑定 &gt; 显式绑定 &gt; 隐式绑定 &gt; 默认绑定 --&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;new 和 call/apply无法一起使用&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;以上四种绑定规则的使用先后推断如下：
+ 1、函数是否在 new 中调用（new 绑定）？如果是的话 this 绑定的是新创建的对象。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var bar = new foo(); &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;2、函数是否通过 call、apply （显示绑定）或者硬绑定？如果是的话，this 绑定的是指定的对象。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; var bar = foo.call(obj2); &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3、函数是否在某个上下文对象中调用（隐式绑定）？如果是的话，this 绑定的是那个上下文对象。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; var bar = obj1.foo(); &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;4、如果都不是的话，使用默认绑定。如果在严格模式下，就绑定到 undefined，否则绑定到全局对象。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; var bar = foo(); &lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;绑定例外&quot;&gt;绑定例外&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;若把&lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;undefined&lt;/code&gt; 作为&lt;code class=&quot;highlighter-rouge&quot;&gt;this&lt;/code&gt;的绑定对象传入&lt;code class=&quot;highlighter-rouge&quot;&gt;call&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;applh&lt;/code&gt;,或&lt;code class=&quot;highlighter-rouge&quot;&gt;bind&lt;/code&gt;,这些值在调用的时候会被忽略，实际应用的是默认绑定规则&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;
+    function foo(){
+        console.log(this.a); =&amp;gt; 2
+    }
+    var a = 2;
+    foo.call(null)
+&lt;/pre&gt;
+
+&lt;p&gt;什么情况下会在绑定下传入&lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt;？&lt;/p&gt;
+
+&lt;p&gt;常见的做法是使用apply(…)来“展开”一个数组，并当作参数传入一个函数。类似的，bind(…)可对参数进行柯里化（预先设置一些参数）&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo(a,b) {
+        console.log(&quot;a:&quot; + a + &quot;,b:&quot; + b);
+    }
+    //把数组“展开”成参数 
+    foo.apply(null,[2,3]); //a:2,b:3
+    
+    //使用bind(...)进行柯里化
+    var bar = foo.bind(null ,2);
+    bar(3);  // a:2,b:3
+&lt;/pre&gt;
+
+&lt;p&gt;这两种方法都需要传入一个参数当this的绑定对象。若函数并不关心this的话，你仍需要传入一个占位符，null会是一个不错的选择&lt;/p&gt;
+
+&lt;h4 id=&quot;更安全的this&quot;&gt;更安全的this&lt;/h4&gt;
+
+&lt;p&gt;一种更安全的做法是传入一个特殊的对象，把this绑定到这个对象不会对你的程序产生任何副作用。
+在js中创建一个空对象最简单的方法 &lt;code class=&quot;highlighter-rouge&quot;&gt;Object.create(null)&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;Object.create(null)&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt;很像，但并不会创建Object.prototype这委托，所以比&lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt;更空&lt;/p&gt;
+
+&lt;pre&gt;
+    function foo(a,b) {
+        console.log(&quot;a:&quot; + a + &quot;,b:&quot; + b);
+    }
+
+    var &amp;amp; = Object.create(null);  //空对象 
+    
+    //把数组“展开”成参数 
+    foo.apply(&amp;amp;,[2,3]); //a:2,b:3
+    
+    //使用bind(...)进行柯里化
+    var bar = foo.bind(&amp;amp; ,2);
+    bar(3);  // a:2,b:3
+&lt;/pre&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
 
