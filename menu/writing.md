@@ -3,8 +3,8 @@ layout: page
 title: Writing
 ---
 <ul class="posts">
-  {% for post in site.posts %}
-  {% endfor %}
+ <!--  {% for post in site.posts %}
+  {% endfor %} -->
     <!-- {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
@@ -19,7 +19,7 @@ title: Writing
     {% for category in site.categories %}
       {% capture proname %}{{ category | first }}{% endcapture %}
       {% if proname != 'project' %}
-        <h2 style="margin-top:50px;"><span class="label label-info">{{ category | first }}</span></h2>
+        <h2><span class="label label-info">{{ category | first }}</span></h2>
         {% for post in category.last %}
           
           <li itemscope>

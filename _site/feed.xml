@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-20T22:06:18+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-27T18:32:39+08:00</updated><id>http://localhost:4000/</id><entry><title type="html">MongoDB 简单命令行操作</title><link href="http://localhost:4000/db/2017/12/11/mongodb-base.html" rel="alternate" type="text/html" title="MongoDB 简单命令行操作" /><published>2017-12-11T00:00:00+08:00</published><updated>2017-12-11T00:00:00+08:00</updated><id>http://localhost:4000/db/2017/12/11/mongodb-base</id><content type="html" xml:base="http://localhost:4000/db/2017/12/11/mongodb-base.html">&lt;p&gt;首先是下载Mongodb进行安装、配置、启动。网上都是安装与配置教程，这里就不多说，直接做个mongodb的基本命令行的笔记。&lt;/p&gt;
+
+&lt;p&gt;通过某些配置后，可以在cmd中输入services.msc打开服务面板。手动开启Mongodb服务，如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/mongodb%E5%BC%80%E5%90%AF.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;正在开启中…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/mongodb%E5%90%AF%E5%8A%A8%E4%B8%AD.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;开启之后，cmd中输入mongo启动mongodb ，开启mongo终端，这时候你就可以输入简单的命令来对mongodb进行操作。&lt;/p&gt;
+
+&lt;h3 id=&quot;1创建数据库&quot;&gt;1.创建数据库&lt;/h3&gt;
+
+&lt;p&gt;如果数据库存不存在，则创建数据库，否则切换到指定的数据库：&lt;/p&gt;
+&lt;pre&gt;
+	&amp;gt; use xmtdb
+	switched to db xmtdb
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;2删除数据库&quot;&gt;2.删除数据库&lt;/h3&gt;
+
+&lt;p&gt;删除当前数据库，默认为test&lt;/p&gt;
+&lt;pre&gt;db.dropDatabase()&lt;/pre&gt;
+
+&lt;p&gt;例：删除指定数据库xmtdb&lt;/p&gt;
+
+&lt;p&gt;1.查看所有数据库&lt;/p&gt;
+
+&lt;pre&gt;&amp;gt; show dbs&lt;/pre&gt;
+
+&lt;p&gt;2.切换到数据库xmtdb&lt;/p&gt;
+
+&lt;pre&gt;&amp;gt; use xmtdb&lt;/pre&gt;
+
+&lt;p&gt;3.执行删除命令:&lt;/p&gt;
+
+&lt;pre&gt;&amp;gt; db.dropDatabase()&lt;/pre&gt;
+
+&lt;p&gt;4.最后，通过show dbs命令来查看数据库是否删除成功了&lt;/p&gt;
+
+&lt;h3 id=&quot;3查看数据库&quot;&gt;3.查看数据库&lt;/h3&gt;
+
+&lt;pre&gt;&amp;gt; show dbs&lt;/pre&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:red;&quot;&gt;注：&lt;/span&gt;
+刚新创建的数据库xmtdb,如果查看数据库xmtdb时，并没有在数据库列表中，要显示它，则需要向xmtdb数据库插入一些数据。&lt;/p&gt;
+
+&lt;pre&gt;
+&amp;gt; db.xmtdb.insert({&quot;name&quot;:&quot;嘻嘻哈哈徐小婷&quot;})
+WriteResult({&quot;nInserted&quot;:1})
+//这时候 &amp;gt; show dbs 时就有刚新创建的数据库
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;4创建集合&quot;&gt;4.创建集合&lt;/h3&gt;
+
+&lt;pre&gt;
+方法1. db.createCollection('xmt')
+方法2. db.xmt.insert({name:'xmt'})
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;5查看集合&quot;&gt;5.查看集合&lt;/h3&gt;
+
+&lt;pre&gt;&amp;gt; show collections&lt;/pre&gt;
+&lt;p&gt;在数据库xmtdb中，插入一个集合xmt(新建一个集合=新建一个表)&lt;/p&gt;
+
+&lt;h3 id=&quot;6删除集合&quot;&gt;6.删除集合&lt;/h3&gt;
+
+&lt;p&gt;删除xmt这个集合&lt;/p&gt;
+
+&lt;pre&gt;&amp;gt; db.xmt.drop()&lt;/pre&gt;
+
+&lt;h3 id=&quot;7向集合中插入文档&quot;&gt;7.向集合中插入文档&lt;/h3&gt;
+
+&lt;pre&gt;
+&amp;gt;db.xmt.insert({userName:'anna',userAge:20,class:{name:'classA',numb:20}})
+&amp;gt;db.xmt.insert({userName:'tj',userAge:25,class:{name:'classB',numb:30})
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;8删除文档---删除集合中的username-为-anna的一条数据&quot;&gt;8.删除文档 - 删除集合中的userName 为 anna的一条数据&lt;/h3&gt;
+
+&lt;pre&gt;db.xmt.remove({userName:'anna'})&lt;/pre&gt;
+
+&lt;h3 id=&quot;9更新文档---修改xmt集合中名字为anna的数据用户年龄改为25&quot;&gt;9.更新文档 - 修改xmt集合中名字为anna的数据用户年龄改为25&lt;/h3&gt;
+
+&lt;pre&gt;db.xmt.update({userName:'anna'},{$set:{userAge:25}})&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;修改子文档里面的内容 - 修改用户名为anna的那条数据的班级名称为ClassC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;db.xmt.update({'userName':'anna'},{$set:{'class.name':'ClassC'}})&lt;/pre&gt;
+
+&lt;h3 id=&quot;10查看文档&quot;&gt;10.查看文档&lt;/h3&gt;
+
+&lt;p&gt;(1).查看某个集合的内容&lt;/p&gt;
+
+&lt;pre&gt;db.xmt.find()&lt;/pre&gt;
+
+&lt;p&gt;(2).查看格式化后的数据&lt;/p&gt;
+
+&lt;pre&gt;db.xmt.find().pretty()&lt;/pre&gt;
+
+&lt;p&gt;(3).查看第一条数据&lt;/p&gt;
+
+&lt;pre&gt;db.xmt.findOne()&lt;/pre&gt;
+
+&lt;p&gt;(4).查看子文档&lt;/p&gt;
+
+&lt;pre&gt;db.xmt.find({'class.name':'classB'})&lt;/pre&gt;
+
+&lt;p&gt;(5).查找年龄大于20的数据&lt;/p&gt;
+
+&lt;pre&gt;db.xmt.find({age:{$gt:20}})&lt;/pre&gt;
+
+&lt;p&gt;(6).查看年龄小于20的数据&lt;/p&gt;
+
+&lt;pre&gt;db.xmt.find({age:${lt:20}})&lt;/pre&gt;
+
+&lt;p&gt;具体可以查看菜鸟文档&lt;a href=&quot;http://www.runoob.com/mongodb&quot;&gt;http://www.runoob.com/mongodb&lt;/a&gt;&lt;/p&gt;</content><author><name>MengTing Xu</name></author><category term="db" /><category term="documentation" /><category term="sample" /><summary type="html">首先是下载Mongodb进行安装、配置、启动。网上都是安装与配置教程，这里就不多说，直接做个mongodb的基本命令行的笔记。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">使用github和jekyll设置自己的个人网站</title><link href="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html" rel="alternate" type="text/html" title="使用github和jekyll设置自己的个人网站" /><published>2017-11-06T00:00:00+08:00</published><updated>2017-11-06T00:00:00+08:00</updated><id>http://localhost:4000/git/2017/11/06/my-first-jekyll-blog</id><content type="html" xml:base="http://localhost:4000/git/2017/11/06/my-first-jekyll-blog.html">&lt;p&gt;一直想写个属于自己的博客，又由于自己平时太懒也没啥心思弄，所以一直搁置着，直到最近…突然好想搭建个个人主页网站，自己对个人主页的要求并不是很高，简洁大方清晰就行了，为了方便，所以最后选择了使用Github Page.&lt;/p&gt;
 
 &lt;h2 id=&quot;开始&quot;&gt;开始&lt;/h2&gt;
 
@@ -211,7 +330,6 @@
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#优先级&quot;&gt;优先级&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#绑定例外&quot;&gt;绑定例外&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#this词法&quot;&gt;this词法&lt;/a&gt;&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
@@ -869,7 +987,11 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
     //使用bind(...)进行柯里化
     var bar = foo.bind(&amp;amp; ,2);
     bar(3);  // a:2,b:3
-&lt;/pre&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
+&lt;/pre&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;</content><author><name>MengTing Xu</name></author><category term="js" /><category term="documentation" /><category term="sample" /><summary type="html">好记性不如烂笔头，又重温一变你不知道的js，为防止自己记性出现短暂性失忆，哈哈，所以记下相关基础的知识点，知识点有但内容不全，主要是自己觉得自己一看就能理解的重要点，本文章主要参考《你不知道的javascript》,感谢这本书和作者。路过的朋友也可以学习一下！</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22cutting.jpg%22,%20%22teaser%22=%3E%22cutting-teaser.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3E%22%22%7D" /></entry><entry><title type="html">设计师平台</title><link href="http://localhost:4000/project/2016/12/18/designer-platform.html" rel="alternate" type="text/html" title="设计师平台" /><published>2016-12-18T00:00:00+08:00</published><updated>2016-12-18T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/12/18/designer-platform</id><content type="html" xml:base="http://localhost:4000/project/2016/12/18/designer-platform.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
 
 &lt;p&gt;设计师平台 主要力致于工程项目的发布,接洽等。整体响应式布局，适应各种设备尺寸，简洁大方。即内部管理软件。&lt;/p&gt;
 
@@ -934,14 +1056,4 @@ foo(1)  =&amp;gt; 3   //调用foo()函数 对a是LHS操作&lt;/pre&gt;
 &lt;/a&gt;
 &lt;a href=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; target=&quot;_blank&quot;&gt;
     &lt;img src=&quot;http://ozc5dgoun.bkt.clouddn.com/zs_1.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry><entry><title type="html">明朗眼镜店 ( 移动端 )</title><link href="http://localhost:4000/project/2016/04/15/minglang-glasses.html" rel="alternate" type="text/html" title="明朗眼镜店 ( 移动端 )" /><published>2016-04-15T00:00:00+08:00</published><updated>2016-04-15T00:00:00+08:00</updated><id>http://localhost:4000/project/2016/04/15/minglang-glasses</id><content type="html" xml:base="http://localhost:4000/project/2016/04/15/minglang-glasses.html">&lt;h3 id=&quot;一简介&quot;&gt;一、简介&lt;/h3&gt;
-
-&lt;p&gt;一款轻量级手机端、微信端眼镜购物功能,主要有主页,商品列表,商品详情,购物车,个人中心等系列流程。&lt;/p&gt;
-
-&lt;h3 id=&quot;二项目地址&quot;&gt;二、项目地址&lt;/h3&gt;
-
-&lt;p&gt;‘暂无’&lt;/p&gt;
-
-&lt;h3 id=&quot;三项目截图&quot;&gt;三、项目截图&lt;/h3&gt;
-
-&lt;p&gt;‘暂无’&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry></feed>
+&lt;/a&gt;&lt;/p&gt;</content><author><name>XuMT</name></author><category term="project" /><category term="documentation" /><category term="sample" /><summary type="html">一、简介</summary></entry></feed>

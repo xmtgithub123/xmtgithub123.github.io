@@ -15,7 +15,7 @@ var _hmt = _hmt || [];
 
   <title>
     
-      H5 小游戏 (移动端) | XuMengTing's Web
+      MongoDB 简单命令行操作 | XuMengTing's Web
     
   </title>
 
@@ -101,10 +101,10 @@ var _hmt = _hmt || [];
 
     <div class="post-container">
       <h1>
-  H5 小游戏 (移动端)
+  MongoDB 简单命令行操作
 </h1>
 
-   <span id="/project/2017/08/18/project-for-h5-games.html" class="leancloud_visitors" data-flag-title="H5 小游戏 (移动端)" >
+   <span id="/db/2017/12/11/mongodb-base.html" class="leancloud_visitors" data-flag-title="MongoDB 简单命令行操作" >
       <span class="post-meta-item-icon">
          <i class="fa fa-eye" aria-hidden="true"></i> 
        </span>
@@ -115,31 +115,142 @@ var _hmt = _hmt || [];
 
 
 
+  <img src="/assets/img/cutting.jpg">
 
 
-<h3 id="一简介">一、简介</h3>
 
-<p>该H5是个嵌套在淘宝活动互动动画页。整个画风卡哇伊。</p>
+<p>首先是下载Mongodb进行安装、配置、启动。网上都是安装与配置教程，这里就不多说，直接做个mongodb的基本命令行的笔记。</p>
 
-<h3 id="二项目地址">二、项目地址</h3>
+<p>通过某些配置后，可以在cmd中输入services.msc打开服务面板。手动开启Mongodb服务，如下：</p>
 
-<p>项目github地址：<a href="https://github.com/xmtgithub123/MyThreeSquirrels">https://github.com/xmtgithub123/MyThreeSquirrels</a></p>
+<p><img src="http://ozc5dgoun.bkt.clouddn.com/mongodb%E5%BC%80%E5%90%AF.png" alt="" /></p>
 
-<h3 id="三项目截图">三、项目截图</h3>
-<p><a href="http://ozc5dgoun.bkt.clouddn.com/ts.jpg" target="_blank">
-    <img src="http://ozc5dgoun.bkt.clouddn.com/ts.jpg" alt="" />
-</a></p>
+<p>正在开启中…</p>
+
+<p><img src="http://ozc5dgoun.bkt.clouddn.com/mongodb%E5%90%AF%E5%8A%A8%E4%B8%AD.png" alt="" /></p>
+
+<p>开启之后，cmd中输入mongo启动mongodb ，开启mongo终端，这时候你就可以输入简单的命令来对mongodb进行操作。</p>
+
+<h3 id="1创建数据库">1.创建数据库</h3>
+
+<p>如果数据库存不存在，则创建数据库，否则切换到指定的数据库：</p>
+<pre>
+	&gt; use xmtdb
+	switched to db xmtdb
+</pre>
+
+<h3 id="2删除数据库">2.删除数据库</h3>
+
+<p>删除当前数据库，默认为test</p>
+<pre>db.dropDatabase()</pre>
+
+<p>例：删除指定数据库xmtdb</p>
+
+<p>1.查看所有数据库</p>
+
+<pre>&gt; show dbs</pre>
+
+<p>2.切换到数据库xmtdb</p>
+
+<pre>&gt; use xmtdb</pre>
+
+<p>3.执行删除命令:</p>
+
+<pre>&gt; db.dropDatabase()</pre>
+
+<p>4.最后，通过show dbs命令来查看数据库是否删除成功了</p>
+
+<h3 id="3查看数据库">3.查看数据库</h3>
+
+<pre>&gt; show dbs</pre>
+
+<p><span style="color:red;">注：</span>
+刚新创建的数据库xmtdb,如果查看数据库xmtdb时，并没有在数据库列表中，要显示它，则需要向xmtdb数据库插入一些数据。</p>
+
+<pre>
+&gt; db.xmtdb.insert({"name":"嘻嘻哈哈徐小婷"})
+WriteResult({"nInserted":1})
+//这时候 &gt; show dbs 时就有刚新创建的数据库
+</pre>
+
+<h3 id="4创建集合">4.创建集合</h3>
+
+<pre>
+方法1. db.createCollection('xmt')
+方法2. db.xmt.insert({name:'xmt'})
+</pre>
+
+<h3 id="5查看集合">5.查看集合</h3>
+
+<pre>&gt; show collections</pre>
+<p>在数据库xmtdb中，插入一个集合xmt(新建一个集合=新建一个表)</p>
+
+<h3 id="6删除集合">6.删除集合</h3>
+
+<p>删除xmt这个集合</p>
+
+<pre>&gt; db.xmt.drop()</pre>
+
+<h3 id="7向集合中插入文档">7.向集合中插入文档</h3>
+
+<pre>
+&gt;db.xmt.insert({userName:'anna',userAge:20,class:{name:'classA',numb:20}})
+&gt;db.xmt.insert({userName:'tj',userAge:25,class:{name:'classB',numb:30})
+</pre>
+
+<h3 id="8删除文档---删除集合中的username-为-anna的一条数据">8.删除文档 - 删除集合中的userName 为 anna的一条数据</h3>
+
+<pre>db.xmt.remove({userName:'anna'})</pre>
+
+<h3 id="9更新文档---修改xmt集合中名字为anna的数据用户年龄改为25">9.更新文档 - 修改xmt集合中名字为anna的数据用户年龄改为25</h3>
+
+<pre>db.xmt.update({userName:'anna'},{$set:{userAge:25}})</pre>
+
+<ul>
+  <li>修改子文档里面的内容 - 修改用户名为anna的那条数据的班级名称为ClassC</li>
+</ul>
+
+<pre>db.xmt.update({'userName':'anna'},{$set:{'class.name':'ClassC'}})</pre>
+
+<h3 id="10查看文档">10.查看文档</h3>
+
+<p>(1).查看某个集合的内容</p>
+
+<pre>db.xmt.find()</pre>
+
+<p>(2).查看格式化后的数据</p>
+
+<pre>db.xmt.find().pretty()</pre>
+
+<p>(3).查看第一条数据</p>
+
+<pre>db.xmt.findOne()</pre>
+
+<p>(4).查看子文档</p>
+
+<pre>db.xmt.find({'class.name':'classB'})</pre>
+
+<p>(5).查找年龄大于20的数据</p>
+
+<pre>db.xmt.find({age:{$gt:20}})</pre>
+
+<p>(6).查看年龄小于20的数据</p>
+
+<pre>db.xmt.find({age:${lt:20}})</pre>
+
+<p>具体可以查看菜鸟文档<a href="http://www.runoob.com/mongodb">http://www.runoob.com/mongodb</a></p>
+
 
 
 <span class="post-date pull-right">
   Written on
   
-  August
-  18th,
+  December
+  11th,
   2017
   <!-- by
   
-    XuMT
+    MengTing Xu
    -->
 </span>
 
@@ -148,9 +259,9 @@ var _hmt = _hmt || [];
 
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=H5 小游戏 (移动端)&amp;url=/project/2017/08/18/project-for-h5-games.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=/project/2017/08/18/project-for-h5-games.html&amp;title=H5 小游戏 (移动端)" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://github.com/share?url=/project/2017/08/18/project-for-h5-games.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=MongoDB 简单命令行操作&amp;url=/db/2017/12/11/mongodb-base.html&amp;via=paululele" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/db/2017/12/11/mongodb-base.html&amp;title=MongoDB 简单命令行操作" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://github.com/share?url=/db/2017/12/11/mongodb-base.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -162,16 +273,6 @@ var _hmt = _hmt || [];
     
       
         
-          <li>
-            <h3>
-              <a href="/db/2017/12/11/mongodb-base.html">
-                MongoDB 简单命令行操作
-                <!--<img src="http://localhost:4000/images/cutting-teaser.jpg">-->
-                <!--<small>December 11, 2017</small>-->
-              </a>
-            </h3>
-          </li>
-          
         
       
         
@@ -188,6 +289,16 @@ var _hmt = _hmt || [];
         
       
         
+          <li>
+            <h3>
+              <a href="/project/2017/08/18/project-for-h5-games.html">
+                H5 小游戏 (移动端)
+                <!--<img src="http://localhost:4000/images/">-->
+                <!--<small>August 18, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
         
       
     
