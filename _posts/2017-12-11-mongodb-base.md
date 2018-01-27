@@ -23,6 +23,7 @@ image:
 
 开启之后，cmd中输入mongo启动mongodb ，开启mongo终端，这时候你就可以输入简单的命令来对mongodb进行操作。
 
+<img src="http://ozc5dgoun.bkt.clouddn.com/mongodbBin.png" alt="">
 
 ### 1.创建数据库
 
